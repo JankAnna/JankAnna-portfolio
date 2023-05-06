@@ -73,10 +73,6 @@ export default function SocialNetworkRowStack() {
 			<ButtonSocialMediaIcon href="https://www.linkedin.com/in/anna-jankowska-297066110/	" target="_blank" data-splitbee-event="linkedin-access">
 				<LinkedinSquare />
 			</ButtonSocialMediaIcon>
-
-			<ButtonSocialMediaIcon href="https://t.me/JankAnna" target="_blank">
-				<Telegram />
-			</ButtonSocialMediaIcon>
 		</SocialMediaContainer>
 	);
 }
