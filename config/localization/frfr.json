@@ -1,0 +1,87 @@
+{
+	"id": "frfr",
+	"navbarMenu": {
+		"labelHome": "MENU PRINCIPAL",
+		"labelServices": "MES DOMAINES",
+		"labelAboutMe": "WHOAMI",
+		"labelPortifolio": "PROJETS",
+		"labelExperience": "EXPERIENCES"
+	},
+	"landingPage": {
+		"apresentationText": "Hello World,",
+		"typeText": "Anna Zofia Jankowska",
+		"resumeText": "Fasciné par l’informatique et par ses enjeux sécuritaires, je m’oriente dans les métiers de la cybersécurité. Créatif et persévérant, j’aime relever les défis en équipe pour répondre aux enjeux actuels en termes de sécurité informatique.",
+		"buttonText": "A propos de moi"
+	},
+	"servicesOffer": {
+		"title": "Mes domaines",
+		"cards": {
+			"forensique": {
+				"title": "Forensique",
+				"contentText": "Solide connaissances des principes de base de la forensique informatique, y compris les méthodes d'acquisition de données, d'analyse des données et de présentation des preuves."
+			},
+			"devsecops": {
+				"title": "DevSecOps",
+				"contentText": "Forte compréhension du développement, de la sécurité informatique et de la conformité réglementaire. Compétent en CI/CD, sécurité réseau, tests d'intrusion."
+			},
+			"pentesting": {
+				"title": "Pentesting",
+				"contentText": "Test d'intrusion et vulnérabilités courantes. Reconnaissance, exploitation, post-exploitation et reporting. Indentification et correction des vulnérabilités pour assurer la sécurité des systèmes et des réseaux."
+			},
+			"developpement": {
+				"title": "Développement",
+				"contentText": "Expertise en Java, Python, C++, JavaScript, Bash, Docker et autres. Utilisation avancée de Github pour la gestion de versions et la collaboration sur des projets personnels et professionnels. "
+			}
+		}
+	},
+	"aboutMePage": {
+		"title": "WHOAMI",
+		"paragraph_one": "Elève en 5ème année à ISEN Lille, je suis actuellement en contrat de professionnalisation à Orange Cyberdefense en tant qu'ingénieur CSIRT.",
+		"paragraph_two": "Ingénieur en cybersécurité expérimenté, je suis passionné par la protection des données et la sécurité informatique. Avec de l'expérience dans l'industrie, je suis spécialisé dans la mise en place de systèmes de sécurité solides pour les entreprises de toutes tailles. Je suis également compétent en matière de tests de pénétration, de conformité réglementaire et de gestion des incidents de sécurité. Mon objectif est de fournir des solutions de sécurité avancées pour aider à protéger les actifs numériques.",
+		"paragraph_three": "En tant que self-hosteur, je crois fermement que chacun devrait avoir le contrôle total sur ses données et ses services en ligne. C'est pourquoi je me suis spécialisé dans l'hébergement de mes propres sites web, applications et services, pour éviter la dépendance aux grands fournisseurs de services en ligne. J'aime partager mes connaissances et expériences avec les autres pour les aider à comprendre les avantages du self-hébergement et à se lancer dans l'aventure. Mon objectif est de faciliter l'accès à l'autonomie en matière de technologies numériques pour tous.",
+		"github_card": {
+			"followers": "followers",
+			"following": "following",
+			"repos": "repos"
+		},
+		"alt_dev_img": "Thomas Desrumeaux"
+	},
+	"portifolioPage": {
+		"title": "PROJETS",
+		"labelFilter": "TOUS",
+		"createdLabel": "Créé le"
+	},
+	"experiencePage": {
+		"title": "EXPERIENCES",
+		"timeline": {
+			"labelPosition": "Position",
+			"labelTitle": "Intitulé",
+			"labelCompany": "Entreprise",
+			"labelCategory": "Catégorie",
+			"labelInstitution": "Institution",
+			"labelProfessionalCourse": "Cours professionnels",
+			"labelBachelorDegree": "Baccalauréat",
+			"labelExtensionCourse": "Cours d'extension"
+		}
+	},
+	"footer": {
+		"labelNavigation": {
+			"title": "Navigation",
+			"labelHome": "Menu principal",
+			"labelServices": "Mes domaines",
+			"labelAboutMe": "Whoami",
+			"labelPortifolio": "Projets",
+			"labelExperience": "Expériences"
+		},
+		"labelHost": {
+			"title": "HEBERGEMENT"
+		},
+		"labelSourceCode": {
+			"title": "CODE SOURCE"
+		},
+		"labelTechs": {
+			"title": "TECHNOLOGIES"
+		},
+		"labelBuildVersion": "Version"
+	}
+}
