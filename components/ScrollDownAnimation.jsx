@@ -5,7 +5,6 @@ import Lottie from "react-lottie";
 
 import ScrollDownLottie from "@/public/lotties/scroll-down.json";
 import ScrollDownLottieLight from "@/public/lotties/scroll-down-light.json";
-import { scrollToSection } from "./SmoothScroll";
 
 const ContainerLottie = styled.div`
 	width: 80px;
@@ -25,9 +24,6 @@ export default function ScrollDownAnimation() {
 	const [isStopped] = useState(false);
 	const [isPaused] = useState(false);
 
-
-	const lottieRef = React.useRef();
-
 	var defaultOptions = {
 		loop: true,
 		autoplay: true,
@@ -35,15 +31,11 @@ export default function ScrollDownAnimation() {
 		rendererSettings: {
 			preserveAspectRatio: "xMidYMid slice",
 		},
-
 	};
-
 
 	return (
 		<ContainerLottie>
-			<a style={{ textDecoration: "none" }} href="#section-services" onClick={scrollToSection}>
-				<Lottie ref={lottieRef} style={{ pointerEvents: "none" }} options={defaultOptions} height={"100%"} width={"100%"} isStopped={isStopped} isPaused={isPaused} isClickToPauseDisabled={true} />
-			</a>
+			<Lottie options={defaultOptions} height={"100%"} width={"100%"} isStopped={isStopped} isPaused={isPaused} isClickToPauseDisabled={true} />
 		</ContainerLottie>
 	);
 }

@@ -5,15 +5,9 @@ import { ThemeProvider } from "styled-components";
 import { darkTheme, lightTheme } from "@/styles/Theme";
 
 //Pacotes com textos de linguagens
-import frfrJson from "@/config/localization/frfr.json";
-import enukJson from "@/config/localization/enuk.json";
+import ptbrJson from "@/config/localization/ptbr.json";
+import enusJson from "@/config/localization/enus.json";
 
-const goToTop = () => {
-	window.scrollTo({
-		top: 0,
-		behavior: "smooth",
-	});
-};
 export const SettingsContext = createContext({});
 
 const listaTemas = {
@@ -33,7 +27,7 @@ export default function SettingsProvider({ children }) {
 		setLanguage(!changeLanguage);
 	}
 
-	var language = changeLanguage == true ? enukJson : frfrJson;
+	var language = changeLanguage == true ? enusJson : ptbrJson;
 
 	return (
 		<SettingsContext.Provider value={{ changeTheme, changeLanguageLocalization, language }}>

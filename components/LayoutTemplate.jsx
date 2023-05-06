@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 
 //Third part librarys
 import Link from "next/link";
@@ -7,7 +7,6 @@ import Fade from "react-reveal/Fade";
 
 //Custom components
 import SwitchThemeButton from "@/components/SwitchThemeButton";
-import { scrollToSection } from "./SmoothScroll";
 
 //Contexto
 import { SettingsContext } from "@/context/SettingsContext";
@@ -131,7 +130,6 @@ const NavbarOption = styled.h4`
 	&:hover {
 		cursor: pointer;
 		color: ${(props) => props.theme.colors.branding};
-		//border-bottom: 4px solid ${(props) => props.theme.colors.branding};
 	}
 
 	@media (max-width: 1400px) {
@@ -165,15 +163,14 @@ const SideBarTheme = styled.aside`
 export default function LayoutTemplate({ children }) {
 	const { language } = useContext(SettingsContext);
 
-
 	return (
 		<>
 			<HeaderContainer>
 				<Fade top delay={100} duration={200}>
-					<Link style={{ textDecoration: "none" }} href="https://0xtter.com" passHref>
+					<Link href="#section-home" passHref>
 						<LogoContainer>
 							<LogoText>
-								<CaracteresLogo>&lt;</CaracteresLogo>0xtter <CaracteresLogo>/&gt;</CaracteresLogo>
+								<CaracteresLogo>&lt;</CaracteresLogo>GV <CaracteresLogo>/&gt;</CaracteresLogo>
 							</LogoText>
 						</LogoContainer>
 					</Link>
@@ -181,46 +178,41 @@ export default function LayoutTemplate({ children }) {
 
 				<NavbarOptionContainer>
 					<Fade top delay={100} duration={200}>
-						<a style={{ textDecoration: "none" }} href="#section-home" onClick={scrollToSection}>
+						<Link href="#section-home" passHref>
 							<NavbarOption>{language.navbarMenu.labelHome}</NavbarOption>
-						</a>
+						</Link>
 					</Fade>
 
 					<Fade top delay={200} duration={200}>
-						<a style={{ textDecoration: "none" }} href="#section-services" onClick={scrollToSection}>
+						<Link href="#section-services" passHref>
 							<NavbarOption>{language.navbarMenu.labelServices}</NavbarOption>
-						</a>
+						</Link>
 					</Fade>
 
 					<Fade top delay={300} duration={200}>
-						<a style={{ textDecoration: "none" }} href="#section-a-propos" onClick={scrollToSection}>
+						<Link href="#section-sobre-mim" passHref>
 							<NavbarOption>{language.navbarMenu.labelAboutMe}</NavbarOption>
-						</a>
+						</Link>
 					</Fade>
 					<Fade top delay={400} duration={200}>
-						<a style={{ textDecoration: "none" }} href="#section-portifolio" onClick={scrollToSection}>
+						<Link href="#section-portifolio" passHref>
 							<NavbarOption>{language.navbarMenu.labelPortifolio}</NavbarOption>
-						</a>
+						</Link>
 					</Fade>
 					<Fade top delay={500} duration={200}>
-						<a style={{ textDecoration: "none" }} href="#section-experiencia" onClick={scrollToSection}>
+						<Link href="#section-experiencia" passHref>
 							<NavbarOption>{language.navbarMenu.labelExperience}</NavbarOption>
-						</a>
+						</Link>
 					</Fade>
 					<Fade top delay={600} duration={200}>
-						{/* <LanguageSwitchButton /> */}
 						<SwitchThemeButton />
 					</Fade>
 				</NavbarOptionContainer>
 
 				<SwitchMenuContainer>
-					{/* <LanguageSwitchButton /> */}
 					<SwitchThemeButton />
 				</SwitchMenuContainer>
 			</HeaderContainer>
-			<Fade left>
-				<SideBarTheme>{/* <ThemeButtons /> */}</SideBarTheme>
-			</Fade>
 
 			<Main>
 				<ContainerPage>{children}</ContainerPage>

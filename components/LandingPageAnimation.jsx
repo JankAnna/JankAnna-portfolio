@@ -12,8 +12,8 @@ import AnimationLightBackground from "@/public/lotties/landing-page-light.json";
 // https://editor.lottiefiles.com/?fileUrl=https://assets8.lottiefiles.com/packages/lf20_EdAmna.json&origin=web&hash=OTI2MS1zY3JvbGwtZG93bg==&src=https://lottiefiles.com/upload-file/editor
 
 const ContainerLottie = styled.div`
-	width: 600px;
-	height: 600px;
+	width: 800px;
+	height: 800px;
 	transition: all 0.3s ease;
 	// background-image: url("/img/bg_circle.png");
 	// background: ${(props) => props.theme.colors.imageBlur};

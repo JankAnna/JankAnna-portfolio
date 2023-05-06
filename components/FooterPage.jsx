@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useContext } from "react";
 import styled from "styled-components";
+import Link from "next/link";
 import ScrollAnimation from "react-animate-on-scroll";
 
 //Contexto
@@ -8,7 +9,6 @@ import { SettingsContext } from "@/context/SettingsContext";
 //Custom components
 import SocialNetworkRowStack from "@/components/SocialNetworkRowStack";
 import LanguageSwitchButton from "@/components/LanguageSwitchButton";
-import { scrollToSection } from "./SmoothScroll";
 
 //Ícones
 import { KeyboardArrowUp } from "@styled-icons/material-outlined/KeyboardArrowUp";
@@ -23,7 +23,7 @@ const FooterContainer = styled.footer`
 
 	#grid {
 		display: grid;
-		grid-template-columns: repeat(4, 1fr);
+		grid-template-columns: repeat(5, 1fr);
 		grid-template-rows: 1fr;
 		grid-column-gap: 20px;
 		grid-row-gap: 0px;
@@ -33,6 +33,10 @@ const FooterContainer = styled.footer`
 
 		@media (max-width: 1200px) {
 			width: 80%;
+		}
+
+		@media (max-width: 1000px) {
+			grid-template-columns: repeat(4, 1fr);
 		}
 
 		@media (max-width: 800px) {
@@ -77,7 +81,6 @@ const FooterText = styled.span`
 	margin-top: 3px;
 	margin-bottom: 3px;
 	text-transform: capitalize;
-	
 
 	&:hover {
 		cursor: pointer;
@@ -235,17 +238,13 @@ export default function FooterPage(props) {
 	}, []);
 
 	async function getLastCommit() {
-		const response = await fetch("https://api.github.com/repos/0xtter/Portfolio/commits");
+		const response = await fetch("https://api.github.com/repos/glaysonvisgueira/glaysonvisgueira_next-js/commits");
 		const json = await response.json();
-		try {
-			setCommit(json[0].sha.slice(0, 6));
-		} catch (error) {
-			console.error(error);
-			setCommit("Error Loading...");
-		}
+		//Setar no state somente as 6 primeiras letras do SHA code do último commit
+		setCommit(json[0].sha.slice(0, 6));
 	}
 
-
+	//Função para subir ao topo da página.
 	const goToTop = () => {
 		window.scrollTo({
 			top: 0,
@@ -259,21 +258,21 @@ export default function FooterPage(props) {
 				<ScrollAnimation animateIn="fadeIn" animateOnce>
 					<SectionFooterMenu>
 						<FooterTextTitle>{language.footer.labelNavigation.title}</FooterTextTitle>
-						<a style={{ textDecoration: "none" }} href="#section-home" onClick={scrollToSection}>
+						<Link href="#section-home" passHref>
 							<FooterText>{language.footer.labelNavigation.labelHome}</FooterText>
-						</a>
-						<a style={{ textDecoration: "none" }} href="#section-services" onClick={scrollToSection}>
+						</Link>
+						<Link href="#section-services" passHref>
 							<FooterText>{language.footer.labelNavigation.labelServices}</FooterText>
-						</a>
-						<a style={{ textDecoration: "none" }} href="#section-a-propos" onClick={scrollToSection}>
+						</Link>
+						<Link href="#section-sobre-mim" passHref>
 							<FooterText>{language.footer.labelNavigation.labelAboutMe}</FooterText>
-						</a>
-						<a style={{ textDecoration: "none" }} href="#section-portifolio" onClick={scrollToSection}>
+						</Link>
+						<Link href="#section-portifolio" passHref>
 							<FooterText>{language.footer.labelNavigation.labelPortifolio}</FooterText>
-						</a>
-						<a style={{ textDecoration: "none" }} href="#section-experiencia" onClick={scrollToSection}>
+						</Link>
+						<Link href="#section-experiencia" passHref>
 							<FooterText>{language.footer.labelNavigation.labelExperience}</FooterText>
-						</a>
+						</Link>
 					</SectionFooterMenu>
 				</ScrollAnimation>
 
@@ -281,8 +280,8 @@ export default function FooterPage(props) {
 					<SectionFooterMenu>
 						<FooterTextTitle>{language.footer.labelHost.title}</FooterTextTitle>
 
-						<FooterTextExternalLink href="https://github.com/awesome-selfhosted/awesome-selfhosted" target="_blank">
-							Self-Hosting
+						<FooterTextExternalLink href="https://vercel.com/" target="_blank">
+							Vercel
 						</FooterTextExternalLink>
 					</SectionFooterMenu>
 				</ScrollAnimation>
@@ -290,7 +289,7 @@ export default function FooterPage(props) {
 				<ScrollAnimation animateIn="fadeIn" animateOnce delay={400}>
 					<SectionFooterMenu>
 						<FooterTextTitle>{language.footer.labelSourceCode.title}</FooterTextTitle>
-						<FooterTextExternalLink href="https://github.com/0xtter/Portfolio" target="_blank">
+						<FooterTextExternalLink href="https://github.com/Glaysonvisgueira/glaysonvisgueira_next-js" target="_blank">
 							Github
 						</FooterTextExternalLink>
 					</SectionFooterMenu>
@@ -313,11 +312,20 @@ export default function FooterPage(props) {
 						</FooterTextExternalLink>
 					</SectionFooterMenu>
 				</ScrollAnimation>
+
+				<ScrollAnimation animateIn="fadeIn" animateOnce delay={800}>
+					<SectionFooterMenu>
+						<FooterTextTitle>{language.footer.labelStats.title}</FooterTextTitle>
+
+						<FooterTextExternalLink href="https://analytics.umami.is/share/6fxpADR03bK8xSHp/web%20portfolio" target="_blank">
+							{language.footer.labelStats.stats}
+						</FooterTextExternalLink>
+					</SectionFooterMenu>
+				</ScrollAnimation>
 			</div>
 			<Divider />
 			<ContainerBuildCopyright>
 				<LanguageSwitchButton />
-				<SocialNetworkRowStack />
 				<div className="build-and-button-top">
 					<TextBuildProject>
 						{language.footer.labelBuildVersion}: {commit || ""}

@@ -89,7 +89,7 @@ export default function TimelinePortifolio(props) {
 					</BoldText>
 					<BoldText>
 						{language.experiencePage.timeline.labelTitle}:{" "}
-						<span> {language.id == "frfr" ? "Administração, empregabilidade, digitação e informática fundamental" : "Administration, employability, typing and fundamental informatics"}</span>
+						<span> {language.id == "ptbr" ? "Administração, empregabilidade, digitação e informática fundamental" : "Administration, employability, typing and fundamental informatics"}</span>
 					</BoldText>
 				</TimelineContent>
 			</VerticalTimelineElement>
