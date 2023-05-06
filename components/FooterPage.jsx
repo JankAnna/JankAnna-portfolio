@@ -77,7 +77,6 @@ const FooterText = styled.span`
 	margin-top: 3px;
 	margin-bottom: 3px;
 	text-transform: capitalize;
-	
 
 	&:hover {
 		cursor: pointer;
@@ -245,7 +244,6 @@ export default function FooterPage(props) {
 		}
 	}
 
-
 	const goToTop = () => {
 		window.scrollTo({
 			top: 0,
@@ -290,7 +288,7 @@ export default function FooterPage(props) {
 				<ScrollAnimation animateIn="fadeIn" animateOnce delay={400}>
 					<SectionFooterMenu>
 						<FooterTextTitle>{language.footer.labelSourceCode.title}</FooterTextTitle>
-						<FooterTextExternalLink href="https://github.com/0xtter/Portfolio" target="_blank">
+						<FooterTextExternalLink href="https://github.com/JankAnna/JankAnna-portfolio" target="_blank">
 							Github
 						</FooterTextExternalLink>
 					</SectionFooterMenu>
