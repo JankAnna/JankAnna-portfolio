@@ -278,9 +278,11 @@ export default function FooterPage(props) {
 				<ScrollAnimation animateIn="fadeIn" animateOnce delay={200}>
 					<SectionFooterMenu>
 						<FooterTextTitle>{language.footer.labelHost.title}</FooterTextTitle>
-
+						<FooterTextExternalLink href="https://pages.github.com/" target="_blank">
+							GitHub Pages
+						</FooterTextExternalLink>
 						<FooterTextExternalLink href="https://github.com/awesome-selfhosted/awesome-selfhosted" target="_blank">
-							Self-Hosting
+							Self-Hosting.0xtter
 						</FooterTextExternalLink>
 					</SectionFooterMenu>
 				</ScrollAnimation>
@@ -290,6 +292,12 @@ export default function FooterPage(props) {
 						<FooterTextTitle>{language.footer.labelSourceCode.title}</FooterTextTitle>
 						<FooterTextExternalLink href="https://github.com/JankAnna/JankAnna-portfolio" target="_blank">
 							Github
+						</FooterTextExternalLink>
+						<FooterTextExternalLink href="https://github.com/Glaysonvisgueira/glaysonvisgueira_next-js.git" target="_blank">
+							Github.Glaysonvisgueira
+						</FooterTextExternalLink>
+						<FooterTextExternalLink href="https://github.com/0xtter/Portfolio" target="_blank">
+							Github.0xtter
 						</FooterTextExternalLink>
 					</SectionFooterMenu>
 				</ScrollAnimation>
