@@ -165,15 +165,14 @@ const SideBarTheme = styled.aside`
 export default function LayoutTemplate({ children }) {
 	const { language } = useContext(SettingsContext);
 
-
 	return (
 		<>
 			<HeaderContainer>
 				<Fade top delay={100} duration={200}>
-					<Link style={{ textDecoration: "none" }} href="https://0xtter.com" passHref>
+					<Link style={{ textDecoration: "none" }} href="https://jankanna.github.io/JankAnna-portfolio/" passHref>
 						<LogoContainer>
 							<LogoText>
-								<CaracteresLogo>&lt;</CaracteresLogo>0xtter <CaracteresLogo>/&gt;</CaracteresLogo>
+								<CaracteresLogo>&lt;</CaracteresLogo>JankAnna <CaracteresLogo>/&gt;</CaracteresLogo>
 							</LogoText>
 						</LogoContainer>
 					</Link>
