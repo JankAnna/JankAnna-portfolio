@@ -62,23 +62,21 @@ const ButtonSocialMediaIcon = styled.a`
 export default function SocialNetworkRowStack() {
 	return (
 		<SocialMediaContainer>
-
-			<ButtonSocialMediaIcon href="https://github.com/0xtter" target="_blank">
+			<ButtonSocialMediaIcon href="https://github.com/JankAnna" target="_blank">
 				<Github />
 			</ButtonSocialMediaIcon>
 
-			<ButtonSocialMediaIcon href="mailto:thomas.desrumeaux@gmail.com" target="_blank">
+			<ButtonSocialMediaIcon href="mailto:anzojank@gmail.com" target="_blank">
 				<MailSend />
 			</ButtonSocialMediaIcon>
 
-			<ButtonSocialMediaIcon href="https://www.linkedin.com/in/thomasdesrumeaux/	" target="_blank" data-splitbee-event="linkedin-access">
+			<ButtonSocialMediaIcon href="https://www.linkedin.com/in/anna-jankowska-297066110/	" target="_blank" data-splitbee-event="linkedin-access">
 				<LinkedinSquare />
 			</ButtonSocialMediaIcon>
 
-			<ButtonSocialMediaIcon href="https://twitter.com/_ThomasDx_" target="_blank">
-				<Twitter />
+			<ButtonSocialMediaIcon href="https://t.me/JankAnna" target="_blank">
+				<Telegram />
 			</ButtonSocialMediaIcon>
-
 		</SocialMediaContainer>
 	);
 }
