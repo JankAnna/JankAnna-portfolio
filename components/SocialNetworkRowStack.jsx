@@ -1,11 +1,8 @@
 import styled from "styled-components";
 
-import { Facebook } from "@styled-icons/entypo-social/Facebook";
-import { Instagram } from "@styled-icons/icomoon/Instagram";
-import { Telegram } from "@styled-icons/boxicons-logos/Telegram";
 import { MailSend } from "@styled-icons/boxicons-regular/MailSend";
-import { LogoWhatsapp } from "@styled-icons/ionicons-solid/LogoWhatsapp";
 import { LinkedinSquare } from "@styled-icons/boxicons-logos/LinkedinSquare";
+import { Twitter } from "@styled-icons/boxicons-logos/Twitter";
 import { Github } from "@styled-icons/bootstrap/Github";
 
 const SocialMediaContainer = styled.div`
@@ -34,6 +31,7 @@ const ButtonSocialMediaIcon = styled.a`
 
 	&:hover {
 		cursor: pointer;
+		opacity: 0.5;
 	}
 
 	&:active {
@@ -64,33 +62,23 @@ const ButtonSocialMediaIcon = styled.a`
 export default function SocialNetworkRowStack() {
 	return (
 		<SocialMediaContainer>
-			<ButtonSocialMediaIcon href="https://www.facebook.com/glayson.visgueira" target="_blank">
-				<Facebook />
-			</ButtonSocialMediaIcon>
 
-			<ButtonSocialMediaIcon href="https://github.com/Glaysonvisgueira" target="_blank">
+			<ButtonSocialMediaIcon href="https://github.com/0xtter" target="_blank">
 				<Github />
 			</ButtonSocialMediaIcon>
 
-			<ButtonSocialMediaIcon href="mailto:glaysonwow@gmail.com" target="_blank">
+			<ButtonSocialMediaIcon href="mailto:thomas.desrumeaux@gmail.com" target="_blank">
 				<MailSend />
 			</ButtonSocialMediaIcon>
 
-			<ButtonSocialMediaIcon href="https://wa.me/5586999277101/?text=Olá%20Glayson,%20tudo%20bem?%20Vim através de sua página pessoal!" target="_blank">
-				<LogoWhatsapp />
-			</ButtonSocialMediaIcon>
-
-			<ButtonSocialMediaIcon href="https://t.me/glayson_visgueira" target="_blank">
-				<Telegram />
-			</ButtonSocialMediaIcon>
-
-			<ButtonSocialMediaIcon href="https://www.instagram.com/glayson_visgueira" target="_blank">
-				<Instagram />
-			</ButtonSocialMediaIcon>
-
-			<ButtonSocialMediaIcon href="https://www.linkedin.com/in/glayson-visgueira-7433a61b3/" target="_blank" data-splitbee-event="linkedin-access">
+			<ButtonSocialMediaIcon href="https://www.linkedin.com/in/thomasdesrumeaux/	" target="_blank" data-splitbee-event="linkedin-access">
 				<LinkedinSquare />
 			</ButtonSocialMediaIcon>
+
+			<ButtonSocialMediaIcon href="https://twitter.com/_ThomasDx_" target="_blank">
+				<Twitter />
+			</ButtonSocialMediaIcon>
+
 		</SocialMediaContainer>
 	);
 }

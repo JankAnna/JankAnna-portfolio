@@ -3,9 +3,9 @@ import styled from "styled-components";
 import ScrollAnimation from "react-animate-on-scroll";
 
 //Styled icons
-import { Robot } from "@styled-icons/fa-solid/Robot";
-import { DesignServices } from "@styled-icons/material-rounded/DesignServices";
-import { DesignIdeas } from "@styled-icons/fluentui-system-filled/DesignIdeas";
+import { MagnifyingGlass } from "@styled-icons/entypo/MagnifyingGlass";
+import { ShieldKeyhole } from "@styled-icons/fluentui-system-filled/ShieldKeyhole";
+import { Password } from "@styled-icons/fluentui-system-filled/Password";
 import { CodeBlock } from "@styled-icons/boxicons-regular/CodeBlock";
 
 //Contexto
@@ -57,8 +57,8 @@ const CardService = styled.div`
 	}
 
 	p {
-		color: ${(props) => props.theme.colors.body};
 		font-size: 16px;
+		color: ${(props) => props.theme.colors.body};
 		font-weight: 400;
 		text-align: center;
 		word-wrap: break-word;
@@ -109,31 +109,31 @@ export default function _ServicesOffer() {
 			<ContainerGrid>
 				<ScrollAnimation animateIn="fadeIn" animateOnce delay={200}>
 					<CardService>
-						<Robot />
-						<h3>{language.servicesOffer.cards.seo.title}</h3>
-						<p>{language.servicesOffer.cards.seo.contentText}</p>
+						<MagnifyingGlass />
+						<h3>{language.servicesOffer.cards.forensique.title}</h3>
+						<p>{language.servicesOffer.cards.forensique.contentText}</p>
 					</CardService>
 				</ScrollAnimation>
 
 				<ScrollAnimation animateIn="fadeIn" animateOnce delay={400}>
 					<CardService>
-						<DesignIdeas />
-						<h3>{language.servicesOffer.cards.ux.title}</h3>
-						<p>{language.servicesOffer.cards.ux.contentText}</p>
+						<ShieldKeyhole />
+						<h3>{language.servicesOffer.cards.devsecops.title}</h3>
+						<p>{language.servicesOffer.cards.devsecops.contentText}</p>
 					</CardService>
 				</ScrollAnimation>
 				<ScrollAnimation animateIn="fadeIn" animateOnce delay={600}>
 					<CardService>
-						<DesignServices />
-						<h3>{language.servicesOffer.cards.branding.title}</h3>
-						<p>{language.servicesOffer.cards.branding.contentText}</p>
+						<Password />
+						<h3>{language.servicesOffer.cards.pentesting.title}</h3>
+						<p>{language.servicesOffer.cards.pentesting.contentText}</p>
 					</CardService>
 				</ScrollAnimation>
 				<ScrollAnimation animateIn="fadeIn" animateOnce delay={800}>
 					<CardService>
 						<CodeBlock />
-						<h3>{language.servicesOffer.cards.development.title}</h3>
-						<p>{language.servicesOffer.cards.development.contentText}</p>
+						<h3>{language.servicesOffer.cards.developpement.title}</h3>
+						<p>{language.servicesOffer.cards.developpement.contentText}</p>
 					</CardService>
 				</ScrollAnimation>
 			</ContainerGrid>
