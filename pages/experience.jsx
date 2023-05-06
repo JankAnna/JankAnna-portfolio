@@ -30,8 +30,7 @@ export default function Experiencia() {
 			<ContainerTitleSection>
 				<TitleSection>{language.experiencePage.title}</TitleSection>
 			</ContainerTitleSection>
-			<h2 style={{ color: `${theme.colors.branding}` }}>Coming Soon...</h2>
-			{/* <TimelineExperienciaFormacao /> */}
-		</SectionExperiencia >
+			<TimelineExperienciaFormacao />
+		</SectionExperiencia>
 	);
 }
