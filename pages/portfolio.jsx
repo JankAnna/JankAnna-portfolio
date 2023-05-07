@@ -286,7 +286,7 @@ export default function Portifolio() {
 	const [stack, setStack] = useState("TODOS");
 
 	// Fetch data from my personnal GitHub account to list repositories
-	const [url, setURL] = useState("https://api.github.com/users/JankAnna/repos");
+	const [url, setURL] = useState("https://api.github.com/users/0xtter/repos");
 	const data = FetchData(url);
 
 	const topicsIcons = {
