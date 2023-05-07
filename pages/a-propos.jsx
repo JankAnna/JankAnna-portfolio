@@ -284,7 +284,7 @@ export default function AProposDeMoi(props) {
 							<GithubStatsCard>
 								<div className="background" />
 								<div className="img">
-									<Image src="@/public/img/user-photo.jpg" alt={language.aboutMePage.alt_dev_img} layout="fill" objectFit="cover" className="image-rounded" />
+									<img src="@/public/img/user-photo.jpg" alt={language.aboutMePage.alt_dev_img} layout="fill" objectFit="cover" className="image-rounded" />
 								</div>
 								<div className="content">
 									<h3>{githubUserData?.name}</h3>

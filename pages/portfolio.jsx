@@ -198,7 +198,6 @@ const ChipTechOptions = styled.div`
 	}
 `;
 
-
 const WrapperButtons = styled.div`
 	display: flex;
 	align-items: center;
@@ -224,13 +223,12 @@ const WrapperButtons = styled.div`
 
 function formatDate(dateString) {
 	const originalDate = new Date(dateString);
-	const day = String(originalDate.getDate()).padStart(2, '0');
-	const month = String(originalDate.getMonth() + 1).padStart(2, '0');
+	const day = String(originalDate.getDate()).padStart(2, "0");
+	const month = String(originalDate.getMonth() + 1).padStart(2, "0");
 	const year = originalDate.getFullYear();
 	const formattedDate = `${day}/${month}/${year}`;
 	return formattedDate;
 }
-
 
 const Chip = styled.span`
 	color: ${(props) => (props.active == true ? props.theme.colors.backgroundSecondary : props.theme.colors.inactiveTitle)};
@@ -282,138 +280,137 @@ const SectionPortifolio = styled.section`
 	padding-top: 60px;
 `;
 
-
 export default function Portifolio() {
 	const { language } = useContext(SettingsContext);
 	const [view, setView] = useState("grid");
 	const [stack, setStack] = useState("TODOS");
 
 	// Fetch data from my personnal GitHub account to list repositories
-	const [url, setURL] = useState('https://api.github.com/users/0xtter/repos');
+	const [url, setURL] = useState("https://api.github.com/users/JankAnna/repos");
 	const data = FetchData(url);
 
 	const topicsIcons = {
-		"Robot": {
-			"iconName": "Robot",
-			"icon": <Robot />
+		Robot: {
+			iconName: "Robot",
+			icon: <Robot />,
 		},
-		"java": {
-			"iconName": "Java",
-			"icon": <Java />
+		java: {
+			iconName: "Java",
+			icon: <Java />,
 		},
-		"mongodb": {
-			"iconName": "Mongodb",
-			"icon": <Mongodb />
+		mongodb: {
+			iconName: "Mongodb",
+			icon: <Mongodb />,
 		},
-		"Sqlite": {
-			"iconName": "Sqlite",
-			"icon": <Sqlite />
+		Sqlite: {
+			iconName: "Sqlite",
+			icon: <Sqlite />,
 		},
-		"javascript": {
-			"iconName": "Javascript",
-			"icon": <Javascript />
+		javascript: {
+			iconName: "Javascript",
+			icon: <Javascript />,
 		},
-		"reactjs": {
-			"iconName": "Reactjs",
-			"icon": <ReactLogo />
+		reactjs: {
+			iconName: "Reactjs",
+			icon: <ReactLogo />,
 		},
-		"Nextdotjs": {
-			"iconName": "Nextdotjs",
-			"icon": <Nextdotjs />
+		Nextdotjs: {
+			iconName: "Nextdotjs",
+			icon: <Nextdotjs />,
 		},
-		"python3": {
-			"iconName": "Python",
-			"icon": <Python />
+		python3: {
+			iconName: "Python",
+			icon: <Python />,
 		},
-		"nodejs": {
-			"iconName": "Nodejs",
-			"icon": <Nodejs />
+		nodejs: {
+			iconName: "Nodejs",
+			icon: <Nodejs />,
 		},
-		"css": {
-			"iconName": "CSS",
-			"icon": <Css3 />
+		css: {
+			iconName: "CSS",
+			icon: <Css3 />,
 		},
-		"html5": {
-			"iconName": "HTML5",
-			"icon": <Html5 />
+		html5: {
+			iconName: "HTML5",
+			icon: <Html5 />,
 		},
-		"Live": {
-			"iconName": "Live",
-			"icon": <Live />
+		Live: {
+			iconName: "Live",
+			icon: <Live />,
 		},
-		"cpp": {
-			"iconName": "C++",
-			"icon": <CPlusPlus />
+		cpp: {
+			iconName: "C++",
+			icon: <CPlusPlus />,
 		},
-		"c": {
-			"iconName": "C",
-			"icon": <C />
+		c: {
+			iconName: "C",
+			icon: <C />,
 		},
 		"reverse-engineering": {
-			"iconName": "Reverse Engineering",
-			"icon": <FileBinary />
+			iconName: "Reverse Engineering",
+			icon: <FileBinary />,
 		},
-		"vuejs": {
-			"iconName": "Vuejs",
-			"icon": <Vuejs />
+		vuejs: {
+			iconName: "Vuejs",
+			icon: <Vuejs />,
 		},
-		"markdown": {
-			"iconName": "Markdown",
-			"icon": <Markdown />
+		markdown: {
+			iconName: "Markdown",
+			icon: <Markdown />,
 		},
-		"Default": {
-			"iconName": "BookmarkFill",
-			"icon": <JournalBookmark />
+		Default: {
+			iconName: "BookmarkFill",
+			icon: <JournalBookmark />,
 		},
-		"github": {
-			"iconName": "Github",
-			"icon": <Github />
+		github: {
+			iconName: "Github",
+			icon: <Github />,
 		},
 		"github-profile": {
-			"iconName": "Github Profile",
-			"icon": <Github />
+			iconName: "Github Profile",
+			icon: <Github />,
 		},
 		"desmos-api": {
-			"iconName": "Desmos API",
-			"icon": <MathFormatLinear />
+			iconName: "Desmos API",
+			icon: <MathFormatLinear />,
 		},
 		"drawing-app": {
-			"iconName": "Drawing App",
-			"icon": <DrawShape />
+			iconName: "Drawing App",
+			icon: <DrawShape />,
 		},
-		"pillow": {
-			"iconName": "Pillow",
-			"icon": <DrawShape />
+		pillow: {
+			iconName: "Pillow",
+			icon: <DrawShape />,
 		},
-		"game": {
-			"iconName": "Game",
-			"icon": <Gamepad />
+		game: {
+			iconName: "Game",
+			icon: <Gamepad />,
 		},
-		"pentesting": {
-			"iconName": "Pentesting",
-			"icon": <Password />
+		pentesting: {
+			iconName: "Pentesting",
+			icon: <Password />,
 		},
-		"security": {
-			"iconName": "Security",
-			"icon": <ShieldLockFill />
+		security: {
+			iconName: "Security",
+			icon: <ShieldLockFill />,
 		},
-		"challenge": {
-			"iconName": "Challenge",
-			"icon": <TrophyFill />
+		challenge: {
+			iconName: "Challenge",
+			icon: <TrophyFill />,
 		},
 		"3d-printing": {
-			"iconName": "3D printing",
-			"icon": <Box />
+			iconName: "3D printing",
+			icon: <Box />,
 		},
-		"solidworks": {
-			"iconName": "Solidworks",
-			"icon": <DesignIdeas />
+		solidworks: {
+			iconName: "Solidworks",
+			icon: <DesignIdeas />,
 		},
-		"arduino": {
-			"iconName": "Arduino",
-			"icon": <Arduino />
-		}
-	}
+		arduino: {
+			iconName: "Arduino",
+			icon: <Arduino />,
+		},
+	};
 
 	function handleFilter(id) {
 		setStack(id);
@@ -427,7 +424,6 @@ export default function Portifolio() {
 
 	return (
 		<SectionPortifolio id="section-portifolio">
-
 			{/* <ChipTechOptions>
 				<Filter className="svg" />
 				<Chip
@@ -474,11 +470,9 @@ export default function Portifolio() {
 						<ScrollAnimation animateIn="fadeIn" animateOnce key={index}>
 							<WrapperProjectCard>
 								<WrapperTextChip>
-
 									<div key={index}>
 										<span>{project.language}</span>
 									</div>
-
 								</WrapperTextChip>
 								<TitleSpan>{project.name}</TitleSpan>
 
@@ -488,25 +482,19 @@ export default function Portifolio() {
 
 								<WrapperTechStack>
 									<div>
-										{project.topics ? (project.topics.map((topic, index) => (
-											topicsIcons[topic] ? (
-												<div key={index}>
-													<Tooltip toolTipText={topicsIcons[topic].iconName}>
-
-														{topicsIcons[topic].icon}
-													</Tooltip>
-												</div>
-											) : (
-												<div key={index}>
-													<Tooltip toolTipText={topic}>
-														{topicsIcons["Default"].icon}
-													</Tooltip>
-												</div>
-											)
-
-										))) : (
-											""
-										)}
+										{project.topics
+											? project.topics.map((topic, index) =>
+													topicsIcons[topic] ? (
+														<div key={index}>
+															<Tooltip toolTipText={topicsIcons[topic].iconName}>{topicsIcons[topic].icon}</Tooltip>
+														</div>
+													) : (
+														<div key={index}>
+															<Tooltip toolTipText={topic}>{topicsIcons["Default"].icon}</Tooltip>
+														</div>
+													)
+											  )
+											: ""}
 									</div>
 									<WrapperButtons>
 										{project.homepage != null && project.homepage != "" && (
@@ -525,7 +513,8 @@ export default function Portifolio() {
 								</span>
 							</WrapperProjectCard>
 						</ScrollAnimation>
-					))) : (
+					))
+				) : (
 					<p>Loading...</p>
 				)}
 			</ContainerGrid>
