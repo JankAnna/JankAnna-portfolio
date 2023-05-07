@@ -284,7 +284,7 @@ export default function AProposDeMoi(props) {
 							<GithubStatsCard>
 								<div className="background" />
 								<div className="img">
-									<img src="@/public/img/user-photo.jpg" alt={language.aboutMePage.alt_dev_img} layout="fill" objectFit="cover" className="image-rounded" />
+									<Image src="img/user-photo.jpg" alt={language.aboutMePage.alt_dev_img} layout="fill" objectFit="cover" className="image-rounded" />
 								</div>
 								<div className="content">
 									<h3>{githubUserData?.name}</h3>
@@ -320,7 +320,7 @@ export default function AProposDeMoi(props) {
 							<p>{language.aboutMePage.paragraph_three}</p>
 							<div className="tech-and-cv">
 								<SocialNetworkRowStack />
-								<ButtonCV href="https://github.com/JankAnna/JankAnna-portfolio/blob/main/public/pdf/JankAnna-CV.pdf" target="_blank" data-splitbee-event="Download CV">
+								<ButtonCV href="pdf/JankAnna-CV.pdf" target="_blank" data-splitbee-event="Download CV">
 									Download CV
 								</ButtonCV>
 							</div>
