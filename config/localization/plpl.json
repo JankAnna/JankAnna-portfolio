@@ -1,20 +1,20 @@
 {
 	"id": "plpl",
 	"navbarMenu": {
-		"labelHome": "HOME",
-		"labelServices": "SERVICES",
-		"labelAboutMe": "ABOUT ME",
-		"labelPortifolio": "PROJECTS",
-		"labelExperience": "EXPERIENCES"
+		"labelHome": "STRONA GŁÓWNA",
+		"labelServices": "USŁUGI",
+		"labelAboutMe": "O MNIE",
+		"labelPortifolio": "PROJEKTY",
+		"labelExperience": "DOŚWIADCZENIE"
 	},
 	"landingPage": {
-		"apresentationText": "Hello World,",
+		"apresentationText": "Dzień Dobry,",
 		"typeText": "Anna Zofia Jankowska",
-		"resumeText": "Fascinated by IT and its security issues, I oriented myself in the cybersecurity professions. Creative and persevering, I like to take up challenges as a team to meet current issues in terms of IT security.",
-		"buttonText": "FIND OUT MORE"
+		"resumeText": "...",
+		"buttonText": "WIĘCEJ"
 	},
 	"servicesOffer": {
-		"title": "Services",
+		"title": "Projekty",
 		"cards": {
 			"forensique": {
 				"title": "Forensic",
