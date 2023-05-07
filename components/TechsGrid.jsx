@@ -63,7 +63,7 @@ const Tech = styled.div`
 	svg {
 		width: 34px;
 		height: 34px;
-		color: ${(props) => props.theme.colors.backgroundSecondary};
+		color: ${(props) => props.theme.colors.backgroundSVG};
 		transition: all 0.3s ease;
 	}
 
