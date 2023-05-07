@@ -8,15 +8,11 @@ import ScrollAnimation from "react-animate-on-scroll";
 import { Amazonaws } from "@styled-icons/simple-icons/Amazonaws";
 import { Visualstudiocode } from "@styled-icons/simple-icons/Visualstudiocode";
 import { Mongodb } from "@styled-icons/simple-icons/Mongodb";
-import { Postgresql } from "@styled-icons/simple-icons/Postgresql";
-import { Sqlite } from "@styled-icons/simple-icons/Sqlite";
 import { Javascript } from "@styled-icons/boxicons-logos/Javascript";
-import { Java } from "@styled-icons/fa-brands/Java";
 import { Python } from "@styled-icons/boxicons-logos/Python";
 import { Nodejs } from "@styled-icons/boxicons-logos/Nodejs";
 import { Html5 } from "@styled-icons/boxicons-logos/Html5";
 import { Git } from "@styled-icons/boxicons-logos/Git";
-import { Oracle } from "@styled-icons/simple-icons/Oracle";
 import { Mysql } from "@styled-icons/simple-icons/Mysql";
 import { Linux } from "@styled-icons/fa-brands/Linux";
 import { Windows } from "@styled-icons/boxicons-logos/Windows";
@@ -27,9 +23,7 @@ import { Adobephotoshop } from "@styled-icons/simple-icons/Adobephotoshop";
 import { Docker } from "@styled-icons/boxicons-logos/Docker";
 import { Wordpress } from "@styled-icons/boxicons-logos/Wordpress";
 import { Kalilinux } from "@styled-icons/simple-icons/Kalilinux";
-import { Nextcloud } from "@styled-icons/simple-icons/Nextcloud";
 import { Nginx } from "@styled-icons/simple-icons/Nginx";
-import { Genymotion } from "@styled-icons/simple-icons/Genymotion";
 import { Autodesk } from "@styled-icons/simple-icons/Autodesk";
 import { Proxmox } from "@styled-icons/simple-icons/Proxmox";
 import { Pfsense } from "@styled-icons/simple-icons/Pfsense";
@@ -98,56 +92,67 @@ export default function TechsGrid(props) {
 					<Kalilinux />
 				</Tech>
 			</ScrollAnimation>
+
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Docker />
 				</Tech>
 			</ScrollAnimation>
+
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Wordpress />
 				</Tech>
 			</ScrollAnimation>
+
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Nginx />
 				</Tech>
 			</ScrollAnimation>
+
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Autodesk />
 				</Tech>
 			</ScrollAnimation>
+
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Amazonaws />
 				</Tech>
 			</ScrollAnimation>
+
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Visualstudiocode />
 				</Tech>
 			</ScrollAnimation>
+
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Proxmox />
 				</Tech>
 			</ScrollAnimation>
+
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Mongodb />
 				</Tech>
 			</ScrollAnimation>
+
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Pfsense />
 				</Tech>
 			</ScrollAnimation>
+
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Javascript />
 				</Tech>
 			</ScrollAnimation>
+
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Python />
@@ -159,11 +164,13 @@ export default function TechsGrid(props) {
 					<Nodejs />
 				</Tech>
 			</ScrollAnimation>
+
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Reactjs />
 				</Tech>
 			</ScrollAnimation>
+
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Wireshark />
@@ -187,26 +194,31 @@ export default function TechsGrid(props) {
 					<Mysql />
 				</Tech>
 			</ScrollAnimation>
+
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Linux />
 				</Tech>
 			</ScrollAnimation>
+
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Windows />
 				</Tech>
 			</ScrollAnimation>
+
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Android />
 				</Tech>
 			</ScrollAnimation>
+
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Ios />
 				</Tech>
 			</ScrollAnimation>
+
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Figma />
@@ -218,36 +230,43 @@ export default function TechsGrid(props) {
 					<Asana />
 				</Tech>
 			</ScrollAnimation>
+
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Adobephotoshop />
 				</Tech>
 			</ScrollAnimation>
+
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Atlassian />
 				</Tech>
 			</ScrollAnimation>
+
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Ansys />
 				</Tech>
 			</ScrollAnimation>
+
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Microsoftoffice />
 				</Tech>
 			</ScrollAnimation>
+
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Apacheopenoffice />
 				</Tech>
 			</ScrollAnimation>
+
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Sap />
 				</Tech>
 			</ScrollAnimation>
+
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Powershell />
