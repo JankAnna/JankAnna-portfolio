@@ -36,6 +36,8 @@ import { Microsoftoffice } from "@styled-icons/simple-icons/Microsoftoffice";
 import { Apacheopenoffice } from "@styled-icons/simple-icons/Apacheopenoffice";
 import { Sap } from "@styled-icons/simple-icons/Sap";
 import { Powershell } from "@styled-icons/simple-icons/Powershell";
+import { Tryhackme } from "@styled-icons/simple-icons/Tryhackme";
+import { Hackthebox } from "@styled-icons/simple-icons/Hackthebox";
 
 const TechGrid = styled.footer`
 	padding-top: 30px;
@@ -270,6 +272,18 @@ export default function TechsGrid(props) {
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Powershell />
+				</Tech>
+			</ScrollAnimation>
+
+			<ScrollAnimation animateIn="fadeIn" animateOnce>
+				<Tech href="https://tryhackme.com/p/AnJa" target="_blank">
+					<Tryhackme />
+				</Tech>
+			</ScrollAnimation>
+
+			<ScrollAnimation animateIn="fadeIn" animateOnce>
+				<Tech>
+					<Hackthebox />
 				</Tech>
 			</ScrollAnimation>
 		</TechGrid>

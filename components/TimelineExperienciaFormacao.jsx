@@ -11,6 +11,7 @@ import { SettingsContext } from "@/context/SettingsContext";
 import { School } from "@styled-icons/ionicons-outline/School";
 import { LearningApp } from "@styled-icons/fluentui-system-filled/LearningApp";
 import { Work } from "@styled-icons/material-rounded/Work";
+import { Certificate } from "@styled-icons/fluentui-system-filled/Certificate";
 
 const LearningAppIcon = styled(LearningApp)`
 	color: ${(props) => props.theme.colors.backgroundSecondary};

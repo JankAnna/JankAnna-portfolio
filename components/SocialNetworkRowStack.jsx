@@ -4,6 +4,7 @@ import { MailSend } from "@styled-icons/boxicons-regular/MailSend";
 import { LinkedinSquare } from "@styled-icons/boxicons-logos/LinkedinSquare";
 import { Twitter } from "@styled-icons/boxicons-logos/Twitter";
 import { Github } from "@styled-icons/bootstrap/Github";
+import { Tryhackme } from "@styled-icons/bootstrap/Github";
 
 const SocialMediaContainer = styled.div`
 	display: flex;
@@ -70,8 +71,12 @@ export default function SocialNetworkRowStack() {
 				<MailSend />
 			</ButtonSocialMediaIcon>
 
-			<ButtonSocialMediaIcon href="https://www.linkedin.com/in/anna-jankowska-297066110/	" target="_blank" data-splitbee-event="linkedin-access">
+			<ButtonSocialMediaIcon href="https://www.linkedin.com/in/anna-jankowska-297066110/" target="_blank" data-splitbee-event="linkedin-access">
 				<LinkedinSquare />
+			</ButtonSocialMediaIcon>
+
+			<ButtonSocialMediaIcon href="https://tryhackme.com/p/AnJa" target="_blank">
+				<Tryhackme />
 			</ButtonSocialMediaIcon>
 		</SocialMediaContainer>
 	);
