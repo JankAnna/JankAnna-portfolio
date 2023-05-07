@@ -52,16 +52,20 @@
 		"createdLabel": "Created at"
 	},
 	"experiencePage": {
-		"title": "EXPERIENCE",
+		"title": "DOŚWIADCZENIE | EDUKACJA | KURSY",
 		"timeline": {
-			"labelPosition": "Position",
-			"labelTitle": "Title",
-			"labelCompany": "Company",
-			"labelCategory": "Category",
-			"labelInstitution": "Institution",
-			"labelProfessionalCourse": "Professional course",
-			"labelBachelorDegree": "Bachelor degree",
-			"labelExtensionCourse": "Extension course"
+			"labelPosition": "stanowisko",
+			"labelTitle": "tytuł",
+			"labelCompany": "firma",
+			"labelCategory": "kategoria",
+			"labelInstitution": "instytucja",
+			"labelProfessionalCourse": "kurs zawodowy",
+			"labelBachelorDegree": "licencjat",
+			"BachelorOfEngineering": "inżynier",
+			"PostgraduateStudies": "studia podyplomowe",
+			"labelSpecialization": "specializacja",
+			"labelExtensionCourse": "kurs rozszerzony",
+			"labelThesisTopic": "Tytuł pracy"
 		}
 	},
 	"footer": {

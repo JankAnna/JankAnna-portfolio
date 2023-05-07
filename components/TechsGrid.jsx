@@ -25,10 +25,23 @@ import { Ios } from "@styled-icons/simple-icons/Ios";
 import { Figma } from "@styled-icons/boxicons-logos/Figma";
 import { Adobephotoshop } from "@styled-icons/simple-icons/Adobephotoshop";
 import { Docker } from "@styled-icons/boxicons-logos/Docker";
-import { Wordpress } from "@styled-icons/boxicons-logos/Wordpress"
-import { Kalilinux } from "@styled-icons/simple-icons/Kalilinux"
-import { Nextcloud } from "@styled-icons/simple-icons/Nextcloud"
-import { Nginx } from "@styled-icons/simple-icons/Nginx"
+import { Wordpress } from "@styled-icons/boxicons-logos/Wordpress";
+import { Kalilinux } from "@styled-icons/simple-icons/Kalilinux";
+import { Nextcloud } from "@styled-icons/simple-icons/Nextcloud";
+import { Nginx } from "@styled-icons/simple-icons/Nginx";
+import { Genymotion } from "@styled-icons/simple-icons/Genymotion";
+import { Autodesk } from "@styled-icons/simple-icons/Autodesk";
+import { Proxmox } from "@styled-icons/simple-icons/Proxmox";
+import { Pfsense } from "@styled-icons/simple-icons/Pfsense";
+import { Wireshark } from "@styled-icons/simple-icons/Wireshark";
+import { Reactjs } from "@styled-icons/remix-fill/Reactjs";
+import { Asana } from "@styled-icons/simple-icons/Asana";
+import { Atlassian } from "@styled-icons/simple-icons/Atlassian";
+import { Ansys } from "@styled-icons/simple-icons/Ansys";
+import { Microsoftoffice } from "@styled-icons/simple-icons/Microsoftoffice";
+import { Apacheopenoffice } from "@styled-icons/simple-icons/Apacheopenoffice";
+import { Sap } from "@styled-icons/simple-icons/Sap";
+import { Powershell } from "@styled-icons/simple-icons/Powershell";
 
 const TechGrid = styled.footer`
 	padding-top: 30px;
@@ -82,71 +95,59 @@ export default function TechsGrid(props) {
 		<TechGrid>
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
+					<Kalilinux />
+				</Tech>
+			</ScrollAnimation>
+			<ScrollAnimation animateIn="fadeIn" animateOnce>
+				<Tech>
 					<Docker />
 				</Tech>
-			</ScrollAnimation>	
+			</ScrollAnimation>
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Wordpress />
 				</Tech>
-			</ScrollAnimation>	
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Kalilinux />
-				</Tech>
-			</ScrollAnimation>	
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Nextcloud />
-				</Tech>
-			</ScrollAnimation>	
+			</ScrollAnimation>
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Nginx />
 				</Tech>
-			</ScrollAnimation>	
+			</ScrollAnimation>
+			<ScrollAnimation animateIn="fadeIn" animateOnce>
+				<Tech>
+					<Autodesk />
+				</Tech>
+			</ScrollAnimation>
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Amazonaws />
 				</Tech>
-			</ScrollAnimation>	
-
+			</ScrollAnimation>
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Visualstudiocode />
 				</Tech>
 			</ScrollAnimation>
-
+			<ScrollAnimation animateIn="fadeIn" animateOnce>
+				<Tech>
+					<Proxmox />
+				</Tech>
+			</ScrollAnimation>
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Mongodb />
 				</Tech>
 			</ScrollAnimation>
-
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
-					<Postgresql />
+					<Pfsense />
 				</Tech>
 			</ScrollAnimation>
-
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Sqlite />
-				</Tech>
-			</ScrollAnimation>
-
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Javascript />
 				</Tech>
 			</ScrollAnimation>
-
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Java />
-				</Tech>
-			</ScrollAnimation>
-
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Python />
@@ -156,6 +157,16 @@ export default function TechsGrid(props) {
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Nodejs />
+				</Tech>
+			</ScrollAnimation>
+			<ScrollAnimation animateIn="fadeIn" animateOnce>
+				<Tech>
+					<Reactjs />
+				</Tech>
+			</ScrollAnimation>
+			<ScrollAnimation animateIn="fadeIn" animateOnce>
+				<Tech>
+					<Wireshark />
 				</Tech>
 			</ScrollAnimation>
 
@@ -171,11 +182,6 @@ export default function TechsGrid(props) {
 				</Tech>
 			</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Oracle />
-				</Tech>
-			</ScrollAnimation>
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Mysql />
@@ -209,7 +215,42 @@ export default function TechsGrid(props) {
 
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
+					<Asana />
+				</Tech>
+			</ScrollAnimation>
+			<ScrollAnimation animateIn="fadeIn" animateOnce>
+				<Tech>
 					<Adobephotoshop />
+				</Tech>
+			</ScrollAnimation>
+			<ScrollAnimation animateIn="fadeIn" animateOnce>
+				<Tech>
+					<Atlassian />
+				</Tech>
+			</ScrollAnimation>
+			<ScrollAnimation animateIn="fadeIn" animateOnce>
+				<Tech>
+					<Ansys />
+				</Tech>
+			</ScrollAnimation>
+			<ScrollAnimation animateIn="fadeIn" animateOnce>
+				<Tech>
+					<Microsoftoffice />
+				</Tech>
+			</ScrollAnimation>
+			<ScrollAnimation animateIn="fadeIn" animateOnce>
+				<Tech>
+					<Apacheopenoffice />
+				</Tech>
+			</ScrollAnimation>
+			<ScrollAnimation animateIn="fadeIn" animateOnce>
+				<Tech>
+					<Sap />
+				</Tech>
+			</ScrollAnimation>
+			<ScrollAnimation animateIn="fadeIn" animateOnce>
+				<Tech>
+					<Powershell />
 				</Tech>
 			</ScrollAnimation>
 		</TechGrid>

@@ -113,7 +113,7 @@ export default function TimelinePortifolio(props) {
 						{language.experiencePage.timeline.labelCategory}: <span>{language.experiencePage.timeline.labelExtensionCourse}</span>
 					</BoldText>
 					<BoldText>
-						{language.experiencePage.timeline.labelTitle}: <span>"Cyber Security (Red Team)"</span>
+						{language.experiencePage.timeline.labelTitle}: <span>Cyber Security (Red Team)</span>
 					</BoldText>
 				</TimelineContent>
 			</VerticalTimelineElement>

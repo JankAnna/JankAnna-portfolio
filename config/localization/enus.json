@@ -61,7 +61,11 @@
 			"labelInstitution": "Institution",
 			"labelProfessionalCourse": "Professional course",
 			"labelBachelorDegree": "Bachelor degree",
-			"labelExtensionCourse": "Extension course"
+			"BachelorOfEngineering": "Bachelor of Engineering",
+			"PostgraduateStudies": "postgraduate studies",
+			"labelSpecialization": "Specialization",
+			"labelExtensionCourse": "Extension course",
+			"labelThesisTopic": "Thesis topic"
 		}
 	},
 	"footer": {
