@@ -39,6 +39,8 @@ import { Box } from "@styled-icons/bootstrap";
 import { DesignIdeas } from "@styled-icons/fluentui-system-filled";
 import { JournalBookmark } from "@styled-icons/bootstrap";
 import { Arduino } from "@styled-icons/simple-icons";
+import { PortfolioIcon } from "@styled-icons/zondicons/Portfolio";
+import { Animation } from "@styled-icons/material/Animation";
 
 //Custom components
 import Tooltip from "@/components/Tooltip";
@@ -290,6 +292,16 @@ export default function Portifolio() {
 	const data = FetchData(url);
 
 	const topicsIcons = {
+		lottie: {
+			iconName: "lottie",
+			icon: <Animation />,
+		},
+
+		PortfolioIcon: {
+			iconName: "portfolio",
+			icon: <PortfolioIcon />,
+		},
+
 		Robot: {
 			iconName: "Robot",
 			icon: <Robot />,

@@ -91,12 +91,39 @@ export default function TimelinePortifolio(props) {
 					<BoldText>
 						{language.experiencePage.timeline.labelInstitution}: <span>TryHackMe</span>
 					</BoldText>
-					<BoldText>THM-WYINMWTVVG</BoldText>
 					<BoldText>
-						{language.experiencePage.timeline.labelCategory}: <span>Advent of Cyber 2022</span>
+						Certification Number: <span>THM-WYINMWTVVG</span>
 					</BoldText>
 					<BoldText>
-						{language.experiencePage.timeline.labelTitle}: <span>(Basic cyber security knowlegle and experience)</span>
+						{language.experiencePage.timeline.labelCategory}: <span>cybersecurity</span>
+					</BoldText>
+					<BoldText>
+						{language.experiencePage.timeline.labelTitle}: <span>Advent of Cyber 2022</span>
+					</BoldText>
+					<BoldText>
+						{language.experiencePage.timeline.labelDescription}: <span>(Basic cyber security knowlegle and experience)</span>
+					</BoldText>
+				</TimelineContent>
+			</VerticalTimelineElement>
+
+			<VerticalTimelineElement
+				className="vertical-timeline-element--work"
+				contentStyle={{ color: "#000", borderBottom: `8px solid ${theme.colors.branding}`, boxShadow: "0px 0px 0px 0px #ccc" }}
+				iconStyle={{ background: theme.colors.branding, color: "#fff", boxShadow: `0 0 0 0px ${theme.colors.branding}` }}
+				icon={<CertificateIcon />}>
+				<TimelineContent>
+					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}>12/2021</h3>
+					<BoldText>
+						{language.experiencePage.timeline.labelInstitution}: <span>HackerU</span>
+					</BoldText>
+					<BoldText>
+						Certification Number: <span>RM250921UW/9</span>
+					</BoldText>
+					<BoldText>
+						{language.experiencePage.timeline.labelTitle}: <span>Advent of Cyber 2021</span>
+					</BoldText>
+					<BoldText>
+						{language.experiencePage.timeline.labelDescription}: <span>(Basic cyber security knowlegle and experience)</span>
 					</BoldText>
 				</TimelineContent>
 			</VerticalTimelineElement>
@@ -168,12 +195,17 @@ export default function TimelinePortifolio(props) {
 					<BoldText>
 						{language.experiencePage.timeline.labelInstitution}: <span>TryHackMe</span>
 					</BoldText>
-					<BoldText>THM-4GZGSVWPFZ</BoldText>
 					<BoldText>
-						{language.experiencePage.timeline.labelCategory}: <span>Advent of Cyber 2021</span>
+						Certification Number: <span>THM-4GZGSVWPFZ</span>
 					</BoldText>
 					<BoldText>
-						{language.experiencePage.timeline.labelTitle}: <span>(Basic cyber security knowlegle and experience)</span>
+						{language.experiencePage.timeline.labelCategory}: <span>cybersecurity</span>
+					</BoldText>
+					<BoldText>
+						{language.experiencePage.timeline.labelTitle}: <span>Advent of Cyber 2021</span>
+					</BoldText>
+					<BoldText>
+						{language.experiencePage.timeline.labelCategory}: <span>(Basic cyber security knowlegle and experience)</span>
 					</BoldText>
 				</TimelineContent>
 			</VerticalTimelineElement>
