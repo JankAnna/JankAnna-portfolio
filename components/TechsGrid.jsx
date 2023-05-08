@@ -77,6 +77,17 @@ const Tech = styled.div`
 	svg:hover {
 		color: ${(props) => props.theme.colors.branding};
 	}
+
+	.logo {
+		width: 34px;
+		height: 34px;
+		color: ${(props) => props.theme.colors.backgroundSVG};
+		transition: all 0.3s ease;
+	}
+
+	.logo:hover {
+		color: ${(props) => props.theme.colors.branding};
+	}
 `;
 
 export const TitleSection = styled.h2`
@@ -96,7 +107,7 @@ export default function TechsGrid(props) {
 		<TechGrid>
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
-					<object type="image/svg+xml" data="logo/logoINE.svg">
+					<object type="image/svg+xml" data="logo/logoINE.svg" class="logo">
 						logo INE
 					</object>
 				</Tech>
@@ -104,8 +115,16 @@ export default function TechsGrid(props) {
 
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
-					<object type="image/svg+xml" data="logo/logoWebSecurityAcademy.svg">
+					<object type="image/svg+xml" data="logo/logoWebSecurityAcademy.svg" class="logo">
 						logo WebSecurityAcademy (Burp)
+					</object>
+				</Tech>
+			</ScrollAnimation>
+
+			<ScrollAnimation animateIn="fadeIn" animateOnce>
+				<Tech>
+					<object type="image/svg+xml" data="logo/logoPortSwigger.svg" class="logo">
+						logo PortSwigger (Burp)
 					</object>
 				</Tech>
 			</ScrollAnimation>
