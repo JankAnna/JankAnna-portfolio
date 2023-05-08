@@ -41,6 +41,7 @@ import { Hackthebox } from "@styled-icons/simple-icons/Hackthebox";
 import { Splunk } from "@styled-icons/simple-icons/Splunk";
 import { VisualStudio } from "@styled-icons/boxicons-logos/VisualStudio";
 import { Pycharm } from "@styled-icons/simple-icons/Pycharm";
+import { Junipernetworks } from "@styled-icons/simple-icons/Junipernetworks";
 
 const TechGrid = styled.footer`
 	padding-top: 30px;
@@ -305,6 +306,12 @@ export default function TechsGrid(props) {
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Pycharm />
+				</Tech>
+			</ScrollAnimation>
+
+			<ScrollAnimation animateIn="fadeIn" animateOnce>
+				<Tech>
+					<Junipernetworks />
 				</Tech>
 			</ScrollAnimation>
 		</TechGrid>
