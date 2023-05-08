@@ -4,7 +4,7 @@ import { MailSend } from "@styled-icons/boxicons-regular/MailSend";
 import { LinkedinSquare } from "@styled-icons/boxicons-logos/LinkedinSquare";
 import { Twitter } from "@styled-icons/boxicons-logos/Twitter";
 import { Github } from "@styled-icons/bootstrap/Github";
-import { Tryhackme } from "@styled-icons/bootstrap/Github";
+import { Tryhackme } from "@styled-icons/simple-icons/Tryhackme";
 
 const SocialMediaContainer = styled.div`
 	display: flex;
