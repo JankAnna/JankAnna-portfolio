@@ -79,31 +79,6 @@ export default function TimelinePortifolio(props) {
 				className="vertical-timeline-element--work"
 				contentStyle={{ color: "#000", borderBottom: `8px solid ${theme.colors.branding}`, boxShadow: "0px 0px 0px 0px #ccc" }}
 				iconStyle={{ background: theme.colors.branding, color: "#fff", boxShadow: `0 0 0 0px ${theme.colors.branding}` }}
-				icon={<SchoolIcon />}>
-				<TimelineContent>
-					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}>2012 - 2016</h3>
-					<BoldText>
-						{language.experiencePage.timeline.labelInstitution}: <span>University od Warmia and Mazury in Olsztyn</span>
-					</BoldText>
-					<BoldText>
-						{language.experiencePage.timeline.labelCategory}: <span>{language.experiencePage.timeline.labelBachelorOfEngineering}</span>
-					</BoldText>
-					<BoldText>
-						{language.experiencePage.timeline.labelTitle}: <span>Chemical and Process Engineering</span>
-					</BoldText>
-					<BoldText>
-						{language.experiencePage.timeline.labelSpecialization}: <span>Food Processing</span>
-					</BoldText>
-					<BoldText>
-						{language.experiencePage.timeline.labelThesisTopic}: <span>The velocity distribution in the static mixer</span>
-					</BoldText>
-				</TimelineContent>
-			</VerticalTimelineElement>
-
-			<VerticalTimelineElement
-				className="vertical-timeline-element--work"
-				contentStyle={{ color: "#000", borderBottom: `8px solid ${theme.colors.branding}`, boxShadow: "0px 0px 0px 0px #ccc" }}
-				iconStyle={{ background: theme.colors.branding, color: "#fff", boxShadow: `0 0 0 0px ${theme.colors.branding}` }}
 				icon={<LearningAppIcon />}>
 				<TimelineContent>
 					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}>8/2021 - 4/2022</h3>
@@ -131,6 +106,159 @@ export default function TimelinePortifolio(props) {
 					</BoldText>
 					<BoldText>
 						{language.experiencePage.timeline.labelPosition}: <span>production office manager</span>
+					</BoldText>
+				</TimelineContent>
+			</VerticalTimelineElement>
+
+			<VerticalTimelineElement
+				className="vertical-timeline-element--work"
+				contentStyle={{ color: "#000", borderBottom: `8px solid ${theme.colors.branding}`, boxShadow: "0px 0px 0px 0px #ccc" }}
+				iconStyle={{ background: theme.colors.branding, color: "#fff", boxShadow: `0 0 0 0px ${theme.colors.branding}` }}
+				icon={<SchoolIcon />}>
+				<TimelineContent>
+					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}>2012 - 2016</h3>
+					<BoldText>
+						{language.experiencePage.timeline.labelInstitution}: <span>University od Warmia and Mazury in Olsztyn</span>
+					</BoldText>
+					<BoldText>
+						{language.experiencePage.timeline.labelCategory}: <span>{language.experiencePage.timeline.labelBachelorOfEngineering}</span>
+					</BoldText>
+					<BoldText>
+						{language.experiencePage.timeline.labelTitle}: <span>Chemical and Process Engineering</span>
+					</BoldText>
+					<BoldText>
+						{language.experiencePage.timeline.labelSpecialization}: <span>Food Processing</span>
+					</BoldText>
+					<BoldText>
+						{language.experiencePage.timeline.labelThesisTopic}: <span>The velocity distribution in the static mixer</span>
+					</BoldText>
+				</TimelineContent>
+			</VerticalTimelineElement>
+
+			<VerticalTimelineElement
+				className="vertical-timeline-element--work"
+				contentStyle={{ color: "#000", borderBottom: `8px solid ${theme.colors.branding}`, boxShadow: "0px 0px 0px 0px #ccc" }}
+				iconStyle={{ background: theme.colors.branding, color: "#fff", boxShadow: `0 0 0 0px ${theme.colors.branding}` }}
+				icon={<WorkIcon />}>
+				<TimelineContent>
+					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}>2021</h3>
+					<BoldText>
+						{language.experiencePage.timeline.labelCompany}: <span>SALAG Sp. z o.o.</span>
+					</BoldText>
+					<BoldText>
+						{language.experiencePage.timeline.labelPosition}: <span>production office manager</span>
+					</BoldText>
+				</TimelineContent>
+			</VerticalTimelineElement>
+
+			<VerticalTimelineElement
+				className="vertical-timeline-element--work"
+				contentStyle={{ color: "#000", borderBottom: `8px solid ${theme.colors.branding}`, boxShadow: "0px 0px 0px 0px #ccc" }}
+				iconStyle={{ background: theme.colors.branding, color: "#fff", boxShadow: `0 0 0 0px ${theme.colors.branding}` }}
+				icon={<WorkIcon />}>
+				<TimelineContent>
+					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}>2021</h3>
+					<BoldText>
+						{language.experiencePage.timeline.labelCompany}: <span>SALAG Sp. z o.o.</span>
+					</BoldText>
+					<BoldText>
+						{language.experiencePage.timeline.labelPosition}: <span>production office manager</span>
+					</BoldText>
+				</TimelineContent>
+			</VerticalTimelineElement>
+
+			<VerticalTimelineElement
+				className="vertical-timeline-element--work"
+				contentStyle={{ color: "#000", borderBottom: `8px solid ${theme.colors.branding}`, boxShadow: "0px 0px 0px 0px #ccc" }}
+				iconStyle={{ background: theme.colors.branding, color: "#fff", boxShadow: `0 0 0 0px ${theme.colors.branding}` }}
+				icon={<WorkIcon />}>
+				<TimelineContent>
+					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}>2021</h3>
+					<BoldText>
+						{language.experiencePage.timeline.labelCompany}: <span>AQUAEL Sp. z o.o.</span>
+					</BoldText>
+					<BoldText>
+						{language.experiencePage.timeline.labelPosition}: <span>the supply specialist</span>
+					</BoldText>
+					<BoldText>
+						<p>
+							<span>planning and purchasing materials for production</span>
+						</p>
+						<p>
+							<span>coordination of activities and customs handling of deliveries</span>
+						</p>
+					</BoldText>
+				</TimelineContent>
+			</VerticalTimelineElement>
+
+			<VerticalTimelineElement
+				className="vertical-timeline-element--work"
+				contentStyle={{ color: "#000", borderBottom: `8px solid ${theme.colors.branding}`, boxShadow: "0px 0px 0px 0px #ccc" }}
+				iconStyle={{ background: theme.colors.branding, color: "#fff", boxShadow: `0 0 0 0px ${theme.colors.branding}` }}
+				icon={<WorkIcon />}>
+				<TimelineContent>
+					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}>7/2015</h3>
+					<BoldText>
+						{language.experiencePage.timeline.labelCompany}: <span>AQUAEL Sp. z o.o.</span>
+					</BoldText>
+					<BoldText>
+						{language.experiencePage.timeline.labelPosition}: <span>trainee</span>
+					</BoldText>
+				</TimelineContent>
+			</VerticalTimelineElement>
+
+			<VerticalTimelineElement
+				className="vertical-timeline-element--work"
+				contentStyle={{ color: "#000", borderBottom: `8px solid ${theme.colors.branding}`, boxShadow: "0px 0px 0px 0px #ccc" }}
+				iconStyle={{ background: theme.colors.branding, color: "#fff", boxShadow: `0 0 0 0px ${theme.colors.branding}` }}
+				icon={<WorkIcon />}>
+				<TimelineContent>
+					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}>7/2015</h3>
+					<BoldText>
+						{language.experiencePage.timeline.labelCompany}: <span>"SUDOWIA" Dairy Cooperative in Suwałki</span>
+					</BoldText>
+					<BoldText>
+						{language.experiencePage.timeline.labelPosition}: <span>trainee</span>
+					</BoldText>
+				</TimelineContent>
+			</VerticalTimelineElement>
+
+			<VerticalTimelineElement
+				className="vertical-timeline-element--work"
+				contentStyle={{ color: "#000", borderBottom: `8px solid ${theme.colors.branding}`, boxShadow: "0px 0px 0px 0px #ccc" }}
+				iconStyle={{ background: theme.colors.branding, color: "#fff", boxShadow: `0 0 0 0px ${theme.colors.branding}` }}
+				icon={<WorkIcon />}>
+				<TimelineContent>
+					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}>6/2015</h3>
+					<BoldText>{language.experiencePage.timeline.labelGermanyTrip}:</BoldText>
+					<BoldText>
+						{language.experiencePage.timeline.labelCompany}: <span>SternMaid GmbH&Co. (Wittenburg)</span> | <span>Apostels Jogurth Productions GmbH (Garbsen)</span> | <span>GEA Wesfalia (Oelde)</span> |{" "}
+						<span>Potts (Oelde)</span> | <span>Biogas Plant Neuried (Offenburg)</span> | <span>Wine Cooperative Oberkirch</span>
+					</BoldText>
+				</TimelineContent>
+			</VerticalTimelineElement>
+
+			<VerticalTimelineElement
+				className="vertical-timeline-element--work"
+				contentStyle={{ color: "#000", borderBottom: `8px solid ${theme.colors.branding}`, boxShadow: "0px 0px 0px 0px #ccc" }}
+				iconStyle={{ background: theme.colors.branding, color: "#fff", boxShadow: `0 0 0 0px ${theme.colors.branding}` }}
+				icon={<SchoolIcon />}>
+				<TimelineContent>
+					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}>2012 - 2016</h3>
+					<BoldText>
+						{language.experiencePage.timeline.labelInstitution}: <span>University od Warmia and Mazury in Olsztyn</span>
+					</BoldText>
+					<BoldText>
+						{language.experiencePage.timeline.labelCategory}: <span>{language.experiencePage.timeline.labelBachelorOfEngineering}</span>
+					</BoldText>
+					<BoldText>
+						{language.experiencePage.timeline.labelTitle}: <span>Chemical and Process Engineering</span>
+					</BoldText>
+					<BoldText>
+						{language.experiencePage.timeline.labelSpecialization}: <span>Food Processing</span>
+					</BoldText>
+					<BoldText>
+						{language.experiencePage.timeline.labelThesisTopic}: <span>The velocity distribution in the static mixer</span>
 					</BoldText>
 				</TimelineContent>
 			</VerticalTimelineElement>

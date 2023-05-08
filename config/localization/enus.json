@@ -65,7 +65,8 @@
 			"PostgraduateStudies": "postgraduate studies",
 			"labelSpecialization": "Specialization",
 			"labelExtensionCourse": "Extension course",
-			"labelThesisTopic": "Thesis topic"
+			"labelThesisTopic": "Thesis topic",
+			"labelGermanyTrip": "Study trip to Germany"
 		}
 	},
 	"footer": {

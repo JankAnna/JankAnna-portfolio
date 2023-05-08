@@ -38,6 +38,9 @@ import { Sap } from "@styled-icons/simple-icons/Sap";
 import { Powershell } from "@styled-icons/simple-icons/Powershell";
 import { Tryhackme } from "@styled-icons/simple-icons/Tryhackme";
 import { Hackthebox } from "@styled-icons/simple-icons/Hackthebox";
+import { Splunk } from "@styled-icons/simple-icons/Splunk";
+import { VisualStudio } from "@styled-icons/boxicons-logos/VisualStudio";
+import { Pycharm } from "@styled-icons/simple-icons/Pycharm";
 
 const TechGrid = styled.footer`
 	padding-top: 30px;
@@ -284,6 +287,24 @@ export default function TechsGrid(props) {
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Hackthebox />
+				</Tech>
+			</ScrollAnimation>
+
+			<ScrollAnimation animateIn="fadeIn" animateOnce>
+				<Tech>
+					<Splunk />
+				</Tech>
+			</ScrollAnimation>
+
+			<ScrollAnimation animateIn="fadeIn" animateOnce>
+				<Tech>
+					<VisualStudio />
+				</Tech>
+			</ScrollAnimation>
+
+			<ScrollAnimation animateIn="fadeIn" animateOnce>
+				<Tech>
+					<Pycharm />
 				</Tech>
 			</ScrollAnimation>
 		</TechGrid>

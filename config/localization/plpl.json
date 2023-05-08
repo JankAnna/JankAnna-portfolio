@@ -65,7 +65,8 @@
 			"PostgraduateStudies": "studia podyplomowe",
 			"labelSpecialization": "specializacja",
 			"labelExtensionCourse": "kurs rozszerzony",
-			"labelThesisTopic": "Tytuł pracy"
+			"labelThesisTopic": "tytuł pracy",
+			"labelGermanyTrip": "wyjazd studyjny do Niemiec"
 		}
 	},
 	"footer": {
