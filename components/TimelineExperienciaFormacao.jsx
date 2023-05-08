@@ -79,6 +79,22 @@ export default function TimelinePortifolio(props) {
 				className="vertical-timeline-element--work"
 				contentStyle={{ color: "#000", borderBottom: `8px solid ${theme.colors.branding}`, boxShadow: "0px 0px 0px 0px #ccc" }}
 				iconStyle={{ background: theme.colors.branding, color: "#fff", boxShadow: `0 0 0 0px ${theme.colors.branding}` }}
+				icon={<WorkIcon />}>
+				<TimelineContent>
+					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}>4/2022</h3>
+					<BoldText>
+						{language.experiencePage.timeline.labelCompany}: <span>SALAG Sp. z o.o.</span>
+					</BoldText>
+					<BoldText>
+						{language.experiencePage.timeline.labelPosition}: <span>production office manager</span>
+					</BoldText>
+				</TimelineContent>
+			</VerticalTimelineElement>
+
+			<VerticalTimelineElement
+				className="vertical-timeline-element--work"
+				contentStyle={{ color: "#000", borderBottom: `8px solid ${theme.colors.branding}`, boxShadow: "0px 0px 0px 0px #ccc" }}
+				iconStyle={{ background: theme.colors.branding, color: "#fff", boxShadow: `0 0 0 0px ${theme.colors.branding}` }}
 				icon={<LearningAppIcon />}>
 				<TimelineContent>
 					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}>8/2021 - 4/2022</h3>
@@ -90,22 +106,6 @@ export default function TimelinePortifolio(props) {
 					</BoldText>
 					<BoldText>
 						{language.experiencePage.timeline.labelTitle}: <span>Cyber Security (Red Team)</span>
-					</BoldText>
-				</TimelineContent>
-			</VerticalTimelineElement>
-
-			<VerticalTimelineElement
-				className="vertical-timeline-element--work"
-				contentStyle={{ color: "#000", borderBottom: `8px solid ${theme.colors.branding}`, boxShadow: "0px 0px 0px 0px #ccc" }}
-				iconStyle={{ background: theme.colors.branding, color: "#fff", boxShadow: `0 0 0 0px ${theme.colors.branding}` }}
-				icon={<WorkIcon />}>
-				<TimelineContent>
-					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}>2021</h3>
-					<BoldText>
-						{language.experiencePage.timeline.labelCompany}: <span>SALAG Sp. z o.o.</span>
-					</BoldText>
-					<BoldText>
-						{language.experiencePage.timeline.labelPosition}: <span>production office manager</span>
 					</BoldText>
 				</TimelineContent>
 			</VerticalTimelineElement>
@@ -203,12 +203,14 @@ export default function TimelinePortifolio(props) {
 						{language.experiencePage.timeline.labelPosition}: <span>the supply specialist</span>
 					</BoldText>
 					<BoldText>
-						<p>
-							<span>planning and purchasing materials for production</span>
-						</p>
-						<p>
-							<span>coordination of activities and customs handling of deliveries</span>
-						</p>
+						<ul>
+							<li>
+								<span>planning and purchasing materials for production</span>
+							</li>
+							<li>
+								<span>coordination of activities and customs handling of deliveries</span>
+							</li>
+						</ul>
 					</BoldText>
 				</TimelineContent>
 			</VerticalTimelineElement>

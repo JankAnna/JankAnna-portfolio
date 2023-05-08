@@ -278,8 +278,8 @@ export default function TechsGrid(props) {
 				</Tech>
 			</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech href="https://tryhackme.com/p/AnJa" target="_blank">
+			<ScrollAnimation href="https://tryhackme.com/p/AnJa" target="_blank" animateIn="fadeIn" animateOnce>
+				<Tech>
 					<Tryhackme />
 				</Tech>
 			</ScrollAnimation>
