@@ -78,14 +78,27 @@ const Tech = styled.div`
 		color: ${(props) => props.theme.colors.branding};
 	}
 
-	.logo {
+	.logodark {
 		width: 34px;
 		height: 34px;
 		color: ${(props) => props.theme.colors.backgroundSVG};
+		backgroun-color: ${(props) => props.theme.colors.backgroundLOGOlight};
 		transition: all 0.3s ease;
 	}
 
-	.logo:hover {
+	.logodark:hover {
+		color: ${(props) => props.theme.colors.branding};
+	}
+
+	.logolight {
+		width: 34px;
+		height: 34px;
+		color: ${(props) => props.theme.colors.backgroundSVG};
+		backgroun-color: ${(props) => props.theme.colors.backgroundLOGOdark};
+		transition: all 0.3s ease;
+	}
+
+	.logolight:hover {
 		color: ${(props) => props.theme.colors.branding};
 	}
 `;
@@ -107,7 +120,7 @@ export default function TechsGrid(props) {
 		<TechGrid>
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
-					<object type="image/svg+xml" data="logo/logoINE.svg" class="logo">
+					<object type="image/svg+xml" data="logo/logoINE.svg" class="logolight">
 						logo INE
 					</object>
 				</Tech>
@@ -115,7 +128,7 @@ export default function TechsGrid(props) {
 
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
-					<object type="image/svg+xml" data="logo/logoWebSecurityAcademy.svg" class="logo">
+					<object type="image/svg+xml" data="logo/logoWebSecurityAcademy.svg" class="logodark">
 						logo WebSecurityAcademy (Burp)
 					</object>
 				</Tech>
@@ -123,7 +136,7 @@ export default function TechsGrid(props) {
 
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
-					<object type="image/svg+xml" data="logo/logoPortSwigger.svg" class="logo">
+					<object type="image/svg+xml" data="logo/logoPortSwigger.svg" class="logodark">
 						logo PortSwigger (Burp)
 					</object>
 				</Tech>
