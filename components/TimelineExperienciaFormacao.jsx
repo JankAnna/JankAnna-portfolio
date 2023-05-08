@@ -31,6 +31,12 @@ const WorkIcon = styled(Work)`
 	height: 40px;
 `;
 
+const CertificateIcon = styled(Certificate)`
+	color: ${(props) => props.theme.colors.backgroundSecondary};
+	width: 40px;
+	height: 40px;
+`;
+
 const TimelineContent = styled.div`
 	display: flex;
 	align-items: flex-start;
@@ -75,6 +81,26 @@ export default function TimelinePortifolio(props) {
 
 	return (
 		<VerticalTimeline lineColor={theme.colors.branding}>
+			<VerticalTimelineElement
+				className="vertical-timeline-element--work"
+				contentStyle={{ color: "#000", borderBottom: `8px solid ${theme.colors.branding}`, boxShadow: "0px 0px 0px 0px #ccc" }}
+				iconStyle={{ background: theme.colors.branding, color: "#fff", boxShadow: `0 0 0 0px ${theme.colors.branding}` }}
+				icon={<CertificateIcon />}>
+				<TimelineContent>
+					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}>12/2022</h3>
+					<BoldText>
+						{language.experiencePage.timeline.labelInstitution}: <span>TryHackMe</span>
+					</BoldText>
+					<BoldText>THM-WYINMWTVVG</BoldText>
+					<BoldText>
+						{language.experiencePage.timeline.labelCategory}: <span>Advent of Cyber 2022</span>
+					</BoldText>
+					<BoldText>
+						{language.experiencePage.timeline.labelTitle}: <span>(Basic cyber security knowlegle and experience)</span>
+					</BoldText>
+				</TimelineContent>
+			</VerticalTimelineElement>
+
 			<VerticalTimelineElement
 				className="vertical-timeline-element--work"
 				contentStyle={{ color: "#000", borderBottom: `8px solid ${theme.colors.branding}`, boxShadow: "0px 0px 0px 0px #ccc" }}
@@ -136,14 +162,18 @@ export default function TimelinePortifolio(props) {
 				className="vertical-timeline-element--work"
 				contentStyle={{ color: "#000", borderBottom: `8px solid ${theme.colors.branding}`, boxShadow: "0px 0px 0px 0px #ccc" }}
 				iconStyle={{ background: theme.colors.branding, color: "#fff", boxShadow: `0 0 0 0px ${theme.colors.branding}` }}
-				icon={<WorkIcon />}>
+				icon={<CertificateIcon />}>
 				<TimelineContent>
-					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}>4/2022</h3>
+					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}>12/2021</h3>
 					<BoldText>
-						{language.experiencePage.timeline.labelCompany}: <span>SALAG Sp. z o.o.</span>
+						{language.experiencePage.timeline.labelInstitution}: <span>TryHackMe</span>
+					</BoldText>
+					<BoldText>THM-4GZGSVWPFZ</BoldText>
+					<BoldText>
+						{language.experiencePage.timeline.labelCategory}: <span>Advent of Cyber 2021</span>
 					</BoldText>
 					<BoldText>
-						{language.experiencePage.timeline.labelPosition}: <span>production office manager</span>
+						{language.experiencePage.timeline.labelTitle}: <span>(Basic cyber security knowlegle and experience)</span>
 					</BoldText>
 				</TimelineContent>
 			</VerticalTimelineElement>
