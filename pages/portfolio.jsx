@@ -39,7 +39,7 @@ import { Box } from "@styled-icons/bootstrap";
 import { DesignIdeas } from "@styled-icons/fluentui-system-filled";
 import { JournalBookmark } from "@styled-icons/bootstrap";
 import { Arduino } from "@styled-icons/simple-icons";
-import { PortfolioIcon } from "@styled-icons/zondicons/Portfolio";
+import { Portfolio } from "@styled-icons/zondicons/Portfolio";
 import { Animation } from "@styled-icons/material/Animation";
 
 //Custom components
@@ -297,9 +297,9 @@ export default function Portifolio() {
 			icon: <Animation />,
 		},
 
-		PortfolioIcon: {
+		portfolio: {
 			iconName: "portfolio",
-			icon: <PortfolioIcon />,
+			icon: <Portfolio />,
 		},
 
 		Robot: {
