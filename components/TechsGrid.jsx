@@ -84,10 +84,12 @@ const Tech = styled.div`
 		color: ${(props) => props.theme.colors.backgroundSVG};
 		background-color: ${(props) => props.theme.colors.backgroundLOGOlight};
 		transition: all 0.3s ease;
+		border-radius: 50%;
 	}
 
 	.logodark:hover {
 		background-color: ${(props) => props.theme.colors.branding};
+		border-radius: 25%;
 	}
 
 	.logolight {
@@ -96,10 +98,12 @@ const Tech = styled.div`
 		color: ${(props) => props.theme.colors.backgroundSVG};
 		background-color: ${(props) => props.theme.colors.backgroundLOGOdark};
 		transition: all 0.3s ease;
+		border-radius: 50%;
 	}
 
 	.logolight:hover {
 		background-color: ${(props) => props.theme.colors.branding};
+		border-radius: 50%;
 	}
 `;
 
