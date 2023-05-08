@@ -87,7 +87,7 @@ const Tech = styled.div`
 	}
 
 	.logodark:hover {
-		color: ${(props) => props.theme.colors.branding};
+		background-color: ${(props) => props.theme.colors.branding};
 	}
 
 	.logolight {
@@ -99,7 +99,7 @@ const Tech = styled.div`
 	}
 
 	.logolight:hover {
-		color: ${(props) => props.theme.colors.branding};
+		background-color: ${(props) => props.theme.colors.branding};
 	}
 `;
 
