@@ -96,7 +96,9 @@ export default function TechsGrid(props) {
 		<TechGrid>
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
-					<img src="logo/logoINE.svg" alt="logo INE" objectFit="cover" />
+					<object type="image/svg+xml" data="logo/logoINE.svg" class="logo">
+						logo INE
+					</object>
 				</Tech>
 			</ScrollAnimation>
 
