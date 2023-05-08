@@ -104,6 +104,14 @@ export default function TechsGrid(props) {
 
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
+					<object type="image/svg+xml" data="logo/logoWebSecurityAcademy.svg">
+						logo WebSecurityAcademy (Burp)
+					</object>
+				</Tech>
+			</ScrollAnimation>
+
+			<ScrollAnimation animateIn="fadeIn" animateOnce>
+				<Tech>
 					<Kalilinux />
 				</Tech>
 			</ScrollAnimation>
