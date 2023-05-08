@@ -5,7 +5,6 @@ import ScrollAnimation from "react-animate-on-scroll";
 //Contexto
 
 //Ícones
-import { INE } from "logo/logoINE.svg";
 import { Amazonaws } from "@styled-icons/simple-icons/Amazonaws";
 import { Visualstudiocode } from "@styled-icons/simple-icons/Visualstudiocode";
 import { Mongodb } from "@styled-icons/simple-icons/Mongodb";
@@ -97,7 +96,7 @@ export default function TechsGrid(props) {
 		<TechGrid>
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
-					<INE />
+					<img src="logo/logoINE.svg" alt="logo INE" objectFit="cover" />
 				</Tech>
 			</ScrollAnimation>
 
