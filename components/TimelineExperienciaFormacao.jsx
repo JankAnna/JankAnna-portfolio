@@ -88,6 +88,28 @@ export default function TimelinePortifolio(props) {
 					<BoldText>
 						{language.experiencePage.timeline.labelPosition}: <span>production office manager</span>
 					</BoldText>
+					<BoldText>
+						<ul>
+							<li>
+								<span>entering technological data into the ERP system and their supervision</span>
+							</li>
+							<li>
+								<span>preparation and analysis of cost reports</span>
+							</li>
+							<li>
+								<span>preparation of procedural documentation: technological card, technological instruction etc.</span>{" "}
+							</li>
+							<li>
+								<span>planning and organization of production</span>
+							</li>
+							<li>
+								<span>supervision over warehouse operations in the ERP system</span>
+							</li>
+							<li>
+								<span>procurement and logistics of deliveries</span>
+							</li>
+						</ul>
+					</BoldText>
 				</TimelineContent>
 			</VerticalTimelineElement>
 
@@ -178,8 +200,14 @@ export default function TimelinePortifolio(props) {
 						{language.experiencePage.timeline.labelPosition}: <span>the supply specialist</span>
 					</BoldText>
 					<BoldText>
-						<span>planning and purchasing materials for production</span>
-						<span>coordination of activities and customs handling of deliveries</span>
+						<ul>
+							<li>
+								<span>planning and purchasing materials for production</span>
+							</li>
+							<li>
+								<span>coordination of activities and customs handling of deliveries</span>
+							</li>
+						</ul>
 					</BoldText>
 				</TimelineContent>
 			</VerticalTimelineElement>
