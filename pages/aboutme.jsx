@@ -252,7 +252,7 @@ const ButtonCV = styled.a`
 	}
 `;
 
-const SectionAProposDeMoi = styled.section`
+const SectionAboutMe = styled.section`
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
@@ -262,7 +262,7 @@ const SectionAProposDeMoi = styled.section`
 	//height: auto;
 `;
 
-export default function AProposDeMoi(props) {
+export default function AboutMe(props) {
 	const { language } = useContext(SettingsContext);
 	const [githubUserData, setGithubUserData] = useState({});
 
@@ -276,7 +276,7 @@ export default function AProposDeMoi(props) {
 	}, []);
 
 	return (
-		<SectionAProposDeMoi id="section-a-propos">
+		<SectionAboutMe id="section-a-propos">
 			<WrapperAboutMe>
 				<div className="container">
 					<div className="left-view">
@@ -329,6 +329,6 @@ export default function AProposDeMoi(props) {
 				</div>
 				<TechGrid />
 			</WrapperAboutMe>
-		</SectionAProposDeMoi>
+		</SectionAboutMe>
 	);
 }
