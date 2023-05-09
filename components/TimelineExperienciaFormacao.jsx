@@ -85,11 +85,36 @@ export default function TimelinePortifolio(props) {
 				className="vertical-timeline-element--work"
 				contentStyle={{ color: "#000", borderBottom: `8px solid ${theme.colors.branding}`, boxShadow: "0px 0px 0px 0px #ccc" }}
 				iconStyle={{ background: theme.colors.branding, color: "#fff", boxShadow: `0 0 0 0px ${theme.colors.branding}` }}
+				icon={<LearningAppIcon />}>
+				<TimelineContent>
+					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}>9/2022 - now</h3>
+					<BoldText>
+						{language.experiencePage.timeline.labelInstitution}:{" "}
+						<span>
+							<a href="https://ine.com/">INE</a>
+						</span>
+					</BoldText>
+					<BoldText>
+						{language.experiencePage.timeline.labelCategory}: <span>cybersecurity</span>
+					</BoldText>
+					<BoldText>
+						{language.experiencePage.timeline.labelTitle}: <span>Penetration Testing Student</span>
+					</BoldText>
+				</TimelineContent>
+			</VerticalTimelineElement>
+
+			<VerticalTimelineElement
+				className="vertical-timeline-element--work"
+				contentStyle={{ color: "#000", borderBottom: `8px solid ${theme.colors.branding}`, boxShadow: "0px 0px 0px 0px #ccc" }}
+				iconStyle={{ background: theme.colors.branding, color: "#fff", boxShadow: `0 0 0 0px ${theme.colors.branding}` }}
 				icon={<CertificateIcon />}>
 				<TimelineContent>
 					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}>12/2022</h3>
 					<BoldText>
-						{language.experiencePage.timeline.labelInstitution}: <span>TryHackMe</span>
+						{language.experiencePage.timeline.labelInstitution}:{" "}
+						<span>
+							<a href="https://tryhackme.com/">TryHackMe</a>
+						</span>
 					</BoldText>
 					<BoldText>
 						Certification Number: <span>THM-WYINMWTVVG</span>
@@ -112,7 +137,7 @@ export default function TimelinePortifolio(props) {
 				iconStyle={{ background: theme.colors.branding, color: "#fff", boxShadow: `0 0 0 0px ${theme.colors.branding}` }}
 				icon={<WorkIcon />}>
 				<TimelineContent>
-					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}>4/2022</h3>
+					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}>4/2022 - now</h3>
 					<BoldText>
 						{language.experiencePage.timeline.labelCompany}: <span>SALAG Sp. z o.o.</span>
 					</BoldText>
@@ -148,7 +173,7 @@ export default function TimelinePortifolio(props) {
 				className="vertical-timeline-element--work"
 				contentStyle={{ color: "#000", borderBottom: `8px solid ${theme.colors.branding}`, boxShadow: "0px 0px 0px 0px #ccc" }}
 				iconStyle={{ background: theme.colors.branding, color: "#fff", boxShadow: `0 0 0 0px ${theme.colors.branding}` }}
-				icon={<LearningAppIcon />}>
+				icon={<CertificateIcon />}>
 				<TimelineContent>
 					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}>8/2021 - 4/2022</h3>
 					<BoldText>
