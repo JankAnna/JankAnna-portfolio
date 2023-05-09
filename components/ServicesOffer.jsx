@@ -3,9 +3,9 @@ import styled from "styled-components";
 import ScrollAnimation from "react-animate-on-scroll";
 
 //Styled icons
-import { Cybersecurity } from "@styled-icons/simple-icons/Springsecurity";
-import { Programming } from "@styled-icons/fa-solid/LaptopCode";
-import { Engineering } from "@styled-icons/material-rounded/Engineering";
+import { Springsecurity } from "@styled-icons/simple-icons/Springsecurity";
+import { LaptopCode } from "@styled-icons/fa-solid/LaptopCode";
+import { ICHiP } from "@styled-icons/material-rounded/Engineering";
 import { Progress } from "@styled-icons/simple-icons/Progress";
 
 //Contexto
@@ -109,7 +109,7 @@ export default function _ServicesOffer() {
 			<ContainerGrid>
 				<ScrollAnimation animateIn="fadeIn" animateOnce delay={200}>
 					<CardService>
-						<Cybersecurity />
+						<Springsecurity />
 						<h3>{language.servicesOffer.cards.cybersecurity.title}</h3>
 						<p>{language.servicesOffer.cards.cybersecurity.contentText}</p>
 					</CardService>
@@ -117,14 +117,14 @@ export default function _ServicesOffer() {
 
 				<ScrollAnimation animateIn="fadeIn" animateOnce delay={400}>
 					<CardService>
-						<Programming />
+						<LaptopCode />
 						<h3>{language.servicesOffer.cards.programming.title}</h3>
 						<p>{language.servicesOffer.cards.programming.contentText}</p>
 					</CardService>
 				</ScrollAnimation>
 				<ScrollAnimation animateIn="fadeIn" animateOnce delay={600}>
 					<CardService>
-						<Engineering />
+						<ICHiP />
 						<h3>{language.servicesOffer.cards.engineering.title}</h3>
 						<p>{language.servicesOffer.cards.engineering.contentText}</p>
 					</CardService>
@@ -132,8 +132,8 @@ export default function _ServicesOffer() {
 				<ScrollAnimation animateIn="fadeIn" animateOnce delay={800}>
 					<CardService>
 						<Progress />
-						<h3>{language.servicesOffer.cards.progress.title}</h3>
-						<p>{language.servicesOffer.cards.progress.contentText}</p>
+						<h3>{language.servicesOffer.cards.levelup.title}</h3>
+						<p>{language.servicesOffer.cards.levelup.contentText}</p>
 					</CardService>
 				</ScrollAnimation>
 			</ContainerGrid>

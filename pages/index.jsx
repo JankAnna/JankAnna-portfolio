@@ -1,7 +1,7 @@
 import React from "react";
 
 //Pages
-import AProposDeMoiPage from "../pages/a-propos";
+import AboutMePage from "../pages/aboutme";
 import PortfolioPage from "../pages/portfolio";
 import ExperiencePage from "../pages/experience";
 import HomePage from "../pages/homepage";
@@ -14,7 +14,7 @@ export default function Index() {
 		<>
 			<HomePage />
 			<ServicesOffer />
-			<AProposDeMoiPage />
+			<AboutMePage />
 			<PortfolioPage />
 			<ExperiencePage />
 			<FooterPage />
