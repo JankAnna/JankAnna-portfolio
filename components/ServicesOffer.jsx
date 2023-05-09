@@ -5,7 +5,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 //Styled icons
 import { Springsecurity } from "@styled-icons/simple-icons/Springsecurity";
 import { LaptopCode } from "@styled-icons/fa-solid/LaptopCode";
-import { Technologist } from "@styled-icons/material/Engineering";
+import { Engineering } from "@styled-icons/material/Engineering";
 import { Progress } from "@styled-icons/simple-icons/Progress";
 
 //Contexto
@@ -124,7 +124,7 @@ export default function _ServicesOffer() {
 				</ScrollAnimation>
 				<ScrollAnimation animateIn="fadeIn" animateOnce delay={600}>
 					<CardService>
-						<Technologist />
+						<Engineering />
 						<h3>{language.servicesOffer.cards.engineering.title}</h3>
 						<p>{language.servicesOffer.cards.engineering.contentText}</p>
 					</CardService>
