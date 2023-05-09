@@ -82,7 +82,7 @@ const Tech = styled.div`
 		width: 34px;
 		height: 34px;
 		color: ${(props) => props.theme.colors.backgroundSVG};
-		background-color: ${(props) => props.theme.colors.backgroundLOGOlight};
+		background-color: ${(props) => props.theme.colors.backgroundLOGOdark};
 		transition: all 0.3s ease;
 		border-radius: 50%;
 	}
@@ -96,7 +96,7 @@ const Tech = styled.div`
 		width: 34px;
 		height: 34px;
 		color: ${(props) => props.theme.colors.backgroundSVG};
-		background-color: ${(props) => props.theme.colors.backgroundLOGOdark};
+		background-color: ${(props) => props.theme.colors.backgroundLOGOlight};
 		transition: all 0.3s ease;
 		border-radius: 50%;
 	}
