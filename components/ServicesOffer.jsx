@@ -5,7 +5,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 //Styled icons
 import { Springsecurity } from "@styled-icons/simple-icons/Springsecurity";
 import { LaptopCode } from "@styled-icons/fa-solid/LaptopCode";
-import { ICHiP } from "@styled-icons/material-rounded/Engineering";
+import { ICHiP } from "@styled-icons/material/Engineering";
 import { Progress } from "@styled-icons/simple-icons/Progress";
 
 //Contexto
