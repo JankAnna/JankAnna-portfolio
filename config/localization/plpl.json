@@ -11,26 +11,26 @@
 		"apresentationText": "Witaj, Nazywam się",
 		"typeText": "Anna Zofia Jankowska",
 		"resumeText": "...",
-		"buttonText": "WIĘCEJ"
+		"buttonText": "DOWIEDZ SIĘ WIĘCEJ"
 	},
 	"servicesOffer": {
 		"title": "Projekty",
 		"cards": {
-			"forensic": {
-				"title": "Forensic",
-				"contentText": "Solid knowledge of the basic principles of computer forensics, including methods of data acquisition, data analysis and presentation of evidence."
+			"cybersecurity": {
+				"title": "CYBERBEZPIECZEŃSTWO",
+				"contentText": "Penetration Testing, SIEM & SOC, DevSecOps, Architecture, Forensic, Bug Bounty, CTF "
 			},
-			"devsecops": {
-				"title": "DevSecOps",
-				"contentText": "Strong understanding of development, IT security and regulatory compliance. Skilled in CI/CD, network security, penetration testing."
+			"programming": {
+				"title": "PROGRAMOWANIE",
+				"contentText": " HTML, Python, Javascript, Shell ..."
 			},
-			"pentesting": {
-				"title": "Pentesting",
-				"contentText": "Penetration testing and common vulnerabilities. Reconnaissance, exploitation, post-exploitation and reporting. Identification and correction of vulnerabilities to ensure the security of systems and networks."
+			"engineering": {
+				"title": "INŻYNIERIA",
+				"contentText": "Inżynieria Chemiczna i Procesowa | Przetwórstwo tworzyw sztucznych ---> Technolog | Konstruktor"
 			},
-			"development": {
-				"title": "Development",
-				"contentText": "Expertise in Java, Python, C++, JavaScript, Bash, Docker and others. Advanced use of Github for version control and collaboration on personal and professional projects. "
+			"progress": {
+				"title": "CIĄGŁY ROZWÓJ",
+				"contentText": "“Człowiek ma w życiu albo wymówki, albo wyniki.” Jack Canfield"
 			}
 		}
 	},
