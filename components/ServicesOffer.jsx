@@ -110,8 +110,8 @@ export default function _ServicesOffer() {
 				<ScrollAnimation animateIn="fadeIn" animateOnce delay={200}>
 					<CardService>
 						<MagnifyingGlass />
-						<h3>{language.servicesOffer.cards.forensique.title}</h3>
-						<p>{language.servicesOffer.cards.forensique.contentText}</p>
+						<h3>{language.servicesOffer.cards.forensic.title}</h3>
+						<p>{language.servicesOffer.cards.forensic.contentText}</p>
 					</CardService>
 				</ScrollAnimation>
 
@@ -132,8 +132,8 @@ export default function _ServicesOffer() {
 				<ScrollAnimation animateIn="fadeIn" animateOnce delay={800}>
 					<CardService>
 						<CodeBlock />
-						<h3>{language.servicesOffer.cards.developpement.title}</h3>
-						<p>{language.servicesOffer.cards.developpement.contentText}</p>
+						<h3>{language.servicesOffer.cards.development.title}</h3>
+						<p>{language.servicesOffer.cards.development.contentText}</p>
 					</CardService>
 				</ScrollAnimation>
 			</ContainerGrid>

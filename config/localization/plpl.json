@@ -8,7 +8,7 @@
 		"labelExperience": "DOŚWIADCZENIE"
 	},
 	"landingPage": {
-		"apresentationText": "Dzień Dobry,",
+		"apresentationText": "Witaj, Nazywam się",
 		"typeText": "Anna Zofia Jankowska",
 		"resumeText": "...",
 		"buttonText": "WIĘCEJ"
@@ -16,7 +16,7 @@
 	"servicesOffer": {
 		"title": "Projekty",
 		"cards": {
-			"forensique": {
+			"forensic": {
 				"title": "Forensic",
 				"contentText": "Solid knowledge of the basic principles of computer forensics, including methods of data acquisition, data analysis and presentation of evidence."
 			},
@@ -28,7 +28,7 @@
 				"title": "Pentesting",
 				"contentText": "Penetration testing and common vulnerabilities. Reconnaissance, exploitation, post-exploitation and reporting. Identification and correction of vulnerabilities to ensure the security of systems and networks."
 			},
-			"developpement": {
+			"development": {
 				"title": "Development",
 				"contentText": "Expertise in Java, Python, C++, JavaScript, Bash, Docker and others. Advanced use of Github for version control and collaboration on personal and professional projects. "
 			}

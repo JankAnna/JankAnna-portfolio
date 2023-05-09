@@ -8,7 +8,7 @@
 		"labelExperience": "EXPERIENCES"
 	},
 	"landingPage": {
-		"apresentationText": "Hello World,",
+		"apresentationText": "Hello, I'm",
 		"typeText": "Anna Zofia Jankowska",
 		"resumeText": "Fascinated by IT and its security issues, I oriented myself in the cybersecurity professions. Creative and persevering, I like to take up challenges as a team to meet current issues in terms of IT security.",
 		"buttonText": "FIND OUT MORE"
@@ -16,7 +16,7 @@
 	"servicesOffer": {
 		"title": "Services",
 		"cards": {
-			"forensique": {
+			"forensic": {
 				"title": "Forensic",
 				"contentText": "Solid knowledge of the basic principles of computer forensics, including methods of data acquisition, data analysis and presentation of evidence."
 			},
@@ -28,7 +28,7 @@
 				"title": "Pentesting",
 				"contentText": "Penetration testing and common vulnerabilities. Reconnaissance, exploitation, post-exploitation and reporting. Identification and correction of vulnerabilities to ensure the security of systems and networks."
 			},
-			"developpement": {
+			"development": {
 				"title": "Development",
 				"contentText": "Expertise in Java, Python, C++, JavaScript, Bash, Docker and others. Advanced use of Github for version control and collaboration on personal and professional projects. "
 			}
