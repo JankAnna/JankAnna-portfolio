@@ -103,7 +103,7 @@ const Tech = styled.div`
 
 	.logolight:hover {
 		background-color: ${(props) => props.theme.colors.branding};
-		border-radius: 50%;
+		border-radius: 25%;
 	}
 `;
 
