@@ -42,7 +42,7 @@ export const lightTheme = {
 		backgroundSecondary: "#d3d3d3",
 		backgroundSVG: "#aeaeae",
 		backgroundLOGOlight: "#d3d3d3",
-		backgroungLOGOdark: "#272727",
+		backgroundLOGOdark: "#272727",
 		branding: "#362f2f",
 		title: "#362f2f",
 		inactiveTitle: "#8b8b8b",
