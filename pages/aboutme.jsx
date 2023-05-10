@@ -10,7 +10,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 //Custom components
 import SocialNetworkRowStack from "@/components/SocialNetworkRowStack";
-import TechGrid from "@/components/TechsGrid";
+import TechGridGrouping from "@/components/TechsGrid";
 
 const WrapperAboutMe = styled.div`
 	display: flex;
@@ -327,7 +327,7 @@ export default function AboutMe(props) {
 						</ScrollAnimation>
 					</div>
 				</div>
-				<TechGrid />
+				<TechGridGrouping />
 			</WrapperAboutMe>
 		</SectionAboutMe>
 	);

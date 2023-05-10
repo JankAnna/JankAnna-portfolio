@@ -45,6 +45,17 @@ import { Junipernetworks } from "@styled-icons/simple-icons/Junipernetworks";
 import { Hackerone } from "@styled-icons/simple-icons/Hackerone";
 import { Owasp } from "@styled-icons/simple-icons/Owasp";
 
+const TechGridGrouping = styled.footer`
+	padding-top: 30px;
+	display: grid;
+	grid-template-columns: auto;
+	grid-column-gap: 5px;
+	grid-row-gap: 15px;
+	transition: all 0.3s ease;
+	width: 100%;
+	text-align: center;
+	margin: auto;
+`;
 const TechGrid = styled.footer`
 	padding-top: 30px;
 	display: grid;
@@ -120,269 +131,272 @@ export const TitleSection = styled.h2`
 	}
 `;
 
-export default function TechsGrid(props) {
+export default function TechsGridGrouping(props) {
 	return (
-		<TechGrid>
+		<TechsGridGrouping>
 			<TitleSection>Tytuł sekcji 1</TitleSection>
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<object type="image/svg+xml" data="logo/logoINE.svg" class="logolight">
-						logo INE
-					</object>
-				</Tech>
-			</ScrollAnimation>
+			<TechGrid>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<object type="image/svg+xml" data="logo/logoINE.svg" class="logolight">
+							logo INE
+						</object>
+					</Tech>
+				</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<object type="image/svg+xml" data="logo/logoWebSecurityAcademy.svg" class="logodark">
-						logo WebSecurityAcademy (Burp)
-					</object>
-				</Tech>
-			</ScrollAnimation>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<object type="image/svg+xml" data="logo/logoWebSecurityAcademy.svg" class="logodark">
+							logo WebSecurityAcademy (Burp)
+						</object>
+					</Tech>
+				</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<object type="image/svg+xml" data="logo/logoPortSwigger.svg" class="logodark">
-						logo PortSwigger (Burp)
-					</object>
-				</Tech>
-			</ScrollAnimation>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<object type="image/svg+xml" data="logo/logoPortSwigger.svg" class="logodark">
+							logo PortSwigger (Burp)
+						</object>
+					</Tech>
+				</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Kalilinux />
-				</Tech>
-			</ScrollAnimation>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<Kalilinux />
+					</Tech>
+				</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Docker />
-				</Tech>
-			</ScrollAnimation>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<Docker />
+					</Tech>
+				</ScrollAnimation>
+			</TechGrid>
+			<TechGrid>
+				<TitleSection>Tytuł sekcji 2</TitleSection>
 
-			<TitleSection>Tytuł sekcji 2</TitleSection>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<Wordpress />
+					</Tech>
+				</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Wordpress />
-				</Tech>
-			</ScrollAnimation>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<Nginx />
+					</Tech>
+				</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Nginx />
-				</Tech>
-			</ScrollAnimation>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<Autodesk />
+					</Tech>
+				</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Autodesk />
-				</Tech>
-			</ScrollAnimation>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<Amazonaws />
+					</Tech>
+				</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Amazonaws />
-				</Tech>
-			</ScrollAnimation>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<Visualstudiocode />
+					</Tech>
+				</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Visualstudiocode />
-				</Tech>
-			</ScrollAnimation>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<Proxmox />
+					</Tech>
+				</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Proxmox />
-				</Tech>
-			</ScrollAnimation>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<Mongodb />
+					</Tech>
+				</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Mongodb />
-				</Tech>
-			</ScrollAnimation>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<Pfsense />
+					</Tech>
+				</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Pfsense />
-				</Tech>
-			</ScrollAnimation>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<Javascript />
+					</Tech>
+				</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Javascript />
-				</Tech>
-			</ScrollAnimation>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<Python />
+					</Tech>
+				</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Python />
-				</Tech>
-			</ScrollAnimation>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<Nodejs />
+					</Tech>
+				</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Nodejs />
-				</Tech>
-			</ScrollAnimation>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<Reactjs />
+					</Tech>
+				</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Reactjs />
-				</Tech>
-			</ScrollAnimation>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<Wireshark />
+					</Tech>
+				</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Wireshark />
-				</Tech>
-			</ScrollAnimation>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<Html5 />
+					</Tech>
+				</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Html5 />
-				</Tech>
-			</ScrollAnimation>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<Git />
+					</Tech>
+				</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Git />
-				</Tech>
-			</ScrollAnimation>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<Mysql />
+					</Tech>
+				</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Mysql />
-				</Tech>
-			</ScrollAnimation>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<Linux />
+					</Tech>
+				</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Linux />
-				</Tech>
-			</ScrollAnimation>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<Windows />
+					</Tech>
+				</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Windows />
-				</Tech>
-			</ScrollAnimation>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<Android />
+					</Tech>
+				</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Android />
-				</Tech>
-			</ScrollAnimation>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<Ios />
+					</Tech>
+				</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Ios />
-				</Tech>
-			</ScrollAnimation>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<Figma />
+					</Tech>
+				</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Figma />
-				</Tech>
-			</ScrollAnimation>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<Asana />
+					</Tech>
+				</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Asana />
-				</Tech>
-			</ScrollAnimation>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<Adobephotoshop />
+					</Tech>
+				</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Adobephotoshop />
-				</Tech>
-			</ScrollAnimation>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<Atlassian />
+					</Tech>
+				</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Atlassian />
-				</Tech>
-			</ScrollAnimation>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<Ansys />
+					</Tech>
+				</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Ansys />
-				</Tech>
-			</ScrollAnimation>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<Microsoftoffice />
+					</Tech>
+				</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Microsoftoffice />
-				</Tech>
-			</ScrollAnimation>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<Apacheopenoffice />
+					</Tech>
+				</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Apacheopenoffice />
-				</Tech>
-			</ScrollAnimation>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<Sap />
+					</Tech>
+				</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Sap />
-				</Tech>
-			</ScrollAnimation>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<Powershell />
+					</Tech>
+				</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Powershell />
-				</Tech>
-			</ScrollAnimation>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<Tryhackme />
+					</Tech>
+				</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Tryhackme />
-				</Tech>
-			</ScrollAnimation>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<Hackthebox />
+					</Tech>
+				</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Hackthebox />
-				</Tech>
-			</ScrollAnimation>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<Splunk />
+					</Tech>
+				</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Splunk />
-				</Tech>
-			</ScrollAnimation>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<VisualStudio />
+					</Tech>
+				</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<VisualStudio />
-				</Tech>
-			</ScrollAnimation>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<Pycharm />
+					</Tech>
+				</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Pycharm />
-				</Tech>
-			</ScrollAnimation>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<Junipernetworks />
+					</Tech>
+				</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Junipernetworks />
-				</Tech>
-			</ScrollAnimation>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<Hackerone />
+					</Tech>
+				</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Hackerone />
-				</Tech>
-			</ScrollAnimation>
-
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Owasp />
-				</Tech>
-			</ScrollAnimation>
-		</TechGrid>
+				<ScrollAnimation animateIn="fadeIn" animateOnce>
+					<Tech>
+						<Owasp />
+					</Tech>
+				</ScrollAnimation>
+			</TechGrid>
+		</TechsGridGrouping>
 	);
 }
