@@ -43,6 +43,7 @@ import { VisualStudio } from "@styled-icons/boxicons-logos/VisualStudio";
 import { Pycharm } from "@styled-icons/simple-icons/Pycharm";
 import { Junipernetworks } from "@styled-icons/simple-icons/Junipernetworks";
 import { Hackerone } from "@styled-icons/simple-icons/Hackerone";
+import { Owasp } from "@styled-icons/simple-icons/Owasp";
 
 const TechGrid = styled.footer`
 	padding-top: 30px;
@@ -371,6 +372,12 @@ export default function TechsGrid(props) {
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Hackerone />
+				</Tech>
+			</ScrollAnimation>
+
+			<ScrollAnimation animateIn="fadeIn" animateOnce>
+				<Tech>
+					<Owasp />
 				</Tech>
 			</ScrollAnimation>
 		</TechGrid>
