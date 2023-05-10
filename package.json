@@ -1,5 +1,5 @@
 {
-	"name": "0xtter-portfolio",
+	"name": "JankAnna-portfolio",
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
@@ -20,6 +20,8 @@
 		"react-typed": "^1.2.0",
 		"react-vertical-timeline-component": "^3.6.0",
 		"styled-components": "^5.3.6",
-		"styled-icons": "^10.47.0"
+		"styled-icons": "^10.47.0",
+		"react-script": "2.1.8",
+		"react-tabs": "3.0.0"
 	}
 }
