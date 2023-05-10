@@ -48,7 +48,7 @@ import { Owasp } from "@styled-icons/simple-icons/Owasp";
 const TechGridGrouping = styled.footer`
 	padding-top: 30px;
 	display: grid;
-	grid-template-columns: auto;
+	grid-template-columns: 150px auto;
 	grid-column-gap: 5px;
 	grid-row-gap: 15px;
 	transition: all 0.3s ease;
