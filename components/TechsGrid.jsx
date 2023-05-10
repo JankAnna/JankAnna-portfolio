@@ -47,29 +47,25 @@ import { Owasp } from "@styled-icons/simple-icons/Owasp";
 import { Gimp } from "@styled-icons/simple-icons/Gimp";
 
 const TechGridGrouping = styled.footer`
-	padding-top: 30px;
-	display: grid;
-	grid-template-columns: auto;
-	grid-column-gap: 5px;
-	grid-row-gap: 15px;
-	transition: all 0.3s ease;
+	padding-top: 5px;
+	display: flex;
 	width: 100%;
-	text-align: center;
+	text-align: left;
 	margin: auto;
+	border: double;
+	border-color: ${(props) => props.theme.colors.backgroundSecondary};
 `;
 
 const TechGridSection = styled.footer`
-	padding-top: 30px;
-	display: grid;
-	grid-template-columns: auto;
-	grid-column-gap: 5px;
-	grid-row-gap: 15px;
-	transition: all 0.3s ease;
+	padding-top: 5px;
+	display: flex;
 	width: 100%;
-	text-align: center;
+	text-align: left;
 	margin: auto;
-	border-left-style: solid;
-	border-color: ${(props) => props.theme.colors.branding};
+	border-left: solid;
+	border-color: ${(props) => props.theme.colors.backgroundSecondary};
+	color: ${(props) => props.theme.colors.branding};
+	font-size: 16px;
 `;
 
 const TitleGrouping = styled.footer`
@@ -78,7 +74,7 @@ const TitleGrouping = styled.footer`
 	width: 100px;
 	text-align: left;
 	margin: auto;
-	border: solid;
+	border: outset;
 	border-color: ${(props) => props.theme.colors.backgroundSecondary};
 	color: ${(props) => props.theme.colors.branding};
 	font-size: 16px;
