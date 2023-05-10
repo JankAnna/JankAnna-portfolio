@@ -133,7 +133,7 @@ export const TitleSection = styled.h2`
 
 export default function TechsGridGrouping(props) {
 	return (
-		<TechsGridGrouping>
+		<TechGridGrouping>
 			<TitleSection>Tytuł sekcji 1</TitleSection>
 			<TechGrid>
 				<ScrollAnimation animateIn="fadeIn" animateOnce>
@@ -397,6 +397,6 @@ export default function TechsGridGrouping(props) {
 					</Tech>
 				</ScrollAnimation>
 			</TechGrid>
-		</TechsGridGrouping>
+		</TechGridGrouping>
 	);
 }
