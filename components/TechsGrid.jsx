@@ -48,7 +48,11 @@ import { Gimp } from "@styled-icons/simple-icons/Gimp";
 
 const TechGridGrouping = styled.footer`
 	padding-top: 5px;
-	display: flex;
+	display: grid;
+	grid-template-columns: auto;
+	grid-column-gap: 5px;
+	grid-row-gap: 15px;
+	transition: all 0.3s ease;
 	width: 100%;
 	text-align: left;
 	margin: auto;
@@ -81,7 +85,7 @@ const TitleGrouping = styled.footer`
 `;
 
 const TechGrid = styled.footer`
-	padding-top: 30px;
+	padding-top: 5px;
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
 	grid-column-gap: 5px;
