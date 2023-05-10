@@ -44,6 +44,7 @@ import { Pycharm } from "@styled-icons/simple-icons/Pycharm";
 import { Junipernetworks } from "@styled-icons/simple-icons/Junipernetworks";
 import { Hackerone } from "@styled-icons/simple-icons/Hackerone";
 import { Owasp } from "@styled-icons/simple-icons/Owasp";
+import { Gimp } from "@styled-icons/simple-icons/Gimp";
 
 const TechGridGrouping = styled.footer`
 	padding-top: 30px;
@@ -73,7 +74,7 @@ const TechGridSection = styled.footer`
 	.TitleGrouping {
 		font-weight: 700;
 		color: ${(props) => props.theme.colors.branding};
-		font-size: 1616px;
+		font-size: 16px;
 		padding-top: 5px;
 		text-align: left;
 	}
@@ -193,6 +194,12 @@ export default function TechsGridGrouping(props) {
 					<ScrollAnimation animateIn="fadeIn" animateOnce>
 						<Tech>
 							<Docker />
+						</Tech>
+					</ScrollAnimation>
+
+					<ScrollAnimation animateIn="fadeIn" animateOnce>
+						<Tech>
+							<Gimp />
 						</Tech>
 					</ScrollAnimation>
 				</TechGrid>
