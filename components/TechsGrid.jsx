@@ -123,7 +123,7 @@ export const TitleSection = styled.h2`
 export default function TechsGrid(props) {
 	return (
 		<TechGrid>
-			<h2>Tytuł sekcji 1</h2>
+			<TitleSection>Tytuł sekcji 1</TitleSection>
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<object type="image/svg+xml" data="logo/logoINE.svg" class="logolight">
@@ -159,7 +159,9 @@ export default function TechsGrid(props) {
 					<Docker />
 				</Tech>
 			</ScrollAnimation>
-			<h2>Tytuł sekcji 2</h2>
+
+			<TitleSection>Tytuł sekcji 2</TitleSection>
+
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Wordpress />
