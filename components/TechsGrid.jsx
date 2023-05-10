@@ -69,6 +69,14 @@ const TechGridSection = styled.footer`
 	margin: auto;
 	border-left-style: solid;
 	border-color: ${(props) => props.theme.colors.branding};
+
+	.TitleGrouping {
+		font-weight: 700;
+		color: ${(props) => props.theme.colors.branding};
+		font-size: 1616px;
+		padding-top: 5px;
+		text-align: left;
+	}
 `;
 const TechGrid = styled.footer`
 	padding-top: 30px;
@@ -149,7 +157,7 @@ export default function TechsGridGrouping(props) {
 	return (
 		<TechGridGrouping>
 			<TechGridSection>
-				<TitleSection>Tytuł sekcji 1</TitleSection>
+				<object class="TitleGrouping">Tytuł sekcji 1</object>
 
 				<TechGrid>
 					<ScrollAnimation animateIn="fadeIn" animateOnce>
@@ -191,7 +199,7 @@ export default function TechsGridGrouping(props) {
 			</TechGridSection>
 
 			<TechGridSection>
-				<TitleSection>Tytuł sekcji 2</TitleSection>
+				<object class="TitleGrouping">Tytuł sekcji 2</object>
 
 				<TechGrid>
 					<ScrollAnimation animateIn="fadeIn" animateOnce>
@@ -215,7 +223,7 @@ export default function TechsGridGrouping(props) {
 			</TechGridSection>
 
 			<TechGridSection>
-				<TitleSection>Tytuł sekcji 3</TitleSection>
+				<object class="TitleGrouping">Tytuł sekcji 3</object>
 				<TechGrid>
 					<ScrollAnimation animateIn="fadeIn" animateOnce>
 						<Tech>
