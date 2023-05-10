@@ -172,9 +172,8 @@ export default function TechsGridGrouping(props) {
 					</Tech>
 				</ScrollAnimation>
 			</TechGrid>
+			<TitleSection>Tytuł sekcji 2</TitleSection>
 			<TechGrid>
-				<TitleSection>Tytuł sekcji 2</TitleSection>
-
 				<ScrollAnimation animateIn="fadeIn" animateOnce>
 					<Tech>
 						<Wordpress />
