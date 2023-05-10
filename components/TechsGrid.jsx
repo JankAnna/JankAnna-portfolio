@@ -159,7 +159,7 @@ export default function TechsGrid(props) {
 					<Docker />
 				</Tech>
 			</ScrollAnimation>
-
+			<h2>Tytuł sekcji 2</h2>
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Wordpress />
@@ -346,49 +346,6 @@ export default function TechsGrid(props) {
 				</Tech>
 			</ScrollAnimation>
 
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Splunk />
-				</Tech>
-			</ScrollAnimation>
-
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<VisualStudio />
-				</Tech>
-			</ScrollAnimation>
-
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Pycharm />
-				</Tech>
-			</ScrollAnimation>
-
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Junipernetworks />
-				</Tech>
-			</ScrollAnimation>
-
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Hackerone />
-				</Tech>
-			</ScrollAnimation>
-
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Owasp />
-				</Tech>
-			</ScrollAnimation>
-		</TechGrid>
-	);
-}
-
-export default function TechsGrid(props) {
-	return (
-		<TechGrid>
-			<h2>Tytuł sekcji 2</h2>
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Splunk />
