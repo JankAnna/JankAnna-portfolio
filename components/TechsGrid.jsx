@@ -47,7 +47,7 @@ import { Owasp } from "@styled-icons/simple-icons/Owasp";
 import { Gimp } from "@styled-icons/simple-icons/Gimp";
 
 const TechGridGrouping = styled.footer`
-	padding-top: 5px;
+	padding-top: 30px;
 	display: grid;
 	grid-template-columns: auto;
 	grid-column-gap: 5px;
@@ -61,8 +61,12 @@ const TechGridGrouping = styled.footer`
 `;
 
 const TechGridSection = styled.footer`
-	padding-top: 5px;
-	display: flex;
+	padding-top: 20px;
+	display: grid;
+	grid-template-columns: auto;
+	grid-column-gap: 5px;
+	grid-row-gap: 15px;
+	transition: all 0.3s ease;
 	width: 100%;
 	text-align: left;
 	margin: auto;
