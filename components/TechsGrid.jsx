@@ -56,8 +56,6 @@ const TechGridGrouping = styled.footer`
 	width: 100%;
 	text-align: left;
 	margin: auto;
-	border: double;
-	border-color: ${(props) => props.theme.colors.backgroundSecondary};
 `;
 
 const TechGridSection = styled.footer`
@@ -70,7 +68,7 @@ const TechGridSection = styled.footer`
 	width: 100%;
 	text-align: left;
 	margin: auto;
-	border-left: solid;
+	border: outset;
 	border-color: ${(props) => props.theme.colors.backgroundSecondary};
 	color: ${(props) => props.theme.colors.branding};
 	font-size: 16px;
@@ -79,11 +77,11 @@ const TechGridSection = styled.footer`
 const TitleGrouping = styled.footer`
 	padding-top: 5px;
 	display: flex;
-	width: 100px;
+	width: 100%;
 	text-align: left;
 	margin: auto;
-	border: outset;
-	border-color: ${(props) => props.theme.colors.backgroundSecondary};
+	border-bottom: solid;
+	border-color: ${(props) => props.theme.colors.branding};
 	color: ${(props) => props.theme.colors.branding};
 	font-size: 16px;
 `;

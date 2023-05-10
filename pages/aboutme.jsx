@@ -11,6 +11,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 //Custom components
 import SocialNetworkRowStack from "@/components/SocialNetworkRowStack";
 import TechGridGrouping from "@/components/TechsGrid";
+// import TechsTabsApp from "@/components/TechsGrid";
 
 const WrapperAboutMe = styled.div`
 	display: flex;

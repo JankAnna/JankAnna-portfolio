@@ -1,18 +1,15 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+// import React from "react";
+// import ReactDOM from "react-dom";
+// import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
-// import "react-tabs/style/react-tabs.css";
+// // import "react-tabs/style/react-tabs.css";
 
-import "./styles.css";
-
-// .App {
+// const TechsTabsApp = styled.footer`
 //     font-family: sans-serif;
 //     background: #1c1d1f;
 //     color: white;
 //     height: 100vh;
 //     box-sizing: border-box;
-//   }
 
 //   .react-tabs {
 //     display: flex;
@@ -69,8 +66,9 @@ import "./styles.css";
 //   .panel-content {
 //     text-align: center;
 //   }
+//   `;
 
-// function App() {
+// export default function TechsTabsApp() {
 //   return (
 //     <div className="App">
 //       <h1>Sample</h1>
@@ -123,5 +121,5 @@ import "./styles.css";
 //   );
 // }
 
-// const rootElement = document.getElementById('root');
-// ReactDOM.render(<App />, rootElement);
+// // const rootElement = document.getElementById('root');
+// // ReactDOM.render(<App />, rootElement);
