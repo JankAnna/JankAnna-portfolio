@@ -112,7 +112,7 @@ const TechGridTabs = styled.footer`
 	}
 
 	.react-tabs__tab-panel--selected {
-		display: block;
+		display: inline-block;
 	}
 
 	.panel-content {
