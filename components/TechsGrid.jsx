@@ -83,11 +83,11 @@ const TechsTabsApp = styled.footer`
 	background: #1c1d1f;
 	color: white;
 	height: 100vh;
+	width: 100%,
 	box-sizing: border-box;
 
 	.react-tabs {
 		display: flex;
-		margin-left: 20px;
 		width: 100%;
 		height: auto;
 		border: 1px solid #3c3e43;
@@ -98,7 +98,7 @@ const TechsTabsApp = styled.footer`
 	.react-tabs__tab-list {
 		display: flex;
 		flex-direction: column;
-		width: 50px;
+		width: 110px;
 		margin: 0;
 		padding: 0;
 		color: white;
@@ -106,18 +106,22 @@ const TechsTabsApp = styled.footer`
 	}
 
 	.react-tabs__tab {
-		height: 70px;
+		height: 100px;
 		list-style: none;
-		padding: 10px 4px;
+		padding: 10px 5px;
 		cursor: pointer;
 		color: #bbb;
+
+		padding-left: 15px;
 	}
 
 	.react-tabs__tab--selected {
 		background: #1c1d1f;
 		border-color: #1c1d1f;
-		border-left: 4px solid #6eb800;
+		border-left: 3px solid #6eb800;
 		color: white;
+
+		padding-left: 20px;
 	}
 
 	.react-tabs__tab-panel {
@@ -127,14 +131,6 @@ const TechsTabsApp = styled.footer`
 
 	.react-tabs__tab-panel--selected {
 		display: block;
-	}
-
-	.react-tabs__tab {
-		padding-left: 23px;
-	}
-
-	.react-tabs__tab--selected {
-		padding-left: 20px;
 	}
 
 	.panel-content {
