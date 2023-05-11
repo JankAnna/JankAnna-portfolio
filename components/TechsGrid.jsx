@@ -82,7 +82,7 @@ const TechGridTabs = styled.footer`
 	.react-tabs__tab-list {
 		display: flex;
 		flex-direction: column;
-		width: 110px;
+		min-width: 110px;
 		margin: 0;
 		padding: 0;
 		color: ${(props) => props.theme.colors.branding};
@@ -206,7 +206,7 @@ export default function TechsGridGrouping(props) {
 				<Tabs>
 					<TabList>
 						<Tab>
-							<p>SECTION A</p>
+							<p>SECTION A MIN-WIDTH TabList 110px (tab-list)</p>
 						</Tab>
 						<Tab>
 							<p>SECTION B</p>
