@@ -53,7 +53,7 @@ import { Gimp } from "@styled-icons/simple-icons/Gimp";
 
 // REACT-TAB TEST!
 const TechGridGrouping = styled.footer`
-	padding-top: 30px;
+	padding-top: 20px;
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
 	grid-column-gap: 5px;
@@ -66,7 +66,7 @@ const TechGridGrouping = styled.footer`
 
 const TechGridTabs = styled.footer`
 	// background-color: ${(props) => props.theme.colors.backgroundSecondary};
-	padding-top: 30px;
+	padding-top: 10px;
 	color: ${(props) => props.theme.colors.backgroundSVG};
 	min-width: 200px;
 	box-sizing: border-box;
