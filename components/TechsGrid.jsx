@@ -55,7 +55,7 @@ import { Gimp } from "@styled-icons/simple-icons/Gimp";
 const TechGridGrouping = styled.footer`
 	padding-top: 20px;
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 	grid-column-gap: 5px;
 	grid-row-gap: 15px;
 	transition: all 0.3s ease;
@@ -68,21 +68,17 @@ const TechGridTabs = styled.footer`
 	// background-color: ${(props) => props.theme.colors.backgroundSecondary};
 	padding-top: 10px;
 	color: ${(props) => props.theme.colors.backgroundSVG};
-	min-width: 200px;
 	box-sizing: border-box;
 	font-size: 16px;
 	font-color: ${(props) => props.theme.colors.branding};
 
 	.react-tabs {
 		display: flex;
-		width: auto;
-		height: auto;
 	}
 
 	.react-tabs__tab-list {
 		display: flex;
 		flex-direction: column;
-		max-width: 50%;
 		margin: 0;
 		padding: 0;
 		color: ${(props) => props.theme.colors.branding};
