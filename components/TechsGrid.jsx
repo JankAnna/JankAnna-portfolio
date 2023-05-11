@@ -96,9 +96,9 @@ const TechGridTabs = styled.footer`
 		border-left-color: ${(props) => props.theme.colors.branding};
 		border-left: 4px;
 		border-left: solid;
-		color: ${(props) => props.theme.colors.backgroundSVG};
+		color: ${(props) => props.theme.colors.branding};
 
-		padding-left: 20px;
+		padding-left: 15px;
 	}
 
 	.react-tabs__tab-panel {
