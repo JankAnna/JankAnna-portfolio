@@ -55,6 +55,7 @@ import { Gimp } from "@styled-icons/simple-icons/Gimp";
 const TechGridTabs = styled.footer`
 	// background-color: ${(props) => props.theme.colors.backgroundSecondary};
 	padding-top: 20px
+	margin: auto
 	color: white;
 	height: 100vh;
 	width: 100%,
@@ -71,7 +72,7 @@ const TechGridTabs = styled.footer`
 	.react-tabs__tab-list {
 		display: flex;
 		flex-direction: column;
-		min-width: 150px;
+		min-width: 100px;
 		margin: 0;
 		padding: 0;
 		color: ${(props) => props.theme.colors.branding};
@@ -93,9 +94,9 @@ const TechGridTabs = styled.footer`
 	.react-tabs__tab--selected {
 		background-color: ${(props) => props.theme.colors.backgroundSecondary};
 		border-left-color: ${(props) => props.theme.colors.branding};
-		border-left: 3px;
-		bordewr-left: solid;
-		color: white;
+		border-left: 4px;
+		border-left: solid;
+		color: ${(props) => props.theme.colors.backgroundSVG};
 
 		padding-left: 20px;
 	}
