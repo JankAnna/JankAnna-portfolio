@@ -56,8 +56,7 @@ const TechGridTabs = styled.footer`
 	// background-color: ${(props) => props.theme.colors.backgroundSecondary};
 	padding-top: 30px;
 	color: ${(props) => props.theme.colors.backgroundSVG};
-	height: auto;
-	width: auto;
+	min-width: 200px;
 	box-sizing: border-box;
 	font-size: 16px;
 	font-color: ${(props) => props.theme.colors.branding};
