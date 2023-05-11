@@ -54,12 +54,12 @@ const TechGridGrouping = styled.footer`
 	grid-row-gap: 15px;
 	transition: all 0.3s ease;
 	width: 100%;
-	text-align: left;
+	text-align: center;
 	margin: auto;
 `;
 
 const TechGridSection = styled.footer`
-	padding-top: 20px;
+	padding-top: 5px;
 	display: grid;
 	grid-template-columns: auto;
 	grid-column-gap: 5px;
@@ -75,8 +75,9 @@ const TechGridSection = styled.footer`
 `;
 
 const TitleGrouping = styled.footer`
-	padding-top: 5px;
+	padding-top: 2px;
 	display: flex;
+	align-item: right;
 	width: 100%;
 	text-align: left;
 	margin: auto;
@@ -96,6 +97,7 @@ const TechGrid = styled.footer`
 	width: 100%;
 	text-align: center;
 	margin: auto;
+	padding-bottom: 5px;
 `;
 
 const Tech = styled.div`
@@ -106,7 +108,7 @@ const Tech = styled.div`
 	min-width: 100px;
 	height: 74px;
 	//background-color: ${(props) => props.theme.colors.backgroundSecondary};
-	padding: 15px;
+	padding: 10px;
 	border-radius: 4px;
 
 	svg {
