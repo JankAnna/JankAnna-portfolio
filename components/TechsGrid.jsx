@@ -111,7 +111,7 @@ const TechGridTabs = styled.footer`
 
 	.react-tabs__tab-panel {
 		display: none;
-		width: 200px;
+		width: 100%;
 	}
 
 	.react-tabs__tab-panel--selected {
