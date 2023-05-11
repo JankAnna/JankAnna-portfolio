@@ -2,10 +2,10 @@ import React from "react";
 import styled from "styled-components";
 import ScrollAnimation from "react-animate-on-scroll";
 
-// REACT-TAB TEST!
+// REACT-TAB TEST! https://codesandbox.io/s/r4m5jp6jjq?file=/src/styles.css:0-925
 import ReactDOM from "react-dom";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-// REACT-TAB TEST! (Koniec 1)
+// REACT-TAB TEST! (Koniec 1/3)
 
 //Contexto
 
@@ -80,7 +80,6 @@ const TechGridSection = styled.footer`
 `;
 // REACT-TAB TEST!
 const TechsTabsApp = styled.footer`
-	font-family: sans-serif;
 	background: #1c1d1f;
 	color: white;
 	height: 100vh;
@@ -88,9 +87,9 @@ const TechsTabsApp = styled.footer`
 
 	.react-tabs {
 		display: flex;
-		margin-left: 36px;
-		width: 470px;
-		height: 400px;
+		margin-left: 20px;
+		width: 100%;
+		height: auto;
 		border: 1px solid #3c3e43;
 		color: white;
 		background: #1c1d1f;
@@ -99,7 +98,7 @@ const TechsTabsApp = styled.footer`
 	.react-tabs__tab-list {
 		display: flex;
 		flex-direction: column;
-		width: 170px;
+		width: 50px;
 		margin: 0;
 		padding: 0;
 		color: white;
@@ -109,7 +108,7 @@ const TechsTabsApp = styled.footer`
 	.react-tabs__tab {
 		height: 70px;
 		list-style: none;
-		padding: 12px 6px;
+		padding: 10px 4px;
 		cursor: pointer;
 		color: #bbb;
 	}
@@ -123,7 +122,7 @@ const TechsTabsApp = styled.footer`
 
 	.react-tabs__tab-panel {
 		display: none;
-		width: 300px;
+		width: 200px;
 	}
 
 	.react-tabs__tab-panel--selected {
@@ -131,18 +130,18 @@ const TechsTabsApp = styled.footer`
 	}
 
 	.react-tabs__tab {
-		padding-left: 24px;
+		padding-left: 23px;
 	}
 
 	.react-tabs__tab--selected {
-		padding-left: 21px;
+		padding-left: 20px;
 	}
 
 	.panel-content {
 		text-align: center;
 	}
 `;
-// REACT-TAB TEST! (Koniec 2)
+// REACT-TAB TEST! (Koniec 2/3)
 
 const TitleGrouping = styled.footer`
 	padding-top: 2px;
@@ -515,9 +514,10 @@ export default function TechsGridGrouping(props) {
 				</TechGrid>
 			</TechGridSection>
 
+			{/* REACT TAB!! Test! https://codesandbox.io/s/r4m5jp6jjq?file=/src/styles.css:0-925 */}
+
 			<TechGridSection>
 				<TechsTabsApp>
-					<h1>Sample</h1>
 					<Tabs>
 						<TabList>
 							<Tab>
@@ -565,6 +565,8 @@ export default function TechsGridGrouping(props) {
 					</Tabs>
 				</TechsTabsApp>
 			</TechGridSection>
+
+			{/* REACT TAB!! Test! (Koniec 3/3) */}
 		</TechGridGrouping>
 	);
 }
