@@ -53,6 +53,18 @@ import { Gimp } from "@styled-icons/simple-icons/Gimp";
 
 // REACT-TAB TEST!
 const TechGridGrouping = styled.footer`
+	padding-top: 20px;
+	display: grid;
+	grid-template-columns: auto;
+	grid-column-gap: 5px;
+	grid-row-gap: 15px;
+	transition: all 0.3s ease;
+	width: 100%;
+	text-align: center;
+	margin: auto;
+`;
+
+const TechGridTabs = styled.footer`
 	// background-color: ${(oprps) => props.theme.colors.backgroundSecondary};
 	color: white;
 	height: 100vh;
@@ -190,308 +202,310 @@ export const TitleSection = styled.h2`
 export default function TechsGridGrouping(props) {
 	return (
 		<TechGridGrouping>
-			<Tabs>
-				<TabList>
-					<Tab>
-						<p>SECTION A</p>
-					</Tab>
-					<Tab>
-						<p>SECTION B</p>
-					</Tab>
-					<Tab>
-						<p>SECTION C</p>
-					</Tab>
-					<Tab>
-						<p>SECTION D</p>
-					</Tab>
-					<Tab>
-						<p>SECTION E</p>
-					</Tab>
-				</TabList>
+			<TechGridTabs>
+				<Tabs>
+					<TabList>
+						<Tab>
+							<p>SECTION A</p>
+						</Tab>
+						<Tab>
+							<p>SECTION B</p>
+						</Tab>
+						<Tab>
+							<p>SECTION C</p>
+						</Tab>
+						<Tab>
+							<p>SECTION D</p>
+						</Tab>
+						<Tab>
+							<p>SECTION E</p>
+						</Tab>
+					</TabList>
 
-				<TabPanel>
-					<div className="panel-content">
-						<TechGrid>
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<object type="image/svg+xml" data="logo/logoINE.svg" class="logolight">
-										logo INE
-									</object>
-								</Tech>
-							</ScrollAnimation>
+					<TabPanel>
+						<div className="panel-content">
+							<TechGrid>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<object type="image/svg+xml" data="logo/logoINE.svg" class="logolight">
+											logo INE
+										</object>
+									</Tech>
+								</ScrollAnimation>
 
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<object type="image/svg+xml" data="logo/logoWebSecurityAcademy.svg" class="logodark">
-										logo WebSecurityAcademy (Burp)
-									</object>
-								</Tech>
-							</ScrollAnimation>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<object type="image/svg+xml" data="logo/logoWebSecurityAcademy.svg" class="logodark">
+											logo WebSecurityAcademy (Burp)
+										</object>
+									</Tech>
+								</ScrollAnimation>
 
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<object type="image/svg+xml" data="logo/logoPortSwigger.svg" class="logodark">
-										logo PortSwigger (Burp)
-									</object>
-								</Tech>
-							</ScrollAnimation>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<object type="image/svg+xml" data="logo/logoPortSwigger.svg" class="logodark">
+											logo PortSwigger (Burp)
+										</object>
+									</Tech>
+								</ScrollAnimation>
 
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Kalilinux />
-								</Tech>
-							</ScrollAnimation>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Kalilinux />
+									</Tech>
+								</ScrollAnimation>
 
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Docker />
-								</Tech>
-							</ScrollAnimation>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Docker />
+									</Tech>
+								</ScrollAnimation>
 
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Gimp />
-								</Tech>
-							</ScrollAnimation>
-						</TechGrid>
-					</div>
-				</TabPanel>
-				<TabPanel>
-					<div className="panel-content">
-						<TechGrid>
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Wordpress />
-								</Tech>
-							</ScrollAnimation>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Gimp />
+									</Tech>
+								</ScrollAnimation>
+							</TechGrid>
+						</div>
+					</TabPanel>
+					<TabPanel>
+						<div className="panel-content">
+							<TechGrid>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Wordpress />
+									</Tech>
+								</ScrollAnimation>
 
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Nginx />
-								</Tech>
-							</ScrollAnimation>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Nginx />
+									</Tech>
+								</ScrollAnimation>
 
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Autodesk />
-								</Tech>
-							</ScrollAnimation>
-						</TechGrid>
-					</div>
-				</TabPanel>
-				<TabPanel>
-					<div className="panel-content">
-						<TechGrid>
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Amazonaws />
-								</Tech>
-							</ScrollAnimation>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Autodesk />
+									</Tech>
+								</ScrollAnimation>
+							</TechGrid>
+						</div>
+					</TabPanel>
+					<TabPanel>
+						<div className="panel-content">
+							<TechGrid>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Amazonaws />
+									</Tech>
+								</ScrollAnimation>
 
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Visualstudiocode />
-								</Tech>
-							</ScrollAnimation>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Visualstudiocode />
+									</Tech>
+								</ScrollAnimation>
 
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Proxmox />
-								</Tech>
-							</ScrollAnimation>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Proxmox />
+									</Tech>
+								</ScrollAnimation>
 
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Mongodb />
-								</Tech>
-							</ScrollAnimation>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Mongodb />
+									</Tech>
+								</ScrollAnimation>
 
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Pfsense />
-								</Tech>
-							</ScrollAnimation>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Pfsense />
+									</Tech>
+								</ScrollAnimation>
 
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Javascript />
-								</Tech>
-							</ScrollAnimation>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Javascript />
+									</Tech>
+								</ScrollAnimation>
 
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Python />
-								</Tech>
-							</ScrollAnimation>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Python />
+									</Tech>
+								</ScrollAnimation>
 
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Nodejs />
-								</Tech>
-							</ScrollAnimation>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Nodejs />
+									</Tech>
+								</ScrollAnimation>
 
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Reactjs />
-								</Tech>
-							</ScrollAnimation>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Reactjs />
+									</Tech>
+								</ScrollAnimation>
 
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Wireshark />
-								</Tech>
-							</ScrollAnimation>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Wireshark />
+									</Tech>
+								</ScrollAnimation>
 
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Html5 />
-								</Tech>
-							</ScrollAnimation>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Html5 />
+									</Tech>
+								</ScrollAnimation>
 
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Git />
-								</Tech>
-							</ScrollAnimation>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Git />
+									</Tech>
+								</ScrollAnimation>
 
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Mysql />
-								</Tech>
-							</ScrollAnimation>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Mysql />
+									</Tech>
+								</ScrollAnimation>
 
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Linux />
-								</Tech>
-							</ScrollAnimation>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Linux />
+									</Tech>
+								</ScrollAnimation>
 
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Windows />
-								</Tech>
-							</ScrollAnimation>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Windows />
+									</Tech>
+								</ScrollAnimation>
 
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Android />
-								</Tech>
-							</ScrollAnimation>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Android />
+									</Tech>
+								</ScrollAnimation>
 
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Ios />
-								</Tech>
-							</ScrollAnimation>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Ios />
+									</Tech>
+								</ScrollAnimation>
 
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Figma />
-								</Tech>
-							</ScrollAnimation>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Figma />
+									</Tech>
+								</ScrollAnimation>
 
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Asana />
-								</Tech>
-							</ScrollAnimation>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Asana />
+									</Tech>
+								</ScrollAnimation>
 
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Adobephotoshop />
-								</Tech>
-							</ScrollAnimation>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Adobephotoshop />
+									</Tech>
+								</ScrollAnimation>
 
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Atlassian />
-								</Tech>
-							</ScrollAnimation>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Atlassian />
+									</Tech>
+								</ScrollAnimation>
 
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Ansys />
-								</Tech>
-							</ScrollAnimation>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Ansys />
+									</Tech>
+								</ScrollAnimation>
 
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Microsoftoffice />
-								</Tech>
-							</ScrollAnimation>
-						</TechGrid>
-					</div>
-				</TabPanel>
-				<TabPanel>
-					<div className="panel-content">
-						<TechGrid>
-							{" "}
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Apacheopenoffice />
-								</Tech>
-							</ScrollAnimation>
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Sap />
-								</Tech>
-							</ScrollAnimation>
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Powershell />
-								</Tech>
-							</ScrollAnimation>
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Tryhackme />
-								</Tech>
-							</ScrollAnimation>{" "}
-						</TechGrid>
-					</div>
-				</TabPanel>
-				<TabPanel>
-					<div className="panel-content">
-						<TechGrid>
-							{" "}
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Hackthebox />
-								</Tech>
-							</ScrollAnimation>
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Splunk />
-								</Tech>
-							</ScrollAnimation>
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<VisualStudio />
-								</Tech>
-							</ScrollAnimation>
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Pycharm />
-								</Tech>
-							</ScrollAnimation>
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Junipernetworks />
-								</Tech>
-							</ScrollAnimation>
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Hackerone />
-								</Tech>
-							</ScrollAnimation>
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Owasp />
-								</Tech>
-							</ScrollAnimation>
-						</TechGrid>
-					</div>
-				</TabPanel>
-			</Tabs>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Microsoftoffice />
+									</Tech>
+								</ScrollAnimation>
+							</TechGrid>
+						</div>
+					</TabPanel>
+					<TabPanel>
+						<div className="panel-content">
+							<TechGrid>
+								{" "}
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Apacheopenoffice />
+									</Tech>
+								</ScrollAnimation>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Sap />
+									</Tech>
+								</ScrollAnimation>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Powershell />
+									</Tech>
+								</ScrollAnimation>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Tryhackme />
+									</Tech>
+								</ScrollAnimation>{" "}
+							</TechGrid>
+						</div>
+					</TabPanel>
+					<TabPanel>
+						<div className="panel-content">
+							<TechGrid>
+								{" "}
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Hackthebox />
+									</Tech>
+								</ScrollAnimation>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Splunk />
+									</Tech>
+								</ScrollAnimation>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<VisualStudio />
+									</Tech>
+								</ScrollAnimation>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Pycharm />
+									</Tech>
+								</ScrollAnimation>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Junipernetworks />
+									</Tech>
+								</ScrollAnimation>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Hackerone />
+									</Tech>
+								</ScrollAnimation>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Owasp />
+									</Tech>
+								</ScrollAnimation>
+							</TechGrid>
+						</div>
+					</TabPanel>
+				</Tabs>
+			</TechGridTabs>
 		</TechGridGrouping>
 	);
 }
