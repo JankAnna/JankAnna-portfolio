@@ -54,7 +54,7 @@ const TechGridGrouping = styled.footer`
 	grid-row-gap: 15px;
 	transition: all 0.3s ease;
 	width: 100%;
-	text-align: left;
+	text-align: center;
 	margin: auto;
 `;
 
@@ -77,6 +77,7 @@ const TechGridSection = styled.footer`
 const TitleGrouping = styled.footer`
 	padding-top: 5px;
 	display: flex;
+	align-item: right;
 	width: 100%;
 	text-align: left;
 	margin: auto;
