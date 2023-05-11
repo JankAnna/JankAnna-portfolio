@@ -57,15 +57,15 @@ const TechGridTabs = styled.footer`
 	padding-top: 50px
 	margin: auto
 	color: white;
-	height: 100vh;
-	width: 100%,
+	height: auto;
+	width: auto,
 	box-sizing: border-box;
 	font-size: 16px;
 	font-color: ${(props) => props.theme.colors.branding};
 
 	.react-tabs {
 		display: flex;
-		width: 100%;
+		width: auto;
 		height: auto;
 	}
 
