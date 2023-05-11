@@ -54,7 +54,7 @@ import { Gimp } from "@styled-icons/simple-icons/Gimp";
 // REACT-TAB TEST!
 const TechGridTabs = styled.footer`
 	// background-color: ${(props) => props.theme.colors.backgroundSecondary};
-	padding-top: 20px
+	padding-top: 50px
 	margin: auto
 	color: white;
 	height: 100vh;
