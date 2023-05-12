@@ -5,7 +5,6 @@ import ScrollAnimation from "react-animate-on-scroll";
 // REACT-TAB TEST! https://codesandbox.io/s/r4m5jp6jjq?file=/src/styles.css:0-925
 import ReactDOM from "react-dom";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-// REACT-TAB TEST! (Koniec 1/3)
 
 //Contexto
 
@@ -51,7 +50,6 @@ import { Hackerone } from "@styled-icons/simple-icons/Hackerone";
 import { Owasp } from "@styled-icons/simple-icons/Owasp";
 import { Gimp } from "@styled-icons/simple-icons/Gimp";
 
-// REACT-TAB TEST!
 const TechGridTabs = styled.footer`
 	// background-color: ${(props) => props.theme.colors.backgroundSecondary};
 	padding-top: 20px;
@@ -110,7 +108,6 @@ const TechGridTabs = styled.footer`
 		text-align: center;
 	}
 `;
-// REACT-TAB TEST! (Koniec 2/3)
 
 const TechGrid = styled.footer`
 	padding-top: 5px;
