@@ -61,10 +61,12 @@ const TechGridTabs = styled.footer`
 	font-color: ${(props) => props.theme.colors.branding};
 	width: 100%;
 	margin: auto;
+	height: 100vh;
 
 	.react-tabs {
 		display: flex;
 		width: 100%;
+		height: 500px;
 	}
 
 	.react-tabs__tab-list {
