@@ -76,7 +76,7 @@ const TechGridTabs = styled.footer`
 	.react-tabs__tab {
 		height: 64px;
 		list-style: none;
-		margin: 10px 10px 10px 10px;
+		margin: 5px 0px 5px 5px;
 		cursor: pointer;
 		color: ${(props) => props.theme.colors.backgroundSVG};
 		background-color: ${(props) => props.theme.colors.backgroundSecondary};
@@ -119,8 +119,8 @@ const TechGridTabs = styled.footer`
 		width: 100%;
 		border-radius: 8px;
 		border-color: ${(props) => props.theme.colors.branding};
-		border: 2px 4px 2px 0px;
-		border-style: ridge;
+		border: 2px 4px 2px;
+		border-style: outset outset outset none;
 		margin: 10px 0px 10px 0px;
 	}
 
