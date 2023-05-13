@@ -98,7 +98,7 @@ const TechGridTabs = styled.footer`
 	// 	transform: translate(-50%, -50%);
 	// }
 
-	.react-tabs__tab--hover {
+	.react-tabs__tab:hover {
 		background-color: ${(props) => props.theme.colors.branding};
 		color: ${(props) => props.theme.colors.backgroundSVG};
 	}
