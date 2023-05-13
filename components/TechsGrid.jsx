@@ -80,9 +80,12 @@ const TechGridTabs = styled.footer`
 		cursor: pointer;
 		color: ${(props) => props.theme.colors.backgroundSVG};
 		background-color: ${(props) => props.theme.colors.backgroundSecondary};
-		border-radius: 25%;
+		border-radius: 8px;
 		padding-left: 14px;
-		text-vertical-align: middle;
+	}
+
+	.vertical-align {
+		vertical-align: middle;
 	}
 
 	.react-tabs__tab--hover {
@@ -103,7 +106,7 @@ const TechGridTabs = styled.footer`
 	.react-tabs__tab-panel {
 		display: none;
 		width: 100%;
-		border-radius: 25%;
+		border-radius: 8px;
 		border-color: ${(props) => props.theme.colors.branding};
 		border: 2px ridge;
 		padding-left: 10px;
@@ -199,19 +202,19 @@ export default function TechsGridGrouping(props) {
 			<Tabs>
 				<TabList>
 					<Tab>
-						<p>SECTION A MIN-WIDTH TabList 110px (tab-list)</p>
+						<p class="vertical-align">SECTION A MIN-WIDTH TabList 110px (tab-list)</p>
 					</Tab>
 					<Tab>
-						<p>SECTION B</p>
+						<p class="vertical-align">SECTION B</p>
 					</Tab>
 					<Tab>
-						<p>SECTION C</p>
+						<p class="vertical-align">SECTION C</p>
 					</Tab>
 					<Tab>
-						<p>SECTION D</p>
+						<p class="vertical-align">SECTION D</p>
 					</Tab>
 					<Tab>
-						<p>SECTION E</p>
+						<p class="vertical-align">SECTION E</p>
 					</Tab>
 				</TabList>
 
