@@ -84,10 +84,18 @@ const TechGridTabs = styled.footer`
 		padding-left: 14px;
 	}
 
-	.vertical-align {
-		line-height: 1.5;
-		display: inline-block;
-		vertical-align: middle;
+	// .vertical-align {
+	// 	line-height: 1.5;
+	// 	display: inline-block;
+	// 	vertical-align: middle;
+	// }
+
+	.react-tabs__tab p {
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
 	}
 
 	.react-tabs__tab--hover {
@@ -205,19 +213,24 @@ export default function TechsGridGrouping(props) {
 			<Tabs>
 				<TabList>
 					<Tab>
-						<p class="vertical-align">SECTION A MIN-WIDTH TabList 110px (tab-list)</p>
+						{/* <p class="vertical-align">SECTION A MIN-WIDTH TabList 110px (tab-list)</p> */}
+						<p>SECTION A MIN-WIDTH TabList 110px (tab-list)</p>
 					</Tab>
 					<Tab>
-						<p class="vertical-align">SECTION B</p>
+						{/* <p class="vertical-align">SECTION B</p> */}
+						<p>SECTION B</p>
 					</Tab>
 					<Tab>
-						<p class="vertical-align">SECTION C</p>
+						{/* <p class="vertical-align">SECTION C</p> */}
+						<p>SECTION C</p>
 					</Tab>
 					<Tab>
-						<p class="vertical-align">SECTION D</p>
+						{/* <p class="vertical-align">SECTION D</p> */}
+						<p>SECTION D</p>
 					</Tab>
 					<Tab>
-						<p class="vertical-align">SECTION E</p>
+						{/* <p class="vertical-align">SECTION E</p> */}
+						<p>SECTION E</p>
 					</Tab>
 				</TabList>
 
