@@ -82,6 +82,7 @@ const TechGridTabs = styled.footer`
 		border-left-radius: 8px;
 		padding-top: 24px;
 		padding-left: 14px;
+		margin: 2px;
 	}
 
 	// .vertical-align {
