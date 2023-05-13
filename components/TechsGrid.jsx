@@ -131,6 +131,8 @@ const TechGridTabs = styled.footer`
 		// line-height: 1.5;
 		// display: inline-block;
 		// vertical-align: middle;
+		border-color: ${(props) => props.theme.colors.branding};
+		border: 2px ridge;
 	}
 `;
 
