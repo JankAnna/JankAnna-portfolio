@@ -79,7 +79,7 @@ const TechGridTabs = styled.footer`
 		cursor: pointer;
 		color: ${(props) => props.theme.colors.backgroundSVG};
 		background-color: ${(props) => props.theme.colors.backgroundSecondary};
-		border-radius: 0px 0px 0px 8px;
+		border-left-radius: 8px;
 		padding-top: 24px;
 		padding-left: 14px;
 	}
@@ -116,12 +116,12 @@ const TechGridTabs = styled.footer`
 	.react-tabs__tab-panel {
 		display: none;
 		width: 100%;
-		border-radius: 0px 8px 0px 0px;
 		border-color: ${(props) => props.theme.colors.branding};
 		border-top: 2px;
 		border-right: 4px;
 		border-right-radius: 8px;
 		border-bottom: 2px;
+		border-left: 0px;
 		border-style: solid;
 	}
 
