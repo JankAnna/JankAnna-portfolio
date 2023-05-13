@@ -80,6 +80,8 @@ const TechGridTabs = styled.footer`
 		cursor: pointer;
 		color: ${(props) => props.theme.colors.backgroundSVG};
 		background-color: ${(props) => props.theme.colors.backgroundSecondary};
+		border-radius: 25%;
+		padding-left: 14px;
 	}
 
 	.react-tabs__tab--hover {
@@ -100,6 +102,9 @@ const TechGridTabs = styled.footer`
 	.react-tabs__tab-panel {
 		display: none;
 		width: 100%;
+		border-radius: 10%;
+		border-color: ${(props) => props.theme.colors.branding};
+		border: 2px ridge;
 	}
 
 	.react-tabs__tab-panel--selected {
