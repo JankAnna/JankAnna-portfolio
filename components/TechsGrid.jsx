@@ -75,7 +75,7 @@ const TechGridTabs = styled.footer`
 	}
 
 	.react-tabs__tab {
-		height: 100px;
+		height: 64px;
 		list-style: none;
 		padding: 10px 5px;
 		cursor: pointer;
