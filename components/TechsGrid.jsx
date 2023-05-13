@@ -85,6 +85,8 @@ const TechGridTabs = styled.footer`
 	}
 
 	.vertical-align {
+		line-height: 1.5;
+		display: inline-block;
 		vertical-align: middle;
 	}
 
@@ -110,6 +112,7 @@ const TechGridTabs = styled.footer`
 		border-color: ${(props) => props.theme.colors.branding};
 		border: 2px ridge;
 		padding-left: 10px;
+		margin: 10px 10px 10px 10px;
 	}
 
 	.react-tabs__tab-panel--selected {
