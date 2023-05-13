@@ -80,7 +80,7 @@ const TechGridTabs = styled.footer`
 		cursor: pointer;
 		color: ${(props) => props.theme.colors.backgroundSVG};
 		background-color: ${(props) => props.theme.colors.backgroundSecondary};
-		border-left-radius: 8px;
+		border-radius: 8px 0px 8px 8px;
 		padding-top: 24px;
 		padding-left: 14px;
 	}
