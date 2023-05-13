@@ -63,6 +63,9 @@ const TechGridTabs = styled.footer`
 	.react-tabs {
 		display: flex;
 		width: 100%;
+		border-radius: 8px;
+		border-color: ${(props) => props.theme.colors.backgroundSecondary};
+		border-style: outset;
 	}
 
 	.react-tabs__tab-list {
