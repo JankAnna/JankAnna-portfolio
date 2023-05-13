@@ -118,8 +118,11 @@ const TechGridTabs = styled.footer`
 		width: 100%;
 		border-radius: 0px 8px 0px 0px;
 		border-color: ${(props) => props.theme.colors.branding};
-		border: 2px 4px 2px 0px;
-		border-style: outset;
+		border-top: 2px;
+		border-right: 4px;
+		border-right-radius: 8px;
+		border-bottom: 2px;
+		border-style: solid;
 	}
 
 	.react-tabs__tab-panel--selected {
