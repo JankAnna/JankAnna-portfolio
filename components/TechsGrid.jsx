@@ -119,14 +119,11 @@ const TechGridTabs = styled.footer`
 		border-radius: 8px;
 		border-color: ${(props) => props.theme.colors.branding};
 		border: 2px ridge;
-		padding-left: 20px;
+		margin-left: 10px;
 	}
 
 	.react-tabs__tab-panel--selected {
 		display: inline-block;
-		border-radius: 8px;
-		border-color: ${(props) => props.theme.colors.branding};
-		border: 2px ridge;
 	}
 
 	.panel-content {
