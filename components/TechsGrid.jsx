@@ -119,11 +119,14 @@ const TechGridTabs = styled.footer`
 		border-radius: 8px;
 		border-color: ${(props) => props.theme.colors.branding};
 		border: 2px ridge;
-		padding-left: 10px;
+		padding-left: 20px;
 	}
 
 	.react-tabs__tab-panel--selected {
 		display: inline-block;
+		border-radius: 8px;
+		border-color: ${(props) => props.theme.colors.branding};
+		border: 2px ridge;
 	}
 
 	.panel-content {
@@ -131,8 +134,6 @@ const TechGridTabs = styled.footer`
 		// line-height: 1.5;
 		// display: inline-block;
 		// vertical-align: middle;
-		border-color: ${(props) => props.theme.colors.branding};
-		border: 2px ridge;
 	}
 `;
 
