@@ -247,7 +247,7 @@ export default function TechsGridGrouping(props) {
 							</ScrollAnimation>
 
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech href="https://github.com/JankAnna" target="_blank">
+								<Tech href="https://tryhackme.com/p/AnJa" target="_blank">
 									<Tryhackme />
 								</Tech>
 							</ScrollAnimation>
@@ -393,7 +393,7 @@ export default function TechsGridGrouping(props) {
 
 						<TechGrid>
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
+								<Tech href="https://github.com/JankAnna" target="_blank">
 									<Git />
 								</Tech>
 							</ScrollAnimation>
