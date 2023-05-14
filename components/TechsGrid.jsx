@@ -246,7 +246,7 @@ export default function TechsGridGrouping(props) {
 							</ScrollAnimation>
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
 								<Tech>
-									<Tryhackme />
+									<Tryhackme href="https://github.com/JankAnna" target="_blank" />
 								</Tech>
 							</ScrollAnimation>
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
@@ -311,7 +311,7 @@ export default function TechsGridGrouping(props) {
 									<Junipernetworks />
 								</Tech>
 							</ScrollAnimation>
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
+							<ScrollAnimation href="https://hackerone.com/anjank?type=user" target="_blank" animateIn="fadeIn" animateOnce>
 								<Tech>
 									<Hackerone />
 								</Tech>
