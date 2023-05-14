@@ -155,8 +155,7 @@ const Tech = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 100%;
-	min-width: 74px;
+	width: 64px;
 	height: 64px;
 	//background-color: ${(oprps) => props.theme.colors.backgroundSecondary};
 	padding: 10px;
