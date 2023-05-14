@@ -179,7 +179,7 @@ const Tech = styled.div`
 		color: ${(props) => props.theme.colors.backgroundSVG};
 		background-color: ${(props) => props.theme.colors.backgroundLOGOdark};
 		transition: all 0.3s ease;
-		border-radius: 50%;
+		border-radius: 25%;
 	}
 
 	.logodark:hover {
@@ -193,7 +193,7 @@ const Tech = styled.div`
 		color: ${(props) => props.theme.colors.backgroundSVG};
 		background-color: ${(props) => props.theme.colors.backgroundLOGOlight};
 		transition: all 0.3s ease;
-		border-radius: 50%;
+		border-radius: 25%;
 	}
 
 	.logolight:hover {
@@ -238,15 +238,22 @@ export default function TechsGridGrouping(props) {
 				<TabPanel>
 					<div className="panel-content">
 						<p>#Cybersecurity</p>
+						{/* <p>#CTF #LearningPath </p>*/}
 						<TechGrid>
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
 								<Tech>
-									<Powershell />
+									<Hackthebox />
 								</Tech>
 							</ScrollAnimation>
+
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
 								<Tech href="https://github.com/JankAnna" target="_blank">
 									<Tryhackme />
+								</Tech>
+							</ScrollAnimation>
+							<ScrollAnimation animateIn="fadeIn" animateOnce>
+								<Tech href="https://hackerone.com/anjank?type=user" target="_blank">
+									<Hackerone />
 								</Tech>
 							</ScrollAnimation>
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
@@ -256,7 +263,6 @@ export default function TechsGridGrouping(props) {
 									</object>
 								</Tech>
 							</ScrollAnimation>
-
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
 								<Tech>
 									<object type="image/svg+xml" data="logo/logoWebSecurityAcademy.svg" class="logodark">
@@ -275,154 +281,20 @@ export default function TechsGridGrouping(props) {
 
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
 								<Tech>
-									<Kalilinux />
-								</Tech>
-							</ScrollAnimation>
-
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Docker />
-								</Tech>
-							</ScrollAnimation>
-						</TechGrid>
-						<TechGrid>
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Hackthebox />
-								</Tech>
-							</ScrollAnimation>
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Splunk />
-								</Tech>
-							</ScrollAnimation>
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<VisualStudio />
-								</Tech>
-							</ScrollAnimation>
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Pycharm />
-								</Tech>
-							</ScrollAnimation>
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
 									<Junipernetworks />
 								</Tech>
 							</ScrollAnimation>
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech href="https://hackerone.com/anjank?type=user" target="_blank">
-									<Hackerone />
-								</Tech>
-							</ScrollAnimation>
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Owasp />
-								</Tech>
-							</ScrollAnimation>
 						</TechGrid>
 						<TechGrid>
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Wordpress />
-								</Tech>
-							</ScrollAnimation>
-
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Nginx />
-								</Tech>
-							</ScrollAnimation>
-
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Autodesk />
-								</Tech>
-							</ScrollAnimation>
-						</TechGrid>
-						<TechGrid>
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Amazonaws />
-								</Tech>
-							</ScrollAnimation>
-
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Visualstudiocode />
-								</Tech>
-							</ScrollAnimation>
-
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Proxmox />
-								</Tech>
-							</ScrollAnimation>
-
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Mongodb />
-								</Tech>
-							</ScrollAnimation>
-
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Pfsense />
-								</Tech>
-							</ScrollAnimation>
-
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Javascript />
-								</Tech>
-							</ScrollAnimation>
-
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Python />
-								</Tech>
-							</ScrollAnimation>
-
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Nodejs />
-								</Tech>
-							</ScrollAnimation>
-
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Reactjs />
-								</Tech>
-							</ScrollAnimation>
-
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Wireshark />
-								</Tech>
-							</ScrollAnimation>
-
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Html5 />
-								</Tech>
-							</ScrollAnimation>
-
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Git />
-								</Tech>
-							</ScrollAnimation>
-
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Mysql />
-								</Tech>
-							</ScrollAnimation>
-
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
 								<Tech>
 									<Linux />
+								</Tech>
+							</ScrollAnimation>
+
+							<ScrollAnimation animateIn="fadeIn" animateOnce>
+								<Tech>
+									<Kalilinux />
 								</Tech>
 							</ScrollAnimation>
 
@@ -443,10 +315,126 @@ export default function TechsGridGrouping(props) {
 									<Ios />
 								</Tech>
 							</ScrollAnimation>
+							<TechGrid>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Powershell />
+									</Tech>
+								</ScrollAnimation>
+
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<VisualStudio />
+									</Tech>
+								</ScrollAnimation>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Html5 />
+									</Tech>
+								</ScrollAnimation>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Javascript />
+									</Tech>
+								</ScrollAnimation>
+
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Nodejs />
+									</Tech>
+								</ScrollAnimation>
+
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Reactjs />
+									</Tech>
+								</ScrollAnimation>
+
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Pycharm />
+									</Tech>
+								</ScrollAnimation>
+								<ScrollAnimation animateIn="fadeIn" animateOnce>
+									<Tech>
+										<Python />
+									</Tech>
+								</ScrollAnimation>
+							</TechGrid>
+						</TechGrid>
+						<TechGrid>
+							<ScrollAnimation animateIn="fadeIn" animateOnce>
+								<Tech>
+									<Proxmox />
+								</Tech>
+							</ScrollAnimation>
+							<ScrollAnimation animateIn="fadeIn" animateOnce>
+								<Tech>
+									<Visualstudiocode />
+								</Tech>
+							</ScrollAnimation>
+							<ScrollAnimation animateIn="fadeIn" animateOnce>
+								<Tech>
+									<Nginx />
+								</Tech>
+							</ScrollAnimation>{" "}
+							<ScrollAnimation animateIn="fadeIn" animateOnce>
+								<Tech>
+									<Docker />
+								</Tech>
+							</ScrollAnimation>
+							<ScrollAnimation animateIn="fadeIn" animateOnce>
+								<Tech>
+									<Amazonaws />
+								</Tech>
+							</ScrollAnimation>
+						</TechGrid>
+
+						<TechGrid>
+							<ScrollAnimation animateIn="fadeIn" animateOnce>
+								<Tech>
+									<Git />
+								</Tech>
+							</ScrollAnimation>
 
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
 								<Tech>
-									<Figma />
+									<Wireshark />
+								</Tech>
+							</ScrollAnimation>
+
+							<ScrollAnimation animateIn="fadeIn" animateOnce>
+								<Tech>
+									<Pfsense />
+								</Tech>
+							</ScrollAnimation>
+
+							<ScrollAnimation animateIn="fadeIn" animateOnce>
+								<Tech>
+									<Splunk />
+								</Tech>
+							</ScrollAnimation>
+
+							<ScrollAnimation animateIn="fadeIn" animateOnce>
+								<Tech>
+									<Mysql />
+								</Tech>
+							</ScrollAnimation>
+							<ScrollAnimation animateIn="fadeIn" animateOnce>
+								<Tech>
+									<Mongodb />
+								</Tech>
+							</ScrollAnimation>
+
+							<ScrollAnimation animateIn="fadeIn" animateOnce>
+								<Tech>
+									<Wordpress />
+								</Tech>
+							</ScrollAnimation>
+
+							<ScrollAnimation animateIn="fadeIn" animateOnce>
+								<Tech>
+									<Owasp />
 								</Tech>
 							</ScrollAnimation>
 						</TechGrid>
@@ -457,6 +445,12 @@ export default function TechsGridGrouping(props) {
 						<p>#Chemical and Process Engineering</p>
 						<p>#Plastic Technology and Processing</p>
 						<TechGrid>
+							<ScrollAnimation animateIn="fadeIn" animateOnce>
+								<Tech>
+									<Autodesk />
+								</Tech>
+							</ScrollAnimation>
+
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
 								<Tech>
 									<Microsoftoffice />
