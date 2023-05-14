@@ -57,6 +57,8 @@ import { HomeHeart } from "@styled-icons/boxicons-solid/HomeHeart";
 import { Certificate } from "@styled-icons/fluentui-system-filled/Certificate";
 import { GanttChart } from "@styled-icons/fluentui-system-filled/GanttChart";
 import { logoWebSecurityAcademy } from "logo/logoWebSecurityAcademy.svg";
+import { logoINE } from "logo/logoINE.svg";
+import { logoPortSwigger } from "logo/logoPortSwigger.svg";
 
 const TechGridTabs = styled.footer`
 	// background-color: ${(props) => props.theme.colors.backgroundSecondary};
@@ -264,9 +266,7 @@ export default function TechsGridGrouping(props) {
 							</ScrollAnimation>
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
 								<Tech>
-									<object type="image/svg+xml" data="logo/logoINE.svg" class="logolight">
-										logo INE
-									</object>
+									<logoINE class="logolight" />
 								</Tech>
 							</ScrollAnimation>
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
@@ -280,9 +280,7 @@ export default function TechsGridGrouping(props) {
 
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
 								<Tech>
-									<object type="image/svg+xml" data="logo/logoPortSwigger.svg" class="logodark">
-										logo PortSwigger (Burp)
-									</object>
+									<logoPortSwigger class="logodark" />
 								</Tech>
 							</ScrollAnimation>
 
