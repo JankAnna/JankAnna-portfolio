@@ -49,6 +49,13 @@ import { Junipernetworks } from "@styled-icons/simple-icons/Junipernetworks";
 import { Hackerone } from "@styled-icons/simple-icons/Hackerone";
 import { Owasp } from "@styled-icons/simple-icons/Owasp";
 import { Gimp } from "@styled-icons/simple-icons/Gimp";
+import { Springsecurity } from "@styled-icons/simple-icons/Springsecurity";
+import { LaptopCode } from "@styled-icons/fa-solid/LaptopCode";
+import { Engineering } from "@styled-icons/material/Engineering";
+import { Progress } from "@styled-icons/simple-icons/Progress";
+import { HomeHeart } from "@styled-icons/boxicons-solid/HomeHeart";
+import { Certificate } from "@styled-icons/fluentui-system-filled/Certificate";
+import { GanttChart } from "@styled-icons/fluentui-system-filled/GanttChart";
 
 const TechGridTabs = styled.footer`
 	// background-color: ${(props) => props.theme.colors.backgroundSecondary};
@@ -79,11 +86,13 @@ const TechGridTabs = styled.footer`
 		cursor: pointer;
 		color: ${(props) => props.theme.colors.backgroundSVG};
 		background-color: ${(props) => props.theme.colors.backgroundSecondary};
-		border-top-left-radius: 8px;
-		border-bottom-left-radius: 8px;
+		// border-top-left-radius: 8px;
+		// border-bottom-left-radius: 8px;
+		border-radius: 8px;
 		padding-top: 24px;
 		padding-left: 14px;
-		margin: 2px;
+		margin-top: 2px;
+		margin-right: 5px;
 	}
 
 	.react-tabs__tab:hover {
@@ -96,6 +105,9 @@ const TechGridTabs = styled.footer`
 		border-left-color: ${(props) => props.theme.colors.branding};
 		border-left: 4px;
 		border-left: solid;
+		border-right-color: ${(props) => props.theme.colors.branding};
+		border-right: 4px;
+		border-right: solid;
 		color: ${(props) => props.theme.colors.branding};
 
 		padding-left: 14px;
@@ -104,10 +116,12 @@ const TechGridTabs = styled.footer`
 	.react-tabs__tab-panel {
 		display: none;
 		width: 100%;
-		border-top-right-radius: 8px;
-		border-bottom-right-radius: 8px;
+		// border-top-right-radius: 8px;
+		// border-bottom-right-radius: 8px;
+		border-radius: 8px;
 		border-color: ${(props) => props.theme.colors.branding};
 		border-right: 4px solid;
+		border-left: 4px solid;
 	}
 
 	.react-tabs__tab-panel--selected {
@@ -137,15 +151,15 @@ const Tech = styled.div`
 	align-items: center;
 	justify-content: center;
 	width: 100%;
-	min-width: 100px;
-	height: 74px;
+	min-width: 90px;
+	height: 64px;
 	//background-color: ${(oprps) => props.theme.colors.backgroundSecondary};
 	padding: 10px;
 	border-radius: 4px;
 
 	svg {
-		width: 64px;
-		height: 64px;
+		width: 44px;
+		height: 44px;
 		color: ${(props) => props.theme.colors.backgroundSVG};
 		transition: all 0.3s ease;
 	}
@@ -155,8 +169,8 @@ const Tech = styled.div`
 	}
 
 	.logodark {
-		width: 64px;
-		height: 64px;
+		width: 44px;
+		height: 44px;
 		color: ${(props) => props.theme.colors.backgroundSVG};
 		background-color: ${(props) => props.theme.colors.backgroundLOGOdark};
 		transition: all 0.3s ease;
@@ -169,8 +183,8 @@ const Tech = styled.div`
 	}
 
 	.logolight {
-		width: 64px;
-		height: 64px;
+		width: 44px;
+		height: 44px;
 		color: ${(props) => props.theme.colors.backgroundSVG};
 		background-color: ${(props) => props.theme.colors.backgroundLOGOlight};
 		transition: all 0.3s ease;
@@ -200,25 +214,36 @@ export default function TechsGridGrouping(props) {
 			<Tabs>
 				<TabList>
 					<Tab>
-						<p>SECTION A</p>
+						<Springsecurity />
 					</Tab>
 					<Tab>
-						<p>SECTION B</p>
+						<Engineering />
 					</Tab>
 					<Tab>
-						<p>SECTION C</p>
+						<GanttChart />
 					</Tab>
 					<Tab>
-						<p>SECTION D</p>
+						<Certificate />
 					</Tab>
 					<Tab>
-						<p>SECTION E</p>
+						<HomeHeart />
 					</Tab>
 				</TabList>
 
 				<TabPanel>
 					<div className="panel-content">
+						<p>#Cybersecurity</p>
 						<TechGrid>
+							<ScrollAnimation animateIn="fadeIn" animateOnce>
+								<Tech>
+									<Powershell />
+								</Tech>
+							</ScrollAnimation>
+							<ScrollAnimation animateIn="fadeIn" animateOnce>
+								<Tech>
+									<Tryhackme />
+								</Tech>
+							</ScrollAnimation>
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
 								<Tech>
 									<object type="image/svg+xml" data="logo/logoINE.svg" class="logolight">
@@ -254,17 +279,44 @@ export default function TechsGridGrouping(props) {
 									<Docker />
 								</Tech>
 							</ScrollAnimation>
-
+						</TechGrid>
+						<TechGrid>
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
 								<Tech>
-									<Gimp />
+									<Hackthebox />
+								</Tech>
+							</ScrollAnimation>
+							<ScrollAnimation animateIn="fadeIn" animateOnce>
+								<Tech>
+									<Splunk />
+								</Tech>
+							</ScrollAnimation>
+							<ScrollAnimation animateIn="fadeIn" animateOnce>
+								<Tech>
+									<VisualStudio />
+								</Tech>
+							</ScrollAnimation>
+							<ScrollAnimation animateIn="fadeIn" animateOnce>
+								<Tech>
+									<Pycharm />
+								</Tech>
+							</ScrollAnimation>
+							<ScrollAnimation animateIn="fadeIn" animateOnce>
+								<Tech>
+									<Junipernetworks />
+								</Tech>
+							</ScrollAnimation>
+							<ScrollAnimation animateIn="fadeIn" animateOnce>
+								<Tech>
+									<Hackerone />
+								</Tech>
+							</ScrollAnimation>
+							<ScrollAnimation animateIn="fadeIn" animateOnce>
+								<Tech>
+									<Owasp />
 								</Tech>
 							</ScrollAnimation>
 						</TechGrid>
-					</div>
-				</TabPanel>
-				<TabPanel>
-					<div className="panel-content">
 						<TechGrid>
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
 								<Tech>
@@ -284,10 +336,6 @@ export default function TechsGridGrouping(props) {
 								</Tech>
 							</ScrollAnimation>
 						</TechGrid>
-					</div>
-				</TabPanel>
-				<TabPanel>
-					<div className="panel-content">
 						<TechGrid>
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
 								<Tech>
@@ -396,43 +444,19 @@ export default function TechsGridGrouping(props) {
 									<Figma />
 								</Tech>
 							</ScrollAnimation>
-
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Asana />
-								</Tech>
-							</ScrollAnimation>
-
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Adobephotoshop />
-								</Tech>
-							</ScrollAnimation>
-
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Atlassian />
-								</Tech>
-							</ScrollAnimation>
-
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Ansys />
-								</Tech>
-							</ScrollAnimation>
-
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Microsoftoffice />
-								</Tech>
-							</ScrollAnimation>
 						</TechGrid>
 					</div>
 				</TabPanel>
 				<TabPanel>
 					<div className="panel-content">
+						<p>#Chemical and Process Engineering</p>
+						<p>#Plastic Technology and Processing</p>
 						<TechGrid>
-							{" "}
+							<ScrollAnimation animateIn="fadeIn" animateOnce>
+								<Tech>
+									<Microsoftoffice />
+								</Tech>
+							</ScrollAnimation>
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
 								<Tech>
 									<Apacheopenoffice />
@@ -440,62 +464,53 @@ export default function TechsGridGrouping(props) {
 							</ScrollAnimation>
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
 								<Tech>
+									<Ansys />
+								</Tech>
+							</ScrollAnimation>
+							<ScrollAnimation animateIn="fadeIn" animateOnce>
+								<Tech>
 									<Sap />
 								</Tech>
 							</ScrollAnimation>
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Powershell />
-								</Tech>
-							</ScrollAnimation>
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Tryhackme />
-								</Tech>
-							</ScrollAnimation>{" "}
 						</TechGrid>
 					</div>
 				</TabPanel>
 				<TabPanel>
 					<div className="panel-content">
+						<p>#Management</p>
 						<TechGrid>
 							{" "}
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
 								<Tech>
-									<Hackthebox />
+									<Gimp />
 								</Tech>
 							</ScrollAnimation>
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
 								<Tech>
-									<Splunk />
+									<Asana />
 								</Tech>
 							</ScrollAnimation>
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
 								<Tech>
-									<VisualStudio />
+									<Adobephotoshop />
 								</Tech>
 							</ScrollAnimation>
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
 								<Tech>
-									<Pycharm />
-								</Tech>
-							</ScrollAnimation>
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Junipernetworks />
-								</Tech>
-							</ScrollAnimation>
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Hackerone />
-								</Tech>
-							</ScrollAnimation>
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Owasp />
+									<Atlassian />
 								</Tech>
 							</ScrollAnimation>
 						</TechGrid>
+					</div>
+				</TabPanel>
+				<TabPanel>
+					<div className="panel-content">
+						<p>#LifeHacks</p>
+					</div>
+				</TabPanel>
+				<TabPanel>
+					<div className="panel-content">
+						<p>#Certificate</p>
 					</div>
 				</TabPanel>
 			</Tabs>

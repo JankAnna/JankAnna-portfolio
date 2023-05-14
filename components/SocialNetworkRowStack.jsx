@@ -6,6 +6,7 @@ import { Twitter } from "@styled-icons/boxicons-logos/Twitter";
 import { Github } from "@styled-icons/bootstrap/Github";
 import { Tryhackme } from "@styled-icons/simple-icons/Tryhackme";
 import { Hackerone } from "@styled-icons/simple-icons/Hackerone";
+import { Discord } from "@styled-icons/bootstrap/Discord";
 
 const SocialMediaContainer = styled.div`
 	display: flex;
@@ -82,6 +83,10 @@ export default function SocialNetworkRowStack() {
 
 			<ButtonSocialMediaIcon href="https://hackerone.com/anjank?type=user" target="_blank">
 				<Hackerone />
+			</ButtonSocialMediaIcon>
+
+			<ButtonSocialMediaIcon href="https://discord.com/users/AnJa#4111" target="_blank">
+				<Discord />
 			</ButtonSocialMediaIcon>
 		</SocialMediaContainer>
 	);
