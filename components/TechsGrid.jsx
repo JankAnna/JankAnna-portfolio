@@ -454,9 +454,7 @@ export default function TechsGridGrouping(props) {
 						<TechGrid>
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
 								<Tech>
-									<object type="image/svg+xml" data="logo/logoSOLIDWORKS.jpg" class="logodark">
-										logo SOLIDWORKS
-									</object>
+									<img src="logo/logoSOLIDWORKS.jpg" class="logodark" />
 								</Tech>
 							</ScrollAnimation>
 
@@ -505,16 +503,12 @@ export default function TechsGridGrouping(props) {
 							</ScrollAnimation>
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
 								<Tech>
-									<object type="image/svg+xml" data="logo/logoEXACT.png" class="logodark">
-										logo EXACT
-									</object>
+									<img src="logo/logoEXACT.png" class="logodark" />
 								</Tech>
 							</ScrollAnimation>
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
 								<Tech>
-									<object type="image/svg+xml" data="logo/logoComarchERPXL.png" class="logodark">
-										logo ComarchXL
-									</object>
+									<img src="logo/logoComarchERPXL.png" class="logodark" />
 								</Tech>
 							</ScrollAnimation>
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
