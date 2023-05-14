@@ -152,7 +152,7 @@ const TechGrid = styled.footer`
 	padding-bottom: 5px;
 `;
 
-const Tech = styled.a`
+const Tech = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -245,8 +245,8 @@ export default function TechsGridGrouping(props) {
 								</Tech>
 							</ScrollAnimation>
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Tryhackme href="https://github.com/JankAnna" target="_blank" />
+								<Tech href="https://github.com/JankAnna" target="_blank">
+									<Tryhackme />
 								</Tech>
 							</ScrollAnimation>
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
@@ -312,8 +312,8 @@ export default function TechsGridGrouping(props) {
 								</Tech>
 							</ScrollAnimation>
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Hackerone href="https://hackerone.com/anjank?type=user" target="_blank" />
+								<Tech href="https://hackerone.com/anjank?type=user" target="_blank">
+									<Hackerone />
 								</Tech>
 							</ScrollAnimation>
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
