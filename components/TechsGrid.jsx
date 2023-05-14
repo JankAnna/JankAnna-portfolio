@@ -56,9 +56,6 @@ import { Progress } from "@styled-icons/simple-icons/Progress";
 import { HomeHeart } from "@styled-icons/boxicons-solid/HomeHeart";
 import { Certificate } from "@styled-icons/fluentui-system-filled/Certificate";
 import { GanttChart } from "@styled-icons/fluentui-system-filled/GanttChart";
-import { logoWebSecurityAcademy } from "logo/logoWebSecurityAcademy.svg";
-import { logoINE } from "logo/logoINE.svg";
-import { logoPortSwigger } from "logo/logoPortSwigger.svg";
 
 const TechGridTabs = styled.footer`
 	// background-color: ${(props) => props.theme.colors.backgroundSecondary};
@@ -266,21 +263,24 @@ export default function TechsGridGrouping(props) {
 							</ScrollAnimation>
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
 								<Tech>
-									<logoINE class="logolight" />
+									<object type="image/svg+xml" data="logo/logoINE.svg" class="logolight">
+										logo INE (eJPT)
+									</object>
 								</Tech>
 							</ScrollAnimation>
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
 								<Tech>
-									<logoWebSecurityAcademy class="logodark" />
-									{/* <object type="image/svg+xml" data="logo/logoWebSecurityAcademy.svg" class="logodark">
+									<object type="image/svg+xml" data="logo/logoWebSecurityAcademy.svg" class="logodark">
 										logo WebSecurityAcademy (Burp)
-									</object> */}
+									</object>
 								</Tech>
 							</ScrollAnimation>
 
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
 								<Tech>
-									<logoPortSwigger class="logodark" />
+									<object type="image/svg+xml" data="logo/logoPortSwigger.svg" class="logodark">
+										logo PortSwigger (Burp)
+									</object>
 								</Tech>
 							</ScrollAnimation>
 
