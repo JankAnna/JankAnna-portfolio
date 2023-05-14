@@ -152,7 +152,7 @@ const TechGrid = styled.footer`
 	padding-bottom: 5px;
 `;
 
-const Tech = styled.div`
+const Tech = styled.a`
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -251,6 +251,7 @@ export default function TechsGridGrouping(props) {
 									<Tryhackme />
 								</Tech>
 							</ScrollAnimation>
+
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
 								<Tech href="https://hackerone.com/anjank?type=user" target="_blank">
 									<Hackerone />
@@ -315,52 +316,52 @@ export default function TechsGridGrouping(props) {
 									<Ios />
 								</Tech>
 							</ScrollAnimation>
-							<TechGrid>
-								<ScrollAnimation animateIn="fadeIn" animateOnce>
-									<Tech>
-										<Powershell />
-									</Tech>
-								</ScrollAnimation>
+						</TechGrid>
+						<TechGrid>
+							<ScrollAnimation animateIn="fadeIn" animateOnce>
+								<Tech>
+									<Powershell />
+								</Tech>
+							</ScrollAnimation>
 
-								<ScrollAnimation animateIn="fadeIn" animateOnce>
-									<Tech>
-										<VisualStudio />
-									</Tech>
-								</ScrollAnimation>
-								<ScrollAnimation animateIn="fadeIn" animateOnce>
-									<Tech>
-										<Html5 />
-									</Tech>
-								</ScrollAnimation>
-								<ScrollAnimation animateIn="fadeIn" animateOnce>
-									<Tech>
-										<Javascript />
-									</Tech>
-								</ScrollAnimation>
+							<ScrollAnimation animateIn="fadeIn" animateOnce>
+								<Tech>
+									<VisualStudio />
+								</Tech>
+							</ScrollAnimation>
+							<ScrollAnimation animateIn="fadeIn" animateOnce>
+								<Tech>
+									<Html5 />
+								</Tech>
+							</ScrollAnimation>
+							<ScrollAnimation animateIn="fadeIn" animateOnce>
+								<Tech>
+									<Javascript />
+								</Tech>
+							</ScrollAnimation>
 
-								<ScrollAnimation animateIn="fadeIn" animateOnce>
-									<Tech>
-										<Nodejs />
-									</Tech>
-								</ScrollAnimation>
+							<ScrollAnimation animateIn="fadeIn" animateOnce>
+								<Tech>
+									<Nodejs />
+								</Tech>
+							</ScrollAnimation>
 
-								<ScrollAnimation animateIn="fadeIn" animateOnce>
-									<Tech>
-										<Reactjs />
-									</Tech>
-								</ScrollAnimation>
+							<ScrollAnimation animateIn="fadeIn" animateOnce>
+								<Tech>
+									<Reactjs />
+								</Tech>
+							</ScrollAnimation>
 
-								<ScrollAnimation animateIn="fadeIn" animateOnce>
-									<Tech>
-										<Pycharm />
-									</Tech>
-								</ScrollAnimation>
-								<ScrollAnimation animateIn="fadeIn" animateOnce>
-									<Tech>
-										<Python />
-									</Tech>
-								</ScrollAnimation>
-							</TechGrid>
+							<ScrollAnimation animateIn="fadeIn" animateOnce>
+								<Tech>
+									<Pycharm />
+								</Tech>
+							</ScrollAnimation>
+							<ScrollAnimation animateIn="fadeIn" animateOnce>
+								<Tech>
+									<Python />
+								</Tech>
+							</ScrollAnimation>
 						</TechGrid>
 						<TechGrid>
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
@@ -478,7 +479,6 @@ export default function TechsGridGrouping(props) {
 					<div className="panel-content">
 						<p>#Management</p>
 						<TechGrid>
-							{" "}
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
 								<Tech>
 									<Gimp />
