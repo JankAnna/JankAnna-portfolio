@@ -66,6 +66,12 @@ const TechGridTabs = styled.footer`
 	width: 100%;
 	margin-top: 20px;
 
+	svg {
+		width: 54px;
+		height: 54px;
+		transition: all 0.3s ease;
+	}
+
 	.react-tabs {
 		display: flex;
 		width: 100%;
@@ -89,7 +95,7 @@ const TechGridTabs = styled.footer`
 		// border-top-left-radius: 8px;
 		// border-bottom-left-radius: 8px;
 		border-radius: 8px;
-		padding-top: 24px;
+		// padding-top: 24px;
 		padding-left: 14px;
 		margin-top: 2px;
 		margin-right: 5px;
