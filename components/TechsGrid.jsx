@@ -11,7 +11,7 @@ import Image from "next/image";
 
 //Ícones
 import { Amazonaws } from "@styled-icons/simple-icons/Amazonaws";
-import { Visualstudiocode } from "@styled-icons/simple-icons/Visualstudiocode";
+import { Virtualbox } from "@styled-icons/simple-icons/Virtualbox";
 import { Mongodb } from "@styled-icons/simple-icons/Mongodb";
 import { Javascript } from "@styled-icons/boxicons-logos/Javascript";
 import { Python } from "@styled-icons/boxicons-logos/Python";
@@ -376,7 +376,7 @@ export default function TechsGridGrouping(props) {
 							</ScrollAnimation>
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
 								<Tech>
-									<Visualstudiocode />
+									<Virtualbox />
 								</Tech>
 							</ScrollAnimation>
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
