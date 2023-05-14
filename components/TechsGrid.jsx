@@ -454,28 +454,21 @@ export default function TechsGridGrouping(props) {
 						<TechGrid>
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
 								<Tech>
+									<object type="image/svg+xml" data="logo/logoSOLIDWORKS.jpg" class="logodark">
+										logo SOLIDWORKS
+									</object>
+								</Tech>
+							</ScrollAnimation>
+
+							<ScrollAnimation animateIn="fadeIn" animateOnce>
+								<Tech>
 									<Autodesk />
 								</Tech>
 							</ScrollAnimation>
 
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
 								<Tech>
-									<Microsoftoffice />
-								</Tech>
-							</ScrollAnimation>
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Apacheopenoffice />
-								</Tech>
-							</ScrollAnimation>
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
 									<Ansys />
-								</Tech>
-							</ScrollAnimation>
-							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech>
-									<Sap />
 								</Tech>
 							</ScrollAnimation>
 						</TechGrid>
@@ -503,6 +496,35 @@ export default function TechsGridGrouping(props) {
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
 								<Tech>
 									<Atlassian />
+								</Tech>
+							</ScrollAnimation>
+							<ScrollAnimation animateIn="fadeIn" animateOnce>
+								<Tech>
+									<Sap />
+								</Tech>
+							</ScrollAnimation>
+							<ScrollAnimation animateIn="fadeIn" animateOnce>
+								<Tech>
+									<object type="image/svg+xml" data="logo/logoEXACT.png" class="logodark">
+										logo EXACT
+									</object>
+								</Tech>
+							</ScrollAnimation>
+							<ScrollAnimation animateIn="fadeIn" animateOnce>
+								<Tech>
+									<object type="image/svg+xml" data="logo/logoComarchERPXL.png" class="logodark">
+										logo ComarchXL
+									</object>
+								</Tech>
+							</ScrollAnimation>
+							<ScrollAnimation animateIn="fadeIn" animateOnce>
+								<Tech>
+									<Microsoftoffice />
+								</Tech>
+							</ScrollAnimation>
+							<ScrollAnimation animateIn="fadeIn" animateOnce>
+								<Tech>
+									<Apacheopenoffice />
 								</Tech>
 							</ScrollAnimation>
 						</TechGrid>
