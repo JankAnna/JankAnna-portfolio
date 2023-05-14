@@ -157,15 +157,15 @@ const Tech = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 64px;
-	height: 64px;
+	width: 54px;
+	height: 54px;
 	//background-color: ${(oprps) => props.theme.colors.backgroundSecondary};
 	padding: 10px;
 	border-radius: 4px;
 
 	svg {
-		width: 44px;
-		height: 44px;
+		width: 34px;
+		height: 34px;
 		color: ${(props) => props.theme.colors.backgroundSVG};
 		transition: all 0.3s ease;
 	}
@@ -175,8 +175,8 @@ const Tech = styled.div`
 	}
 
 	.logodark {
-		width: 44px;
-		height: 44px;
+		width: 34px;
+		height: 34px;
 		color: ${(props) => props.theme.colors.backgroundSVG};
 		background-color: ${(props) => props.theme.colors.backgroundLOGOdark};
 		transition: all 0.3s ease;
@@ -189,8 +189,8 @@ const Tech = styled.div`
 	}
 
 	.logolight {
-		width: 44px;
-		height: 44px;
+		width: 34px;
+		height: 34px;
 		color: ${(props) => props.theme.colors.backgroundSVG};
 		background-color: ${(props) => props.theme.colors.backgroundLOGOlight};
 		transition: all 0.3s ease;
