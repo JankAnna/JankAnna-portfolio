@@ -60,7 +60,7 @@ const TechGridTabs = styled.footer`
 	width: 100%;
 	margin: auto;
 	border-top-right-radius: 8px;
-	border-top-bottom-radius: 8px;
+	border-bottom-right-radius: 8px;
 	border-color: ${(props) => props.theme.colors.branding};
 	border-right: 4px solid;
 
@@ -84,7 +84,7 @@ const TechGridTabs = styled.footer`
 		color: ${(props) => props.theme.colors.backgroundSVG};
 		background-color: ${(props) => props.theme.colors.backgroundSecondary};
 		border-top-left-radius: 8px;
-		border-top-bottom-radius: 8px;
+		border-bottom-left-radius: 8px;
 		padding-top: 24px;
 		padding-left: 14px;
 		margin: 2px;
