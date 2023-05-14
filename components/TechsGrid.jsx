@@ -159,7 +159,7 @@ const Tech = styled.div`
 	align-items: center;
 	justify-content: center;
 	width: 100%;
-	min-width: 90px;
+	min-width: 74px;
 	height: 64px;
 	//background-color: ${(oprps) => props.theme.colors.backgroundSecondary};
 	padding: 10px;
