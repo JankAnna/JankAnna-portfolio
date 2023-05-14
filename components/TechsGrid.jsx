@@ -56,6 +56,7 @@ import { Progress } from "@styled-icons/simple-icons/Progress";
 import { HomeHeart } from "@styled-icons/boxicons-solid/HomeHeart";
 import { Certificate } from "@styled-icons/fluentui-system-filled/Certificate";
 import { GanttChart } from "@styled-icons/fluentui-system-filled/GanttChart";
+import { logoWebSecurityAcademy } from "logo/logoWebSecurityAcademy.svg";
 
 const TechGridTabs = styled.footer`
 	// background-color: ${(props) => props.theme.colors.backgroundSecondary};
@@ -152,7 +153,7 @@ const TechGrid = styled.footer`
 	padding-bottom: 5px;
 `;
 
-const Tech = styled.a`
+const Tech = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -247,14 +248,18 @@ export default function TechsGridGrouping(props) {
 							</ScrollAnimation>
 
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech href="https://tryhackme.com/p/AnJa" target="_blank">
-									<Tryhackme />
+								<Tech>
+									<a href="https://tryhackme.com/p/AnJa" target="_blank">
+										<Tryhackme />
+									</a>
 								</Tech>
 							</ScrollAnimation>
 
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech href="https://hackerone.com/anjank?type=user" target="_blank">
-									<Hackerone />
+								<Tech>
+									<a href="https://hackerone.com/anjank?type=user" target="_blank">
+										<Hackerone />
+									</a>
 								</Tech>
 							</ScrollAnimation>
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
@@ -266,9 +271,10 @@ export default function TechsGridGrouping(props) {
 							</ScrollAnimation>
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
 								<Tech>
-									<object type="image/svg+xml" data="logo/logoWebSecurityAcademy.svg" class="logodark">
+									<logoWebSecurityAcademy class="logodark" />
+									{/* <object type="image/svg+xml" data="logo/logoWebSecurityAcademy.svg" class="logodark">
 										logo WebSecurityAcademy (Burp)
-									</object>
+									</object> */}
 								</Tech>
 							</ScrollAnimation>
 
@@ -393,8 +399,10 @@ export default function TechsGridGrouping(props) {
 
 						<TechGrid>
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
-								<Tech href="https://github.com/JankAnna" target="_blank">
-									<Git />
+								<Tech>
+									<a href="https://github.com/JankAnna" target="_blank">
+										<Git />
+									</a>
 								</Tech>
 							</ScrollAnimation>
 
@@ -504,12 +512,12 @@ export default function TechsGridGrouping(props) {
 				</TabPanel>
 				<TabPanel>
 					<div className="panel-content">
-						<p>#LifeHacks</p>
+						<p>#Certificate</p>
 					</div>
 				</TabPanel>
 				<TabPanel>
 					<div className="panel-content">
-						<p>#Certificate</p>
+						<p>#LifeHacks</p>
 					</div>
 				</TabPanel>
 			</Tabs>
