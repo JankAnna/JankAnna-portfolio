@@ -59,6 +59,10 @@ const TechGridTabs = styled.footer`
 	font-color: ${(props) => props.theme.colors.branding};
 	width: 100%;
 	margin: auto;
+	border-top-right-radius: 8px;
+	border-top-bottom-radius: 8px;
+	border-color: ${(props) => props.theme.colors.branding};
+	border-right: 4px solid;
 
 	.react-tabs {
 		display: flex;
@@ -79,25 +83,12 @@ const TechGridTabs = styled.footer`
 		cursor: pointer;
 		color: ${(props) => props.theme.colors.backgroundSVG};
 		background-color: ${(props) => props.theme.colors.backgroundSecondary};
-		border-left-radius: 8px;
+		border-top-left-radius: 8px;
+		border-top-bottom-radius: 8px;
 		padding-top: 24px;
 		padding-left: 14px;
 		margin: 2px;
 	}
-
-	// .vertical-align {
-	// 	line-height: 1.5;
-	// 	display: inline-block;
-	// 	vertical-align: middle;
-	// }
-
-	// .react-tabs__tab p {
-	// 	margin: 0;
-	// 	position: absolute;
-	// 	top: 50%;
-	// 	left: 50%;
-	// 	transform: translate(-50%, -50%);
-	// }
 
 	.react-tabs__tab:hover {
 		background-color: ${(props) => props.theme.colors.branding};
@@ -117,13 +108,6 @@ const TechGridTabs = styled.footer`
 	.react-tabs__tab-panel {
 		display: none;
 		width: 100%;
-		border-color: ${(props) => props.theme.colors.branding};
-		border-top: 2px;
-		border-right: 4px;
-		border-right-radius: 8px;
-		border-bottom: 2px;
-		border-left: 0px;
-		border-style: solid;
 	}
 
 	.react-tabs__tab-panel--selected {
@@ -132,9 +116,6 @@ const TechGridTabs = styled.footer`
 
 	.panel-content {
 		text-align: center;
-		// line-height: 1.5;
-		// display: inline-block;
-		// vertical-align: middle;
 	}
 `;
 
@@ -219,23 +200,18 @@ export default function TechsGridGrouping(props) {
 			<Tabs>
 				<TabList>
 					<Tab>
-						{/* <p class="vertical-align">SECTION A MIN-WIDTH TabList 110px (tab-list)</p> */}
 						<p>SECTION A</p>
 					</Tab>
 					<Tab>
-						{/* <p class="vertical-align">SECTION B</p> */}
 						<p>SECTION B</p>
 					</Tab>
 					<Tab>
-						{/* <p class="vertical-align">SECTION C</p> */}
 						<p>SECTION C</p>
 					</Tab>
 					<Tab>
-						{/* <p class="vertical-align">SECTION D</p> */}
 						<p>SECTION D</p>
 					</Tab>
 					<Tab>
-						{/* <p class="vertical-align">SECTION E</p> */}
 						<p>SECTION E</p>
 					</Tab>
 				</TabList>
