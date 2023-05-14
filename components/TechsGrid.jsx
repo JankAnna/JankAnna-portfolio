@@ -6,6 +6,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 import ReactDOM from "react-dom";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
+import Image from "next/image";
 //Contexto
 
 //Ícones
@@ -454,7 +455,7 @@ export default function TechsGridGrouping(props) {
 						<TechGrid>
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
 								<Tech>
-									<img src="logo/logoSOLIDWORKS.jpg" class="logodark" />
+									<Image src="logo/logoSOLIDWORKS.jpg" class="logodark" />
 								</Tech>
 							</ScrollAnimation>
 
@@ -503,12 +504,12 @@ export default function TechsGridGrouping(props) {
 							</ScrollAnimation>
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
 								<Tech>
-									<img src="logo/logoEXACT.png" class="logodark" />
+									<Image src="logo/logoEXACT.png" class="logodark" />
 								</Tech>
 							</ScrollAnimation>
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
 								<Tech>
-									<img src="logo/logoComarchERPXL.png" class="logodark" />
+									<Image src="logo/logoComarchERPXL.png" class="logodark" />
 								</Tech>
 							</ScrollAnimation>
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
