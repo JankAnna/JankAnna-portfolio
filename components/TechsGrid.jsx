@@ -52,17 +52,12 @@ import { Gimp } from "@styled-icons/simple-icons/Gimp";
 
 const TechGridTabs = styled.footer`
 	// background-color: ${(props) => props.theme.colors.backgroundSecondary};
-	padding-top: 20px;
 	color: ${(props) => props.theme.colors.backgroundSVG};
 	box-sizing: border-box;
 	font-size: 16px;
 	font-color: ${(props) => props.theme.colors.branding};
 	width: 100%;
-	margin: auto;
-	border-top-right-radius: 8px;
-	border-bottom-right-radius: 8px;
-	border-color: ${(props) => props.theme.colors.branding};
-	border-right: 4px solid;
+	margin-top: 20px;
 
 	.react-tabs {
 		display: flex;
@@ -108,6 +103,10 @@ const TechGridTabs = styled.footer`
 	.react-tabs__tab-panel {
 		display: none;
 		width: 100%;
+		border-top-right-radius: 8px;
+		border-bottom-right-radius: 8px;
+		border-color: ${(props) => props.theme.colors.branding};
+		border-right: 4px solid;
 	}
 
 	.react-tabs__tab-panel--selected {
