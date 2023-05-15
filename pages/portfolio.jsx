@@ -41,6 +41,13 @@ import { JournalBookmark } from "@styled-icons/bootstrap";
 import { Arduino } from "@styled-icons/simple-icons";
 import { Portfolio } from "@styled-icons/zondicons/Portfolio";
 import { Animation } from "@styled-icons/material/Animation";
+import { Springsecurity } from "@styled-icons/simple-icons/Springsecurity";
+import { LaptopCode } from "@styled-icons/fa-solid/LaptopCode";
+import { Engineering } from "@styled-icons/material/Engineering";
+import { Progress } from "@styled-icons/simple-icons/Progress";
+import { HomeHeart } from "@styled-icons/boxicons-solid/HomeHeart";
+import { Certificate } from "@styled-icons/fluentui-system-filled/Certificate";
+import { GanttChart } from "@styled-icons/fluentui-system-filled/GanttChart";
 
 //Custom components
 import Tooltip from "@/components/Tooltip";
@@ -421,6 +428,31 @@ export default function Portifolio() {
 		arduino: {
 			iconName: "Arduino",
 			icon: <Arduino />,
+		},
+
+		cybersecurity: {
+			iconName: "Cybersecurity",
+			icon: <Springsecurity />,
+		},
+
+		engineering: {
+			iconName: "Engineering",
+			icon: <Engineering />,
+		},
+
+		lifehacks: {
+			iconName: "LifeHacks",
+			icon: <HomeHeart />,
+		},
+
+		certificate: {
+			iconName: "Certificate",
+			icon: <Certificate />,
+		},
+
+		management: {
+			iconName: "Management",
+			icon: <GanttChart />,
 		},
 	};
 
