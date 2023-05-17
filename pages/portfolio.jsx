@@ -48,6 +48,8 @@ import { Progress } from "@styled-icons/simple-icons/Progress";
 import { HomeHeart } from "@styled-icons/boxicons-solid/HomeHeart";
 import { Certificate } from "@styled-icons/fluentui-system-filled/Certificate";
 import { GanttChart } from "@styled-icons/fluentui-system-filled/GanttChart";
+import { Proxmox } from "@styled-icons/simple-icons/Proxmox";
+import { Truenas } from "@styled-icons/simple-icons/Truenas";
 
 //Custom components
 import Tooltip from "@/components/Tooltip";
@@ -453,6 +455,17 @@ export default function Portifolio() {
 		management: {
 			iconName: "Management",
 			icon: <GanttChart />,
+		},
+
+		proxmox: {
+			iconName: "Proxmox",
+			icon: <Proxmox />,
+		},
+
+
+		truenas: {
+			iconName: "TrueNAS",
+			icon: <Truenas />,
 		},
 	};
 
