@@ -50,6 +50,7 @@ import { Certificate } from "@styled-icons/fluentui-system-filled/Certificate";
 import { GanttChart } from "@styled-icons/fluentui-system-filled/GanttChart";
 import { Proxmox } from "@styled-icons/simple-icons/Proxmox";
 import { Truenas } from "@styled-icons/simple-icons/Truenas";
+import { Plex } from "@styled-icons/simple-icons/Plex";
 
 //Custom components
 import Tooltip from "@/components/Tooltip";
@@ -466,6 +467,11 @@ export default function Portifolio() {
 		truenas: {
 			iconName: "TrueNAS",
 			icon: <Truenas />,
+		},
+
+		plex: {
+			iconName: "Plex",
+			icon: <Plex />,
 		},
 	};
 

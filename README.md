@@ -11,10 +11,22 @@
 
 \*Inspired from
 
-- <a href="https://github.com/0xtter/Portfolio"><img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg" width="44"></a>[0xtter.com](https://portfolio.0xtter.com/)
-
-- <a href="https://github.com/0xtter/Portfolio"><img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg" width="44"></a> [glaysonvisgueira.vercel.app](https://glaysonvisgueira.vercel.app/)
+<table>
+<tr>
+<td><a href="https://github.com/0xtter/Portfolio"><img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg" width="44"></a></td>
+<td><a href="https://portfolio.0xtter.com">[0xtter.com]</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/0xtter/Portfolio"><img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg" width="44"></a></td>
+<td><a href="https://glaysonvisgueira.vercel.app">[glaysonvisgueira.vercel.app]</a></td>
+</tr>
+</table>
 
 \*Readme-styled:
 
-- <a href="https://github.com/tandpfun/skill-icons"><img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg" width="44"></a>[Skill Icons](https://skillicons.dev/)
+<table>
+<tr>
+<td><a href="https://github.com/tandpfun/skill-icons"><img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg" width="44"></a></td>
+<td><a href="https://skillicons.dev">[Skill Icons]</a></td>
+</tr>
+</table>
