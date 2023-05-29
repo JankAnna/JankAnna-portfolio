@@ -51,6 +51,7 @@ import { GanttChart } from "@styled-icons/fluentui-system-filled/GanttChart";
 import { Proxmox } from "@styled-icons/simple-icons/Proxmox";
 import { Truenas } from "@styled-icons/simple-icons/Truenas";
 import { Plex } from "@styled-icons/simple-icons/Plex";
+import { Openbugbounty } from "@styled-icons/simple-icons/Openbugbounty";
 
 //Custom components
 import Tooltip from "@/components/Tooltip";
@@ -472,6 +473,11 @@ export default function Portifolio() {
 		plex: {
 			iconName: "Plex",
 			icon: <Plex />,
+		},
+
+		bugbounty: {
+			iconName: "Openbugbounty",
+			icon: <Openbugbounty />,
 		},
 	};
 

@@ -58,6 +58,7 @@ import { HomeHeart } from "@styled-icons/boxicons-solid/HomeHeart";
 import { Certificate } from "@styled-icons/fluentui-system-filled/Certificate";
 import { GanttChart } from "@styled-icons/fluentui-system-filled/GanttChart";
 import { Markdown } from "@styled-icons/boxicons-logos/Markdown";
+import { Ansible } from "@styled-icons/simple-icons/Ansible";
 
 const TechGridTabs = styled.footer`
 	// background-color: ${(props) => props.theme.colors.backgroundSecondary};
@@ -393,6 +394,11 @@ export default function TechsGridGrouping(props) {
 							<ScrollAnimation animateIn="fadeIn" animateOnce>
 								<Tech>
 									<Amazonaws />
+								</Tech>
+							</ScrollAnimation>
+							<ScrollAnimation animateIn="fadeIn" animateOnce>
+								<Tech>
+									<Ansible />
 								</Tech>
 							</ScrollAnimation>
 						</TechGrid>

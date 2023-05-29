@@ -9,7 +9,7 @@
 > git clone https://github.com/0xtter/Portfolio.git
 > git clone https://github.com/Glaysonvisgueira/glaysonvisgueira_next-js.git
 
-\*Inspired from
+\* Inspired from
 
 <table>
 <tr>
@@ -22,7 +22,7 @@
 </tr>
 </table>
 
-\*Readme-styled:
+\* Readme-styled:
 
 <table>
 <tr>
