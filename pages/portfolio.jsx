@@ -52,6 +52,11 @@ import { Proxmox } from "@styled-icons/simple-icons/Proxmox";
 import { Truenas } from "@styled-icons/simple-icons/Truenas";
 import { Plex } from "@styled-icons/simple-icons/Plex";
 import { Openbugbounty } from "@styled-icons/simple-icons/Openbugbounty";
+import { Ansible } from "@styled-icons/simple-icons/Ansible";
+import { Centos } from "@styled-icons/fa-brands/Centos";
+import { Virtualbox } from "@styled-icons/simple-icons/Virtualbox";
+import { Kalilinux } from "@styled-icons/simple-icons/Kalilinux";
+import { Linux } from "@styled-icons/fa-brands/Linux";
 
 //Custom components
 import Tooltip from "@/components/Tooltip";
@@ -478,6 +483,31 @@ export default function Portifolio() {
 		bugbounty: {
 			iconName: "Openbugbounty",
 			icon: <Openbugbounty />,
+		},
+
+		ansible: {
+			iconName: "Ansible",
+			icon: <Ansible />,
+		},
+
+		centos: {
+			iconName: "Centos",
+			icon: <Centos />,
+		},
+
+		virtualbox: {
+			iconName: "virtualbox",
+			icon: <Virtualbox />,
+		},
+
+		linux: {
+			iconName: "Linux",
+			icon: <Linux />,
+		},
+
+		kalilinux: {
+			iconName: "Kalilinux",
+			icon: <Kalilinux />,
 		},
 	};
 
